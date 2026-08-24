@@ -175,6 +175,8 @@ export function Footer() {
             {/* <span className="whitespace-nowrap text-white sm:ml-4">
               Director – <span className="text-orange-500">{company.director}</span>
             </span> */}
+
+
             <span className="whitespace-nowrap text-white sm:ml-80">
               Director – <span className="text-orange-500">{company.director}</span>
             </span>

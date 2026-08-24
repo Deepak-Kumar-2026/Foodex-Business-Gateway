@@ -9,7 +9,7 @@ import { useQuote } from "@/components/QuoteProvider";
 
 const title = "About Us | Foodex Engineering Works, Ghaziabad";
 const description =
-  "Foodex Engineering Works is a Ghaziabad based manufacturer of snack food processing machinery led by Director Bharat Bhusan Sharma. GSTIN 09BASPS3724A2ZI.";
+  "Foodex Engineering Works is a Ghaziabad based manufacturer of snack food processing machinery led by Director Mr. Bharat Bhushan. GSTIN 09BASPS3724A2ZI.";
 
 export const Route = createFileRoute("/about-us")({
   head: () => ({

@@ -28,7 +28,7 @@ export const company = {
   short: "Foodax",
   tagline: "Snack Food Processing Machinery Manufacturer & Exporter",
 
-  director: "Bharat Bhusan Sharma",
+  director: "Mr. Bharat Bhushan ",
 
   gstin: "09BASPS3724A2ZI",
 

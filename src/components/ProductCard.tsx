@@ -45,71 +45,182 @@ export function ProductActions({ name, className = "" }: { name: string; classNa
   );
 }
 
+
 export function HotProductCard({ product }: { product: Product }) {
   const { t } = useLang();
+
   return (
-    <article className="card-surface flex flex-col overflow-hidden transition hover:shadow-lift">
+    <article className="card-surface flex h-full flex-col overflow-hidden transition hover:shadow-lift">
+      {/* Product Image */}
       <div className="relative">
         <img
           src={product.image}
           alt={`${product.title} manufactured by ${company.name}, Ghaziabad`}
           loading="lazy"
-          width={1024}
-          height={768}
-          className="h-48 w-full object-cover"
+          width={500}
+          height={500}
+          className="h-56 w-full object-contain"
         />
+
         <span className="absolute left-3 top-3 inline-flex items-center gap-1 rounded-full accent-gradient px-2.5 py-1 text-[10px] font-bold uppercase text-accent-foreground">
-          <Flame className="h-3 w-3" /> {t("label.hotProduct")}
+          <Flame className="h-3 w-3" />
+          {t("label.hotProduct")}
         </span>
+
         <span className="absolute bottom-3 right-3 rounded bg-primary px-2 py-1 text-[10px] font-bold text-primary-foreground">
           {product.capacity}
         </span>
       </div>
+
+      {/* Product Content */}
       <div className="flex flex-1 flex-col p-4">
-        <h3 className="font-display text-base font-bold">{product.title}</h3>
-        <p className="mt-1.5 line-clamp-3 text-sm text-muted-foreground">{product.summary}</p>
+        {/* Title */}
+        <h3 className="font-display text-base font-bold">
+          {product.title}
+        </h3>
+
+        {/* Summary */}
+        <p className="mt-1.5 line-clamp-3 text-sm text-muted-foreground">
+          {product.summary}
+        </p>
+
+        {/* Basic Specifications */}
         <dl className="mt-3 grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
           <div>
-            <dt className="text-muted-foreground">{t("label.material")}</dt>
-            <dd className="font-semibold">{product.material}</dd>
+            <dt className="text-muted-foreground">
+              {t("label.material")}
+            </dt>
+            <dd className="font-semibold">
+              {product.material}
+            </dd>
           </div>
+
           <div>
-            <dt className="text-muted-foreground">{t("label.power")}</dt>
-            <dd className="font-semibold">{product.power}</dd>
+            <dt className="text-muted-foreground">
+              {t("label.power")}
+            </dt>
+            <dd className="font-semibold">
+              {product.power}
+            </dd>
           </div>
+
           <div>
-            <dt className="text-muted-foreground">{t("label.automation")}</dt>
-            <dd className="font-semibold">{product.automation}</dd>
+            <dt className="text-muted-foreground">
+              {t("label.automation")}
+            </dt>
+            <dd className="font-semibold">
+              {product.automation}
+            </dd>
           </div>
+
           <div>
-            <dt className="text-muted-foreground">{t("label.capacity")}</dt>
-            <dd className="font-semibold">{product.capacity}</dd>
+            <dt className="text-muted-foreground">
+              {t("label.capacity")}
+            </dt>
+            <dd className="font-semibold">
+              {product.capacity}
+            </dd>
           </div>
         </dl>
+
+        {/* Specification Table */}
         <div className="mt-3 rounded-md bg-surface p-2">
           <SpecTable specs={product.specs.slice(0, 3)} />
         </div>
+
+        {/* Features */}
         <ul className="mt-3 space-y-1 text-xs text-muted-foreground">
           {product.features.slice(0, 3).map((f) => (
             <li key={f} className="flex gap-1.5">
-              <span className="text-accent">▪</span> {f}
+              <span className="text-accent">▪</span>
+              <span>{f}</span>
             </li>
           ))}
         </ul>
+
+        {/* Actions - Always at Bottom */}
         <div className="mt-auto pt-4">
           <ProductActions name={product.title} />
+
           <Link
             to="/hot-products/$slug"
             params={{ slug: product.slug }}
             className="mt-2 inline-flex items-center gap-1 text-xs font-bold text-primary hover:text-accent"
           >
-            {t("cta.viewSpecs")} <ArrowRight className="h-3.5 w-3.5" />
+            {t("cta.viewSpecs")}
+            <ArrowRight className="h-3.5 w-3.5" />
           </Link>
         </div>
       </div>
     </article>
   );
 }
+
+// export function HotProductCard({ product }: { product: Product }) {
+//   const { t } = useLang();
+//   return (
+//     <article className="card-surface flex flex-col overflow-hidden transition hover:shadow-lift">
+//       <div className="relative">
+//         <img
+//           src={product.image}
+//           alt={`${product.title} manufactured by ${company.name}, Ghaziabad`}
+//           loading="lazy"
+//           width={1024}
+//           height={768}
+//           className="h-48 w-full object-cover"
+//         />
+//         <span className="absolute left-3 top-3 inline-flex items-center gap-1 rounded-full accent-gradient px-2.5 py-1 text-[10px] font-bold uppercase text-accent-foreground">
+//           <Flame className="h-3 w-3" /> {t("label.hotProduct")}
+//         </span>
+//         <span className="absolute bottom-3 right-3 rounded bg-primary px-2 py-1 text-[10px] font-bold text-primary-foreground">
+//           {product.capacity}
+//         </span>
+//       </div>
+//       <div className="flex flex-1 flex-col p-4">
+//         <h3 className="font-display text-base font-bold">{product.title}</h3>
+//         <p className="mt-1.5 line-clamp-3 text-sm text-muted-foreground">{product.summary}</p>
+//         <dl className="mt-3 grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+//           <div>
+//             <dt className="text-muted-foreground">{t("label.material")}</dt>
+//             <dd className="font-semibold">{product.material}</dd>
+//           </div>
+//           <div>
+//             <dt className="text-muted-foreground">{t("label.power")}</dt>
+//             <dd className="font-semibold">{product.power}</dd>
+//           </div>
+//           <div>
+//             <dt className="text-muted-foreground">{t("label.automation")}</dt>
+//             <dd className="font-semibold">{product.automation}</dd>
+//           </div>
+//           <div>
+//             <dt className="text-muted-foreground">{t("label.capacity")}</dt>
+//             <dd className="font-semibold">{product.capacity}</dd>
+//           </div>
+//         </dl>
+//         <div className="mt-3 rounded-md bg-surface p-2">
+//           <SpecTable specs={product.specs.slice(0, 3)} />
+//         </div>
+//         <ul className="mt-3 space-y-1 text-xs text-muted-foreground">
+//           {product.features.slice(0, 3).map((f) => (
+//             <li key={f} className="flex gap-1.5">
+//               <span className="text-accent">▪</span> {f}
+//             </li>
+//           ))}
+//         </ul>
+//         <div className="mt-auto pt-4">
+//           <ProductActions name={product.title} />
+//           <Link
+//             to="/hot-products/$slug"
+//             params={{ slug: product.slug }}
+//             className="mt-2 inline-flex items-center gap-1 text-xs font-bold text-primary hover:text-accent"
+//           >
+//             {t("cta.viewSpecs")} <ArrowRight className="h-3.5 w-3.5" />
+//           </Link>
+//         </div>
+//       </div>
+//     </article>
+//   );
+// }
 
 // export function CatalogCard({ product, onSpecs }: { product: CatalogProduct; onSpecs: () => void }) {
 //   const { t } = useLang();

@@ -20,6 +20,7 @@ import { Route as ProductsSlugRouteImport } from './routes/products.$slug'
 import { Route as TargetMarketsIndexRouteImport } from './routes/target-markets.index'
 import { Route as TargetMarketsSlugRouteImport } from './routes/target-markets.$slug'
 import { Route as ProductRoleLocationRouteImport } from './routes/$product.$role.$location'
+import { Route as TargetMarketsSlugProductRouteImport } from './routes/target-markets.$slug.$product'
 import { Route as HotProductsSlugTargetMarketsLocationRouteImport } from './routes/hot-products.$slug.target-markets.$location'
 
 const IndexRoute = IndexRouteImport.update({
@@ -77,6 +78,12 @@ const ProductRoleLocationRoute = ProductRoleLocationRouteImport.update({
   path: '/$product/$role/$location',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TargetMarketsSlugProductRoute =
+  TargetMarketsSlugProductRouteImport.update({
+    id: '/$product',
+    path: '/$product',
+    getParentRoute: () => TargetMarketsSlugRoute,
+  } as any)
 const HotProductsSlugTargetMarketsLocationRoute =
   HotProductsSlugTargetMarketsLocationRouteImport.update({
     id: '/target-markets/$location',
@@ -92,10 +99,11 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/hot-products/$slug': typeof HotProductsSlugRouteWithChildren
   '/products/$slug': typeof ProductsSlugRoute
-  '/target-markets/$slug': typeof TargetMarketsSlugRoute
+  '/target-markets/$slug': typeof TargetMarketsSlugRouteWithChildren
   '/hot-products/': typeof HotProductsIndexRoute
   '/target-markets/': typeof TargetMarketsIndexRoute
   '/$product/$role/$location': typeof ProductRoleLocationRoute
+  '/target-markets/$slug/$product': typeof TargetMarketsSlugProductRoute
   '/hot-products/$slug/target-markets/$location': typeof HotProductsSlugTargetMarketsLocationRoute
 }
 export interface FileRoutesByTo {
@@ -106,10 +114,11 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/hot-products/$slug': typeof HotProductsSlugRouteWithChildren
   '/products/$slug': typeof ProductsSlugRoute
-  '/target-markets/$slug': typeof TargetMarketsSlugRoute
+  '/target-markets/$slug': typeof TargetMarketsSlugRouteWithChildren
   '/hot-products': typeof HotProductsIndexRoute
   '/target-markets': typeof TargetMarketsIndexRoute
   '/$product/$role/$location': typeof ProductRoleLocationRoute
+  '/target-markets/$slug/$product': typeof TargetMarketsSlugProductRoute
   '/hot-products/$slug/target-markets/$location': typeof HotProductsSlugTargetMarketsLocationRoute
 }
 export interface FileRoutesById {
@@ -121,10 +130,11 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/hot-products/$slug': typeof HotProductsSlugRouteWithChildren
   '/products/$slug': typeof ProductsSlugRoute
-  '/target-markets/$slug': typeof TargetMarketsSlugRoute
+  '/target-markets/$slug': typeof TargetMarketsSlugRouteWithChildren
   '/hot-products/': typeof HotProductsIndexRoute
   '/target-markets/': typeof TargetMarketsIndexRoute
   '/$product/$role/$location': typeof ProductRoleLocationRoute
+  '/target-markets/$slug/$product': typeof TargetMarketsSlugProductRoute
   '/hot-products/$slug/target-markets/$location': typeof HotProductsSlugTargetMarketsLocationRoute
 }
 export interface FileRouteTypes {
@@ -141,6 +151,7 @@ export interface FileRouteTypes {
     | '/hot-products/'
     | '/target-markets/'
     | '/$product/$role/$location'
+    | '/target-markets/$slug/$product'
     | '/hot-products/$slug/target-markets/$location'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -155,6 +166,7 @@ export interface FileRouteTypes {
     | '/hot-products'
     | '/target-markets'
     | '/$product/$role/$location'
+    | '/target-markets/$slug/$product'
     | '/hot-products/$slug/target-markets/$location'
   id:
     | '__root__'
@@ -169,6 +181,7 @@ export interface FileRouteTypes {
     | '/hot-products/'
     | '/target-markets/'
     | '/$product/$role/$location'
+    | '/target-markets/$slug/$product'
     | '/hot-products/$slug/target-markets/$location'
   fileRoutesById: FileRoutesById
 }
@@ -179,7 +192,7 @@ export interface RootRouteChildren {
   ProductsRoute: typeof ProductsRouteWithChildren
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   HotProductsSlugRoute: typeof HotProductsSlugRouteWithChildren
-  TargetMarketsSlugRoute: typeof TargetMarketsSlugRoute
+  TargetMarketsSlugRoute: typeof TargetMarketsSlugRouteWithChildren
   HotProductsIndexRoute: typeof HotProductsIndexRoute
   TargetMarketsIndexRoute: typeof TargetMarketsIndexRoute
   ProductRoleLocationRoute: typeof ProductRoleLocationRoute
@@ -264,6 +277,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProductRoleLocationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/target-markets/$slug/$product': {
+      id: '/target-markets/$slug/$product'
+      path: '/$product'
+      fullPath: '/target-markets/$slug/$product'
+      preLoaderRoute: typeof TargetMarketsSlugProductRouteImport
+      parentRoute: typeof TargetMarketsSlugRoute
+    }
     '/hot-products/$slug/target-markets/$location': {
       id: '/hot-products/$slug/target-markets/$location'
       path: '/target-markets/$location'
@@ -299,6 +319,17 @@ const HotProductsSlugRouteWithChildren = HotProductsSlugRoute._addFileChildren(
   HotProductsSlugRouteChildren,
 )
 
+interface TargetMarketsSlugRouteChildren {
+  TargetMarketsSlugProductRoute: typeof TargetMarketsSlugProductRoute
+}
+
+const TargetMarketsSlugRouteChildren: TargetMarketsSlugRouteChildren = {
+  TargetMarketsSlugProductRoute: TargetMarketsSlugProductRoute,
+}
+
+const TargetMarketsSlugRouteWithChildren =
+  TargetMarketsSlugRoute._addFileChildren(TargetMarketsSlugRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutUsRoute: AboutUsRoute,
@@ -306,7 +337,7 @@ const rootRouteChildren: RootRouteChildren = {
   ProductsRoute: ProductsRouteWithChildren,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   HotProductsSlugRoute: HotProductsSlugRouteWithChildren,
-  TargetMarketsSlugRoute: TargetMarketsSlugRoute,
+  TargetMarketsSlugRoute: TargetMarketsSlugRouteWithChildren,
   HotProductsIndexRoute: HotProductsIndexRoute,
   TargetMarketsIndexRoute: TargetMarketsIndexRoute,
   ProductRoleLocationRoute: ProductRoleLocationRoute,
