@@ -31,7 +31,7 @@ export function Footer() {
           <p className="mt-4 inline-flex items-center gap-2 rounded-md border border-footer-foreground/20 px-3 py-1.5 text-xs font-semibold">
             <BadgeCheck className="h-4 w-4 text-accent" /> GSTIN: {company.gstin}
           </p>
-          <div className="mt-4 flex items-center gap-3">
+          {/* <div className="mt-4 flex items-center gap-3">
             <a
               href={company.social.youtube}
               target="_blank"
@@ -58,6 +58,73 @@ export function Footer() {
               className="rounded-md bg-footer-foreground/10 p-2 hover:bg-accent hover:text-accent-foreground"
             >
               <Facebook className="h-4 w-4" />
+            </a>
+          </div> */}
+
+          <div className="mt-4 flex items-center gap-3">
+            {/* YouTube */}
+            <a
+              href={company.social.youtube}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="YouTube"
+              className="rounded-md bg-footer-foreground/10 p-2 text-[#FF0000]"
+            >
+              <svg
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor" />
+                <path d="M10 9L16 12L10 15V9Z" fill="white" />
+              </svg>
+            </a>
+
+            {/* Instagram */}
+            <a
+              href={company.social.instagram}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+              className="rounded-md bg-footer-foreground/10 p-2 text-[#E4405F]"
+            >
+              <svg
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="5"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
+                <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+              </svg>
+            </a>
+
+            {/* Facebook */}
+            <a
+              href={company.social.facebook}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+              className="rounded-md bg-footer-foreground/10 p-2 text-[#1877F2]"
+            >
+              <svg
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M13.5 21V13.2H16l.4-3h-2.9V8.3c0-.9.3-1.6 1.7-1.6h1.5V4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4.1v2.2H8v3h2.5V21h3Z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -175,7 +242,6 @@ export function Footer() {
             {/* <span className="whitespace-nowrap text-white sm:ml-4">
               Director – <span className="text-orange-500">{company.director}</span>
             </span> */}
-
 
             <span className="whitespace-nowrap text-white sm:ml-80">
               Director – <span className="text-orange-500">{company.director}</span>

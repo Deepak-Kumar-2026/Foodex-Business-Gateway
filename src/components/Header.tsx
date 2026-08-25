@@ -1,6 +1,16 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { Menu, X, Phone, Mail, MessageCircle, Youtube, Instagram, Facebook, Bot } from "lucide-react";
+import {
+  Menu,
+  X,
+  Phone,
+  Mail,
+  MessageCircle,
+  Youtube,
+  Instagram,
+  Facebook,
+  Bot,
+} from "lucide-react";
 import { Logo } from "./Logo";
 import { LanguageSelector } from "./LanguageSelector";
 import { company, waLink } from "@/data/company";
@@ -12,11 +22,21 @@ export function Header() {
   const { openQuote } = useQuote();
   const [open, setOpen] = useState(false);
 
+  // const nav = [
+  //   { to: "/", label: t("nav.home") },
+  //   { to: "/about-us", label: t("nav.about") },
+  //   { to: "/hot-products", label: t("nav.hot") },
+  //   { to: "/products", label: t("nav.products") },
+  //   { to: "/#social-media", label: "Social Links" },
+  //   { to: "/target-markets", label: t("nav.markets") },
+  //   { to: "/contact-us", label: t("nav.contact") },
+  // ];
   const nav = [
     { to: "/", label: t("nav.home") },
     { to: "/about-us", label: t("nav.about") },
     { to: "/hot-products", label: t("nav.hot") },
     { to: "/products", label: t("nav.products") },
+    { to: "/#social-media", label: "Social Links" },
     { to: "/target-markets", label: t("nav.markets") },
     { to: "/contact-us", label: t("nav.contact") },
   ];
@@ -26,10 +46,16 @@ export function Header() {
       <div className="bg-primary text-primary-foreground">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-4 py-1.5 text-xs">
           <div className="flex min-w-0 flex-wrap items-center gap-x-4 gap-y-1">
-            <a href={`tel:${company.phoneRaw}`} className="inline-flex items-center gap-1.5 hover:text-accent">
+            <a
+              href={`tel:${company.phoneRaw}`}
+              className="inline-flex items-center gap-1.5 hover:text-accent"
+            >
               <Phone className="h-3.5 w-3.5" /> {company.phone}
             </a>
-            <a href={`mailto:${company.email}`} className="inline-flex items-center gap-1.5 hover:text-accent">
+            <a
+              href={`mailto:${company.email}`}
+              className="inline-flex items-center gap-1.5 hover:text-accent"
+            >
               <Mail className="h-3.5 w-3.5" /> {company.email}
             </a>
             <span className="hidden font-semibold text-primary-foreground/80 sm:inline">
@@ -38,15 +64,71 @@ export function Header() {
           </div>
           <div className="flex items-center gap-3">
             <LanguageSelector variant="dark" />
+
             <span className="hidden items-center gap-2 sm:flex">
-              <a href={company.social.youtube} target="_blank" rel="noreferrer" aria-label="YouTube" className="hover:text-accent">
-                <Youtube className="h-4 w-4" />
+              {/* YouTube */}
+              <a
+                href={company.social.youtube}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="YouTube"
+                className="text-[#FF0000]"
+              >
+                <svg
+                  className="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor" />
+                  <path d="M10 9L16 12L10 15V9Z" fill="white" />
+                </svg>
               </a>
-              <a href={company.social.instagram} target="_blank" rel="noreferrer" aria-label="Instagram" className="hover:text-accent">
-                <Instagram className="h-4 w-4" />
+
+              {/* Instagram */}
+              <a
+                href={company.social.instagram}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+                className="text-[#E4405F]"
+              >
+                <svg
+                  className="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="3"
+                    y="3"
+                    width="18"
+                    height="18"
+                    rx="5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+                </svg>
               </a>
-              <a href={company.social.facebook} target="_blank" rel="noreferrer" aria-label="Facebook" className="hover:text-accent">
-                <Facebook className="h-4 w-4" />
+
+              {/* Facebook */}
+              <a
+                href={company.social.facebook}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+                className="text-[#1877F2]"
+              >
+                <svg
+                  className="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M13.5 21V13.2H16l.4-3h-2.9V8.3c0-.9.3-1.6 1.7-1.6h1.5V4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4.1v2.2H8v3h2.5V21h3Z" />
+                </svg>
               </a>
             </span>
           </div>
@@ -95,7 +177,6 @@ export function Header() {
             {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
-
 
         {open && (
           <nav className="border-t border-border bg-background px-4 py-3 lg:hidden">
