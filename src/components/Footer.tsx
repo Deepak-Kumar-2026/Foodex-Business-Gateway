@@ -229,7 +229,7 @@ export function Footer() {
           </p>
 
           <div className="flex items-center gap-3 sm:ml-8">
-            {/* <span className="whitespace-nowrap">
+            <span className="whitespace-nowrap">
               <span className="text-orange-500">Design</span>{" "}
               <span className="text-white">and</span>{" "}
               <span className="text-blue-400">Developed by :</span>
@@ -237,7 +237,7 @@ export function Footer() {
 
             <span className="h-6 w-px bg-footer-foreground/30" />
 
-            <img src={footerLogo} alt="Zolexo Mart" className="h-8 w-auto object-contain" /> */}
+            <img src={footerLogo} alt="Zolexo Mart" className="h-8 w-auto object-contain" />
 
             {/* <span className="whitespace-nowrap text-white sm:ml-4">
               Director – <span className="text-orange-500">{company.director}</span>

@@ -2996,7 +2996,7 @@ p(
 ),
 p(
   "Pasta Making Machine",
-  "/images/machines/Food Processing Machine/8.webp",
+  "/images/machines/Food Processing Machine/08.webp",
   "Automatic single screw pasta making machine designed for industrial production of pasta and macaroni with SS 304 construction, rugged design and low power consumption.",
   "50–60 kg/hr",
   "20 kW",
@@ -8051,6 +8051,1086 @@ p(
     {
       q: "What is the working principle?",
       a: "The provided description states that mechanical energy is converted into heat energy, and the heat generated when the machine rotates is used to squeeze and cook the food.",
+    },
+  ]
+),
+p(
+  "Vertical Meal Mixer",
+  "/images/machines/Other Product/28.webp",
+  "Automatic vertical meal mixer for food industry applications with SS-304 construction, three phase operation and reliable mixing performance for food ingredients.",
+  "As per requirement",
+  "As per requirement",
+  "Automatic",
+  [
+    { label: "Material", value: "SS-304" },
+    { label: "Usage/Application", value: "Food Industry" },
+    { label: "Automation Grade", value: "Automatic" },
+    { label: "Brand", value: "SEFP" },
+    { label: "Phase", value: "3 Phase" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+  [
+    "Automatic operation",
+    "SS-304 construction",
+    "Suitable for food industry applications",
+    "Three phase operation",
+    "Uniform and consistent mixing",
+    "Heavy-duty industrial construction",
+    "Suitable for food ingredient mixing",
+    "Designed for reliable industrial operation",
+  ],
+  [
+    "Food Industry",
+    "Meal Mixing",
+    "Food Ingredient Mixing",
+    "Food Processing",
+    "Soya Processing",
+    "Namkeen Production",
+  ],
+  [
+    {
+      q: "What is the Vertical Meal Mixer used for?",
+      a: "The Vertical Meal Mixer is designed for mixing food ingredients and meal used in food-processing applications.",
+    },
+    {
+      q: "What material is used in the machine?",
+      a: "The listed material is SS-304.",
+    },
+    {
+      q: "Is the Vertical Meal Mixer automatic?",
+      a: "Yes, the listed automation grade is Automatic.",
+    },
+    {
+      q: "What brand is the machine?",
+      a: "The listed brand is SEFP.",
+    },
+    {
+      q: "What phase does the machine use?",
+      a: "The machine uses 3 Phase power.",
+    },
+    {
+      q: "Where is the machine manufactured?",
+      a: "The listed country of origin is Made in India.",
+    },
+  ]
+),
+p(
+  "Soya Badi Twin Screw Extruder",
+  "/images/machines/Other Product/29.webp",
+  "Semi automatic twin screw extruder for commercial soya nutrition production with 250 kg/hr capacity, 200 kg/hr production capacity and 30 HP motor power. The machine is designed for producing soya chunks, soya badi and soya nuggets with automatic feeding and three phase operation.",
+
+  "250 kg/hr",
+  "30 HP",
+  "Semi Automatic",
+
+  [
+    { label: "Capacity", value: "250 kg/hr" },
+    { label: "Production Capacity", value: "200 kg/hr" },
+    { label: "Motor Power", value: "30 HP" },
+    { label: "Machine Type", value: "Twin Screw" },
+    { label: "Phase", value: "Three Phase" },
+    { label: "Material Of Construction", value: "Stainless Steel" },
+    { label: "Material To Be Extruded", value: "Soya chunks / Soya badi" },
+    { label: "Power Consumption", value: "40 kW" },
+    { label: "Type Of Namkeen", value: "Soya nutrition" },
+    { label: "Feeding Type", value: "Automatic Feed" },
+    { label: "Product Form", value: "Soya Chunk, Soya Bari, Soya Nugget" },
+    { label: "Body Finish", value: "Paint Coated" },
+    { label: "Country of Origin", value: "Made in India" },
+    { label: "Automation Grade", value: "Semi Automatic" },
+    { label: "Snacks Type", value: "Soya Badi" },
+    { label: "Usage/Application", value: "Commercial" },
+  ],
+
+  [
+    "Semi automatic operation",
+    "250 kg/hr capacity",
+    "200 kg/hr production capacity",
+    "30 HP motor power",
+    "Twin screw extrusion system",
+    "Three phase operation",
+    "Stainless steel construction",
+    "Automatic feeding system",
+    "Suitable for soya nutrition production",
+    "Produces soya chunks, soya badi and soya nuggets",
+    "40 kW power consumption",
+    "Paint coated body finish",
+    "Commercial production suitable",
+  ],
+
+  [
+    "Soya Chunks",
+    "Soya Badi",
+    "Soya Nugget",
+    "Soya Nutrition",
+    "Commercial Food Production",
+    "Food Extrusion",
+  ],
+
+  [
+    {
+      q: "What is the capacity of the Soya Badi Twin Screw Extruder?",
+      a: "The listed machine capacity is 250 kg/hr, with a production capacity of 200 kg/hr.",
+    },
+    {
+      q: "What is the motor power?",
+      a: "The machine is equipped with a 30 HP motor.",
+    },
+    {
+      q: "What type of extruder is it?",
+      a: "It is a Twin Screw Extruder.",
+    },
+    {
+      q: "What products can be produced?",
+      a: "The machine produces soya chunks, soya badi and soya nuggets.",
+    },
+    {
+      q: "What is the feeding system?",
+      a: "The machine has an Automatic Feed system.",
+    },
+    {
+      q: "What is the material of construction?",
+      a: "The listed material of construction is Stainless Steel.",
+    },
+    {
+      q: "What is the power consumption?",
+      a: "The listed power consumption is 40 kW.",
+    },
+    {
+      q: "What is the automation grade?",
+      a: "The listed automation grade is Semi Automatic.",
+    },
+    {
+      q: "What phase does the machine use?",
+      a: "The machine operates on Three Phase power.",
+    },
+    {
+      q: "What is the country of origin?",
+      a: "The machine is Made in India.",
+    },
+    {
+      q: "What is the usage/application?",
+      a: "The listed usage/application is Commercial.",
+    },
+  ]
+),
+p(
+  "Pallet Frying Line",
+  "/images/machines/Other Product/30.webp",
+  "Industrial Pallet Frying Line designed for continuous and efficient frying of food products. The system is suitable for commercial food-processing operations and can be configured according to production requirements.",
+
+  "As per requirement",
+  "As per requirement",
+  "Automatic",
+
+  [
+    { label: "Machine Type", value: "Pallet Frying Line" },
+    { label: "Operation", value: "Automatic" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Material Of Construction", value: "As per requirement" },
+    { label: "Heating System", value: "As per machine configuration" },
+    { label: "Frying System", value: "Continuous Frying" },
+    { label: "Feeding System", value: "Automatic Feed" },
+    { label: "Power Supply", value: "Three Phase" },
+    { label: "Usage/Application", value: "Commercial Food Processing" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Automatic operation",
+    "Continuous frying system",
+    "Suitable for commercial production",
+    "Automatic feeding system",
+    "Consistent frying performance",
+    "Uniform product processing",
+    "Heavy-duty industrial construction",
+    "Suitable for continuous food production",
+    "Easy operation and maintenance",
+    "Designed for reliable industrial performance",
+  ],
+
+  [
+    "Namkeen",
+    "Snacks",
+    "Fried Food Products",
+    "Food Processing",
+    "Commercial Frying",
+    "Continuous Frying",
+  ],
+
+  [
+    {
+      q: "What is a Pallet Frying Line?",
+      a: "A Pallet Frying Line is an industrial frying system designed for continuous and efficient frying of food products.",
+    },
+    {
+      q: "Is the Pallet Frying Line automatic?",
+      a: "The listed configuration is designed for automatic operation with an automatic feeding system.",
+    },
+    {
+      q: "What type of products can be processed?",
+      a: "The line can be configured for different fried food products such as snacks and namkeen according to the production requirement.",
+    },
+    {
+      q: "Is it suitable for commercial production?",
+      a: "Yes, the Pallet Frying Line is designed for commercial and industrial food-processing applications.",
+    },
+    {
+      q: "Can the production capacity be customized?",
+      a: "Yes, the line can be configured according to the required production capacity.",
+    },
+    {
+      q: "What power supply is required?",
+      a: "The listed configuration uses Three Phase power.",
+    },
+    {
+      q: "Where is the machine manufactured?",
+      a: "The machine is Made in India.",
+    },
+  ]
+),
+p(
+  "Continuous Dryer",
+  "/images/machines/Other Product/31.webp",
+  "Automatic continuous dryer designed for efficient and uniform drying of food products. The machine is suitable for continuous food-processing operations and commercial production requirements.",
+
+  "As per requirement",
+  "As per requirement",
+  "Automatic",
+
+  [
+    { label: "Machine Type", value: "Continuous Dryer" },
+    { label: "Automation Grade", value: "Automatic" },
+    { label: "Drying System", value: "Continuous Drying" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Feeding Type", value: "Continuous Feed" },
+    { label: "Material Of Construction", value: "Stainless Steel" },
+    { label: "Heating System", value: "As per machine configuration" },
+    { label: "Phase", value: "Three Phase" },
+    { label: "Usage/Application", value: "Commercial Food Processing" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Automatic operation",
+    "Continuous drying system",
+    "Uniform and consistent drying",
+    "Continuous feeding system",
+    "Stainless steel construction",
+    "Controlled drying process",
+    "Suitable for commercial production",
+    "Heavy-duty industrial construction",
+    "Easy operation and maintenance",
+    "Suitable for continuous food processing",
+  ],
+
+  [
+    "Food Products",
+    "Snacks",
+    "Namkeen",
+    "Soya Products",
+    "Food Drying",
+    "Commercial Food Processing",
+  ],
+
+  [
+    {
+      q: "What is a Continuous Dryer?",
+      a: "A Continuous Dryer is an industrial drying machine designed for continuous and uniform drying of food products.",
+    },
+    {
+      q: "Is the Continuous Dryer automatic?",
+      a: "Yes, the listed automation grade is Automatic.",
+    },
+    {
+      q: "What type of drying system is used?",
+      a: "The machine uses a continuous drying system for consistent food-product processing.",
+    },
+    {
+      q: "What type of feeding system is used?",
+      a: "The machine is designed with a continuous feeding system.",
+    },
+    {
+      q: "What is the material of construction?",
+      a: "The listed material of construction is Stainless Steel.",
+    },
+    {
+      q: "Can the production capacity be customized?",
+      a: "Yes, the capacity can be configured according to the production requirement.",
+    },
+    {
+      q: "What products can be processed?",
+      a: "The dryer can be configured for different food products, snacks, namkeen, soya products and other food-processing applications.",
+    },
+    {
+      q: "What power supply does the machine use?",
+      a: "The listed power supply is Three Phase.",
+    },
+    {
+      q: "Where is the machine manufactured?",
+      a: "The machine is Made in India.",
+    },
+  ]
+),
+p(
+  "Namkeen Continuous Fryer",
+  "/images/machines/Other Product/32.webp",
+  "Automatic Namkeen Continuous Fryer designed for continuous and uniform frying of namkeen and snack products. The machine is suitable for commercial food-processing operations and provides consistent frying performance for continuous production.",
+
+  "As per requirement",
+  "As per requirement",
+  "Automatic",
+
+  [
+    { label: "Machine Type", value: "Namkeen Continuous Fryer" },
+    { label: "Automation Grade", value: "Automatic" },
+    { label: "Frying System", value: "Continuous Frying" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Feeding Type", value: "Continuous Feed" },
+    { label: "Material Of Construction", value: "Stainless Steel" },
+    { label: "Heating System", value: "As per machine configuration" },
+    { label: "Phase", value: "Three Phase" },
+    { label: "Usage/Application", value: "Commercial Food Processing" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Automatic operation",
+    "Continuous frying system",
+    "Uniform and consistent frying",
+    "Continuous feeding system",
+    "Stainless steel construction",
+    "Controlled frying process",
+    "Suitable for commercial production",
+    "Heavy-duty industrial construction",
+    "Easy operation and maintenance",
+    "Suitable for continuous namkeen production",
+  ],
+
+  [
+    "Namkeen",
+    "Snacks",
+    "Fried Snacks",
+    "Food Processing",
+    "Commercial Frying",
+    "Continuous Frying",
+  ],
+
+  [
+    {
+      q: "What is a Namkeen Continuous Fryer?",
+      a: "A Namkeen Continuous Fryer is an industrial frying machine designed for continuous and uniform frying of namkeen and snack products.",
+    },
+    {
+      q: "Is the Namkeen Continuous Fryer automatic?",
+      a: "Yes, the listed automation grade is Automatic.",
+    },
+    {
+      q: "What type of frying system is used?",
+      a: "The machine uses a continuous frying system for consistent product processing.",
+    },
+    {
+      q: "What type of feeding system is used?",
+      a: "The machine is designed with a continuous feeding system.",
+    },
+    {
+      q: "What is the material of construction?",
+      a: "The listed material of construction is Stainless Steel.",
+    },
+    {
+      q: "Can the production capacity be customized?",
+      a: "Yes, the capacity can be configured according to the production requirement.",
+    },
+    {
+      q: "What products can be fried?",
+      a: "The fryer can be used for namkeen, snacks and other suitable fried food products.",
+    },
+    {
+      q: "What power supply does the machine use?",
+      a: "The listed power supply is Three Phase.",
+    },
+    {
+      q: "Where is the machine manufactured?",
+      a: "The machine is Made in India.",
+    },
+  ]
+),
+p(
+  "Batch Fryer With Wooden Bowler",
+  "/images/machines/Other Product/33.webp",
+  "A Batch Fryer With Wooden Bowler is a type of commercial snack processing equipment used to fry food in small batches. This automatic batch fryer is designed for commercial food-processing applications with a capacity of 150 Kg/Hr.",
+
+  "150 Kg/Hr",
+  "5 HP",
+  "Automatic",
+
+  [
+    { label: "Equipment Type", value: "Batch Fryer With Wooden Bowler" },
+    { label: "Capacity", value: "150 Kg/Hr" },
+    { label: "Power Consumption", value: "5 HP" },
+    { label: "Machine Type", value: "Automatic" },
+    { label: "Voltage", value: "240 V" },
+    { label: "Phase", value: "3 Phase" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Automatic operation",
+    "150 Kg/Hr capacity",
+    "5 HP power consumption",
+    "Batch frying system",
+    "Wooden bowler design",
+    "240 V voltage",
+    "Three phase operation",
+    "Suitable for commercial snack processing",
+    "Suitable for small-batch food frying",
+    "Made in India",
+  ],
+
+  [
+    "Namkeen",
+    "Snacks",
+    "Fried Snacks",
+    "Commercial Snack Processing",
+    "Batch Frying",
+    "Food Processing",
+  ],
+
+  [
+    {
+      q: "What is the capacity of the Batch Fryer With Wooden Bowler?",
+      a: "The listed capacity is 150 Kg/Hr.",
+    },
+    {
+      q: "What type of machine is it?",
+      a: "The listed machine type is Automatic.",
+    },
+    {
+      q: "What is the power consumption?",
+      a: "The listed power consumption is 5 HP.",
+    },
+    {
+      q: "What is the voltage?",
+      a: "The listed voltage is 240 V.",
+    },
+    {
+      q: "What phase does the machine use?",
+      a: "The machine operates on 3 Phase power.",
+    },
+    {
+      q: "What is a Batch Fryer used for?",
+      a: "A batch fryer is commercial snack processing equipment used to fry food in small batches.",
+    },
+    {
+      q: "What is the equipment type?",
+      a: "The equipment type is Batch Fryer With Wooden Bowler.",
+    },
+    {
+      q: "Where is the machine manufactured?",
+      a: "The machine is Made in India.",
+    },
+  ]
+),
+p(
+  "Masala Coating Pan",
+  "/images/machines/Other Product/34.webp",
+  "Masala Coating Pan designed for efficient coating and seasoning of snacks and food products. The machine helps provide uniform coating and consistent flavor distribution for every batch.",
+
+  "As per requirement",
+  "As per requirement",
+  "As per requirement",
+
+  [
+    { label: "Machine Type", value: "Masala Coating Pan" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Material", value: "As per requirement" },
+    { label: "Automation Grade", value: "As per requirement" },
+    { label: "Power", value: "As per requirement" },
+    { label: "Phase", value: "As per requirement" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Uniform masala coating",
+    "Suitable for snack seasoning",
+    "Consistent coating performance",
+    "Suitable for different food products",
+    "Robust industrial construction",
+    "Easy operation",
+    "Suitable for commercial production",
+    "Designed for consistent batch processing",
+  ],
+
+  [
+    "Namkeen",
+    "Snacks",
+    "Masala Coating",
+    "Seasoned Snacks",
+    "Food Processing",
+  ],
+
+  [
+    {
+      q: "What is a Masala Coating Pan?",
+      a: "A Masala Coating Pan is used for applying masala, seasoning and flavoring uniformly to snack and food products.",
+    },
+    {
+      q: "What products can be processed?",
+      a: "The machine can be used for different snack and food products requiring masala or seasoning coating.",
+    },
+    {
+      q: "Can the capacity be customized?",
+      a: "Yes, the machine can be configured according to the required production capacity.",
+    },
+    {
+      q: "Is it suitable for commercial production?",
+      a: "Yes, the machine is suitable for commercial food-processing applications.",
+    },
+  ]
+),
+
+p(
+  "Seasoning System",
+  "/images/machines/Other Product/35.webp",
+  "Seasoning System designed for efficient and uniform seasoning of snacks and food products. The system helps enhance flavor distribution and supports consistent seasoning during food processing.",
+
+  "As per requirement",
+  "As per requirement",
+  "As per requirement",
+
+  [
+    { label: "Machine Type", value: "Seasoning System" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Material", value: "As per requirement" },
+    { label: "Automation Grade", value: "As per requirement" },
+    { label: "Feeding System", value: "As per machine configuration" },
+    { label: "Power", value: "As per requirement" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Uniform seasoning",
+    "Consistent flavor distribution",
+    "Suitable for snack production",
+    "Industrial seasoning system",
+    "Efficient food processing",
+    "Easy operation",
+    "Suitable for commercial production",
+    "Designed for consistent product quality",
+  ],
+
+  [
+    "Namkeen",
+    "Snacks",
+    "Seasoned Snacks",
+    "Food Processing",
+    "Snack Seasoning",
+  ],
+
+  [
+    {
+      q: "What is a Seasoning System?",
+      a: "A Seasoning System is used to apply seasoning and flavoring uniformly to snack and food products.",
+    },
+    {
+      q: "What products can be seasoned?",
+      a: "The system can be used for suitable snacks, namkeen and other food products requiring seasoning.",
+    },
+    {
+      q: "Can the system be customized?",
+      a: "Yes, the system can be configured according to production requirements.",
+    },
+    {
+      q: "Is it suitable for commercial production?",
+      a: "Yes, it is suitable for commercial food-processing operations.",
+    },
+  ]
+),
+
+p(
+  "Slurry Mixing Machine",
+  "/images/machines/Other Product/36.webp",
+  "Slurry Mixing Machine designed for efficient mixing of slurry and food-processing ingredients. The machine is manufactured for reliable industrial operation with a 550 mm maximum propeller diameter and three phase operation.",
+
+  "As per requirement",
+  "As per requirement",
+  "As per requirement",
+
+  [
+    { label: "Brand", value: "Foodax Engineering" },
+    { label: "Model Name/Number", value: "FE-0032" },
+    { label: "Maximum Propeller Diameter", value: "550 mm" },
+    { label: "Phase", value: "3 Phase" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Material", value: "As per requirement" },
+    { label: "Automation Grade", value: "As per requirement" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Efficient slurry mixing",
+    "550 mm maximum propeller diameter",
+    "Three phase operation",
+    "Industrial mixing system",
+    "Robust construction",
+    "Suitable for food-processing applications",
+    "Consistent mixing performance",
+    "Designed for reliable operation",
+  ],
+
+  [
+    "Slurry Mixing",
+    "Food Processing",
+    "Ingredient Mixing",
+    "Industrial Mixing",
+  ],
+
+  [
+    {
+      q: "What is the model number of the Slurry Mixing Machine?",
+      a: "The listed model name/number is FE-0032.",
+    },
+    {
+      q: "What is the maximum propeller diameter?",
+      a: "The listed maximum propeller diameter is 550 mm.",
+    },
+    {
+      q: "What phase does the machine use?",
+      a: "The machine operates on 3 Phase power.",
+    },
+    {
+      q: "What is the brand?",
+      a: "The listed brand is Foodax Engineering.",
+    },
+    {
+      q: "What is the machine used for?",
+      a: "The machine is designed for efficient slurry mixing and food-processing applications.",
+    },
+  ]
+),
+
+p(
+  "Corn Puff Snacks Extruder",
+  "/images/machines/Other Product/37.webp",
+  "Corn Puff Snacks Extruder designed for efficient production of crispy and shaped corn puff snacks. The machine features a space-saving design and is suitable for snack food processing.",
+
+  "As per requirement",
+  "As per requirement",
+  "As per requirement",
+
+  [
+    { label: "Machine Type", value: "Corn Puff Snacks Extruder" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Material", value: "As per requirement" },
+    { label: "Automation Grade", value: "As per requirement" },
+    { label: "Power", value: "As per requirement" },
+    { label: "Phase", value: "As per requirement" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Easy to install",
+    "Space-saving design",
+    "Lower power consumption",
+    "Suitable for corn puff snacks",
+    "Extrusion-based snack production",
+    "Compact industrial design",
+    "Suitable for commercial production",
+    "Easy operation and maintenance",
+  ],
+
+  [
+    "Corn Puff Snacks",
+    "Extruded Snacks",
+    "Namkeen",
+    "Food Extrusion",
+    "Snack Production",
+  ],
+
+  [
+    {
+      q: "What is the Corn Puff Snacks Extruder used for?",
+      a: "The machine is designed for producing corn puff and other suitable extruded snack products.",
+    },
+    {
+      q: "What are the main features?",
+      a: "The listed features include easy installation, space-saving design and lower power consumption.",
+    },
+    {
+      q: "Can the capacity be customized?",
+      a: "Yes, the machine can be configured according to the required production capacity.",
+    },
+    {
+      q: "Is it suitable for commercial production?",
+      a: "Yes, the machine is suitable for commercial snack-processing applications.",
+    },
+  ]
+),
+
+p(
+  "Kurkure Automatic Machine",
+  "/images/machines/Other Product/38.webp",
+  "Kurkure Automatic Machine designed for efficient production of crispy and flavorful Kurkure-style snacks. The complete processing system is suitable for continuous snack production and commercial food-processing operations.",
+
+  "As per requirement",
+  "As per requirement",
+  "Automatic",
+
+  [
+    { label: "Machine Type", value: "Kurkure Automatic Machine" },
+    { label: "Automation Grade", value: "Automatic" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Production System", value: "Continuous Processing" },
+    { label: "Material", value: "As per requirement" },
+    { label: "Power", value: "As per requirement" },
+    { label: "Phase", value: "As per requirement" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Automatic operation",
+    "Continuous snack production",
+    "Suitable for Kurkure production",
+    "Complete processing line",
+    "Consistent product output",
+    "Suitable for different snack shapes",
+    "Commercial production suitable",
+    "Industrial food-processing system",
+  ],
+
+  [
+    "Kurkure",
+    "Extruded Snacks",
+    "Corn Snacks",
+    "Namkeen",
+    "Snack Production",
+    "Food Processing",
+  ],
+
+  [
+    {
+      q: "What is the Kurkure Automatic Machine used for?",
+      a: "The machine is designed for automatic production and processing of Kurkure-style extruded snacks.",
+    },
+    {
+      q: "Is the machine automatic?",
+      a: "Yes, the machine is designed for automatic operation.",
+    },
+    {
+      q: "Is it suitable for continuous production?",
+      a: "Yes, the system is designed for continuous snack-processing operations.",
+    },
+    {
+      q: "Can different snack shapes be produced?",
+      a: "Suitable dies and configurations can be used for different snack shapes.",
+    },
+    {
+      q: "Is it suitable for commercial production?",
+      a: "Yes, it is suitable for commercial and industrial snack production.",
+    },
+  ]
+),
+
+p(
+  "Soya Nuggets Extruder",
+  "/images/machines/Other Product/39.webp",
+  "Soya Nuggets Extruder designed for high-quality soya nuggets production with consistent texture and flavor. The machine is suitable for efficient commercial production of textured soya food products.",
+
+  "As per requirement",
+  "As per requirement",
+  "As per requirement",
+
+  [
+    { label: "Machine Type", value: "Soya Nuggets Extruder" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Material", value: "As per requirement" },
+    { label: "Automation Grade", value: "As per requirement" },
+    { label: "Extrusion System", value: "Soya Extrusion" },
+    { label: "Power", value: "As per requirement" },
+    { label: "Phase", value: "As per requirement" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Consistent product texture",
+    "Uniform soya nugget production",
+    "Efficient extrusion process",
+    "Suitable for commercial production",
+    "Robust industrial construction",
+    "Suitable for textured soya products",
+    "Reliable production performance",
+    "Designed for consistent product quality",
+  ],
+
+  [
+    "Soya Nuggets",
+    "Soya Chunks",
+    "Soya Badi",
+    "Textured Soya",
+    "Soya Nutrition",
+    "Food Extrusion",
+  ],
+
+  [
+    {
+      q: "What is the Soya Nuggets Extruder used for?",
+      a: "The machine is designed for producing soya nuggets and other suitable textured soya food products.",
+    },
+    {
+      q: "What are the benefits of the machine?",
+      a: "The machine is designed to provide consistent texture, flavor and efficient production.",
+    },
+    {
+      q: "Can it produce different soya products?",
+      a: "Suitable die and machine configurations can be used for different textured soya products.",
+    },
+    {
+      q: "Is it suitable for commercial production?",
+      a: "Yes, the machine is suitable for commercial soya-product manufacturing.",
+    },
+  ]
+),
+
+p(
+  "Rectangle Batch Fryer With Inbuilt Heat Exchanger",
+  "/images/machines/Other Product/40.webp",
+  "Rectangle Batch Fryer With Inbuilt Heat Exchanger designed for efficient batch frying of snacks and food products. The system provides temperature control, rapid heating, lower energy consumption and reduced oil usage.",
+
+  "As per requirement",
+  "As per requirement",
+  "As per requirement",
+
+  [
+    { label: "Machine Type", value: "Rectangle Batch Fryer With Inbuilt Heat Exchanger" },
+    { label: "Frying System", value: "Batch Frying" },
+    { label: "Heat Exchanger", value: "Inbuilt" },
+    { label: "Temperature Control", value: "Available" },
+    { label: "Heating", value: "Rapid Heating" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Power", value: "As per requirement" },
+    { label: "Phase", value: "As per requirement" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Temperature control",
+    "Rapid heating",
+    "Lower energy consumption",
+    "Less oil usage",
+    "Inbuilt heat exchanger",
+    "Batch frying system",
+    "Suitable for different snack products",
+    "Suitable for commercial production",
+  ],
+
+  [
+    "Potato Chips",
+    "Namkeen",
+    "French Fries",
+    "Fried Snacks",
+    "Food Processing",
+    "Batch Frying",
+  ],
+
+  [
+    {
+      q: "What is the Rectangle Batch Fryer used for?",
+      a: "It is designed for batch frying of snacks and other suitable food products.",
+    },
+    {
+      q: "Does it have an inbuilt heat exchanger?",
+      a: "Yes, the machine is designed with an inbuilt heat exchanger.",
+    },
+    {
+      q: "What are the main features?",
+      a: "The listed features include temperature control, rapid heating, lower energy consumption and less oil usage.",
+    },
+    {
+      q: "Can different food products be fried?",
+      a: "Yes, the fryer can be configured for suitable snack and food products.",
+    },
+  ]
+),
+
+p(
+  "Fully Automatic Corn Puff Snacks Processing Line",
+  "/images/machines/Other Product/41.webp",
+  "Fully Automatic Corn Puff Snacks Processing Line designed for continuous industrial production of corn puff snacks. The complete line integrates multiple processing stages for efficient and consistent snack manufacturing.",
+
+  "As per requirement",
+  "As per requirement",
+  "Fully Automatic",
+
+  [
+    { label: "Machine Type", value: "Corn Puff Snacks Processing Line" },
+    { label: "Automation Grade", value: "Fully Automatic" },
+    { label: "Production System", value: "Continuous Processing Line" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Material", value: "As per requirement" },
+    { label: "Power", value: "As per requirement" },
+    { label: "Phase", value: "As per requirement" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Fully automatic operation",
+    "Complete corn puff processing line",
+    "Continuous production",
+    "Integrated processing system",
+    "Consistent product output",
+    "Suitable for commercial production",
+    "Industrial snack processing",
+    "Designed for efficient production",
+  ],
+
+  [
+    "Corn Puff Snacks",
+    "Extruded Snacks",
+    "Namkeen",
+    "Snack Production",
+    "Food Processing",
+  ],
+
+  [
+    {
+      q: "What is the Corn Puff Snacks Processing Line?",
+      a: "It is a fully automatic processing line designed for industrial production of corn puff snacks.",
+    },
+    {
+      q: "Is the processing line fully automatic?",
+      a: "Yes, the machine is presented as a Fully Automatic Corn Puff Snacks Processing Line.",
+    },
+    {
+      q: "Is it suitable for continuous production?",
+      a: "Yes, the line is designed for continuous industrial snack production.",
+    },
+    {
+      q: "Can the production capacity be customized?",
+      a: "Yes, the line can be configured according to the required production capacity.",
+    },
+  ]
+),
+
+p(
+  "Ring Puff Extruder Machine",
+  "/images/machines/Other Product/42.webp",
+  "Industrial Ring Puff Extruder Machine designed for production of puff ring snacks. The machine features stainless steel construction, single screw extrusion, 100 Kg/hr capacity and a 1000 kilogram machine weight.",
+
+  "100 Kg/hr",
+  "As per requirement",
+  "Industrial",
+
+  [
+    { label: "Product Type", value: "Puff Ring Extruder" },
+    { label: "General Use", value: "Industrial" },
+    { label: "Material", value: "Stainless Steel" },
+    { label: "Machine Type", value: "Single Screw Extruder" },
+    { label: "Capacity", value: "100 Kg/hr" },
+    { label: "Weight", value: "1000 Kilograms" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Industrial operation",
+    "100 Kg/hr capacity",
+    "Stainless steel construction",
+    "Single screw extrusion system",
+    "Suitable for puff ring production",
+    "Robust industrial construction",
+    "Consistent extrusion",
+    "Suitable for commercial snack production",
+  ],
+
+  [
+    "Puff Rings",
+    "Ring Puff Snacks",
+    "Extruded Snacks",
+    "Namkeen",
+    "Food Extrusion",
+    "Snack Production",
+  ],
+
+  [
+    {
+      q: "What is the capacity of the Ring Puff Extruder Machine?",
+      a: "The listed capacity is 100 Kg/hr.",
+    },
+    {
+      q: "What type of extruder is used?",
+      a: "The listed machine type is Single Screw Extruder.",
+    },
+    {
+      q: "What material is used?",
+      a: "The listed material is Stainless Steel.",
+    },
+    {
+      q: "What is the machine weight?",
+      a: "The listed machine weight is 1000 Kilograms.",
+    },
+    {
+      q: "What is the general use of the machine?",
+      a: "The listed general use is Industrial.",
+    },
+    {
+      q: "What product does the machine produce?",
+      a: "The listed product type is Puff Ring Extruder, designed for producing ring-shaped puff snacks.",
+    },
+  ]
+),
+
+p(
+  "Food Processing Machine",
+  "/images/machines/Other Product/43.webp",
+  "Industrial food-processing equipment designed for commercial food production and processing operations. The equipment can be configured according to the specific production requirement.",
+
+  "As per requirement",
+  "As per requirement",
+  "As per requirement",
+
+  [
+    { label: "Machine Type", value: "Food Processing Machine" },
+    { label: "Capacity", value: "As per requirement" },
+    { label: "Material", value: "As per requirement" },
+    { label: "Automation Grade", value: "As per requirement" },
+    { label: "Power", value: "As per requirement" },
+    { label: "Phase", value: "As per requirement" },
+    { label: "Usage/Application", value: "Commercial Food Processing" },
+    { label: "Country of Origin", value: "Made in India" },
+  ],
+
+  [
+    "Industrial food-processing equipment",
+    "Suitable for commercial production",
+    "Robust construction",
+    "Suitable for food-processing operations",
+    "Configurable according to production requirements",
+    "Designed for reliable operation",
+    "Easy operation and maintenance",
+  ],
+
+  [
+    "Food Processing",
+    "Commercial Production",
+    "Food Manufacturing",
+    "Industrial Processing",
+  ],
+
+  [
+    {
+      q: "What is this machine used for?",
+      a: "The equipment is intended for commercial food-processing and production operations.",
+    },
+    {
+      q: "Can the machine be customized?",
+      a: "Yes, the equipment can be configured according to the required production application.",
+    },
+    {
+      q: "Is it suitable for commercial production?",
+      a: "Yes, it is intended for commercial food-processing applications.",
+    },
+    {
+      q: "Where is the machine manufactured?",
+      a: "The machine is Made in India.",
     },
   ]
 ),
