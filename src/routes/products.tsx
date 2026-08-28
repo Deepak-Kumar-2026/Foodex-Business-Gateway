@@ -354,7 +354,7 @@ import {
   productImages,
   type CatalogProduct,
 } from "@/data/products";
-import { CatalogCard, SpecTable } from "@/components/ProductCard";
+import { CatalogCard } from "@/components/ProductCard"
 import { company, waLink } from "@/data/company";
 import { useLang } from "@/lib/i18n";
 import { useQuote } from "@/components/QuoteProvider";
@@ -362,7 +362,7 @@ import { useQuote } from "@/components/QuoteProvider";
 const title = "All Products | Food Processing, Packing & Extruder Machines";
 
 const description =
-  "Browse the full Foodex range of food processing, packing and extruder machines with technical specs, applications and instant quotation.";
+  "Browse the full Foodex range of food processing, packing and extruder machines with product details and instant quotation.";
 
 export const Route = createFileRoute("/products")({
   head: () => ({
@@ -709,105 +709,6 @@ function Products() {
               <p className="text-sm text-muted-foreground">
                 {spec.description}
               </p>
-
-              {/* SPECS */}
-
-              <div>
-                <h3 className="font-display text-sm font-bold">
-                  {t("label.specs")}
-                </h3>
-
-                <div className="mt-2 rounded-md border border-border p-3">
-                  <SpecTable
-                    specs={[
-                      {
-                        label: t("label.capacity"),
-                        value: spec.capacity,
-                      },
-                      {
-                        label: t("label.material"),
-                        value: spec.material,
-                      },
-                      {
-                        label: t("label.power"),
-                        value: spec.power,
-                      },
-                      {
-                        label: t("label.automation"),
-                        value: spec.automation,
-                      },
-                      ...spec.specs,
-                    ]}
-                  />
-                </div>
-              </div>
-
-              {/* FEATURES */}
-
-              <div>
-                <h3 className="font-display text-sm font-bold">
-                  {t("label.features")}
-                </h3>
-
-                <ul className="mt-2 space-y-1 text-sm text-muted-foreground">
-                  {spec.features.map((f) => (
-                    <li
-                      key={f}
-                      className="flex gap-2"
-                    >
-                      <span className="text-accent">
-                        ▪
-                      </span>
-
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* APPLICATIONS */}
-
-              <div>
-                <h3 className="font-display text-sm font-bold">
-                  {t("label.applications")}
-                </h3>
-
-                <div className="mt-2 flex flex-wrap gap-1.5">
-                  {spec.applications.map((a) => (
-                    <span
-                      key={a}
-                      className="rounded-full bg-accent-soft px-2.5 py-1 text-xs font-semibold text-secondary-foreground"
-                    >
-                      {a}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              {/* FAQ */}
-
-              <div>
-                <h3 className="font-display text-sm font-bold">
-                  {t("label.faq")}
-                </h3>
-
-                <div className="mt-2 space-y-2">
-                  {spec.faqs.map((f) => (
-                    <details
-                      key={f.q}
-                      className="rounded-md border border-border p-3"
-                    >
-                      <summary className="cursor-pointer text-sm font-bold">
-                        {f.q}
-                      </summary>
-
-                      <p className="mt-1.5 text-sm text-muted-foreground">
-                        {f.a}
-                      </p>
-                    </details>
-                  ))}
-                </div>
-              </div>
 
               {/* ACTION BUTTONS */}
 
