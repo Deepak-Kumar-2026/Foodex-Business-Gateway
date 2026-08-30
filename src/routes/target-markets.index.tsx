@@ -9,6 +9,7 @@ import { hotProducts } from "@/data/products";
 import { company } from "@/data/company";
 
 const title = "Target Markets | India, South Africa, UAE, Nepal & UK — Foodex";
+
 const description =
   "Snack food machinery manufacturer & supplier for India, South Africa, UAE, Nepal and the UK. Manufacturer and supplier pages for all 9 hot products.";
 
@@ -29,7 +30,9 @@ export const Route = createFileRoute("/target-markets/")({
       { property: "og:image", content: abs(heroImg) },
       { name: "twitter:image", content: abs(heroImg) },
     ],
+
     links: [{ rel: "canonical", href: abs("/target-markets") }],
+
     scripts: [
       {
         type: "application/ld+json",
@@ -47,6 +50,7 @@ export const Route = createFileRoute("/target-markets/")({
       },
     ],
   }),
+
   component: Markets,
 });
 
@@ -60,10 +64,12 @@ function Markets() {
           <h1 className="font-display text-3xl font-extrabold text-primary-foreground sm:text-4xl">
             Target Markets — India & International
           </h1>
+
           <p className="mt-2 max-w-3xl text-sm text-primary-foreground/80">
-            {company.name} manufactures in Ghaziabad and supplies, installs and services food processing machinery in
-            India, South Africa, UAE, Nepal and the United Kingdom — with a dedicated manufacturer and supplier page for
-            every machine in every market.
+            {company.name} manufactures in Ghaziabad and supplies, installs and
+            services food processing machinery in India, South Africa, UAE,
+            Nepal and the United Kingdom — with a dedicated manufacturer and
+            supplier page for every machine in every market.
           </p>
         </div>
       </section>
@@ -73,33 +79,52 @@ function Markets() {
           <h2 className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
             Select a product to see its market pages
           </h2>
+
           <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
             {hotProducts.map((p) => (
               <button
                 key={p.slug}
                 onClick={() => setActive(p)}
                 className={`flex items-center gap-2.5 rounded-lg border p-2 text-left ${
-                  active.slug === p.slug ? "border-primary bg-card shadow-card" : "border-border bg-card/60 hover:border-primary/50"
+                  active.slug === p.slug
+                    ? "border-primary bg-card shadow-card"
+                    : "border-border bg-card/60 hover:border-primary/50"
                 }`}
               >
-                <img src={p.image} alt={p.title} loading="lazy" width={1024} height={768} className="h-11 w-16 shrink-0 rounded object-cover" />
+                <img
+                  src={p.image}
+                  alt={p.title}
+                  loading="lazy"
+                  width={1024}
+                  height={768}
+                  className="h-11 w-16 shrink-0 rounded object-cover"
+                />
+
                 <span className="min-w-0">
-                  <span className="block truncate text-sm font-bold">{p.title}</span>
-                  <span className="text-[11px] text-muted-foreground">{p.capacity}</span>
+                  <span className="block truncate text-sm font-bold">
+                    {p.title}
+                  </span>
                 </span>
               </button>
             ))}
           </div>
+
           <p className="mt-4 text-sm text-muted-foreground">
-            <strong className="text-foreground">{active.title}</strong> — {active.summary}
+            <strong className="text-foreground">{active.title}</strong> —{" "}
+            {active.summary}
           </p>
+
           <div className="mt-4 flex flex-wrap gap-2">
             {countries.map((c) =>
               roles.map((r) => (
                 <Link
                   key={`${c.slug}-${r.slug}`}
                   to="/$product/$role/$location"
-                  params={{ product: active.slug, role: r.slug, location: c.slug }}
+                  params={{
+                    product: active.slug,
+                    role: r.slug,
+                    location: c.slug,
+                  }}
                   className="rounded-md bg-accent px-2.5 py-1.5 text-[11px] font-bold text-accent-foreground"
                 >
                   {active.title} {r.intent} in {c.name}
@@ -112,26 +137,40 @@ function Markets() {
 
       <section className="section-pad">
         <div className="mx-auto max-w-7xl px-4">
-          <h2 className="font-display text-2xl font-extrabold">Our 5 Markets</h2>
+          <h2 className="font-display text-2xl font-extrabold">
+            Our 5 Markets
+          </h2>
+
           <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {countries.map((c) => (
               <div key={c.slug} className="card-surface p-5">
                 <Globe2 className="h-6 w-6 text-accent" />
+
                 <h3 className="mt-2 font-display text-lg font-bold">
-                  <Link to="/target-markets/$slug" params={{ slug: c.slug }} className="hover:text-primary">
+                  <Link
+                    to="/target-markets/$slug"
+                    params={{ slug: c.slug }}
+                    className="hover:text-primary"
+                  >
                     {c.name}
                   </Link>
                 </h3>
+
                 <p className="mt-1 text-xs text-muted-foreground">
                   <MapPin className="mr-1 inline h-3 w-3 text-accent" />
                   {c.cities.join(", ")}
                 </p>
+
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {roles.map((r) => (
                     <Link
                       key={r.slug}
                       to="/$product/$role/$location"
-                      params={{ product: active.slug, role: r.slug, location: c.slug }}
+                      params={{
+                        product: active.slug,
+                        role: r.slug,
+                        location: c.slug,
+                      }}
                       className="rounded border border-border px-2 py-1 text-[11px] font-semibold hover:border-primary hover:text-primary"
                     >
                       {r.label} in {c.name}
