@@ -1000,6 +1000,7 @@ const p = (
   faqs,
 });
 
+
 export const catalog: CatalogCategory[] = [
 
 {
@@ -2040,8 +2041,317 @@ p(
 },
 
 
-]
 
+{
+  slug: "Other Product",
+  name: "Other Product",
+  products: [
+    p(
+      "Masala Coating Pan",
+      "/images/machines/Other Product/1.webp",
+      "The Masala Coating Pan is designed for evenly coating snacks and food products with masala, spices, and seasoning. Its rotating pan helps distribute the seasoning uniformly over the product while supporting efficient and consistent processing. The machine is suitable for snack manufacturers looking for a practical solution for seasoning namkeen, chips, fryums, and other snack products. With a simple operating concept and sturdy construction, the Masala Coating Pan can help improve seasoning consistency and reduce manual coating effort in food processing operations.",
+      "Not Specified",
+      "Not Specified",
+      "Not Specified",
+      [
+        { label: "Machine Type", value: "Masala Coating Pan" },
+        { label: "Application", value: "Snack Seasoning" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      [
+        "Uniform masala coating",
+        "Suitable for snack products",
+        "Designed for seasoning applications",
+        "Efficient mixing and coating",
+        "Suitable for food processing",
+      ],
+      ["Namkeen", "Chips", "Fryums", "Seasoned Snacks", "Food Products"],
+      [
+        { q: "What is the Masala Coating Pan used for?", a: "It is used for coating snacks and food products with masala and seasonings." },
+        { q: "What products can be coated?", a: "It can be used for Namkeen, Chips, Fryums and other seasoned snack products." },
+        { q: "Is the capacity specified?", a: "The capacity is not specified in the provided product information." },
+      ]
+    ),
+
+    p(
+      "Soya Badi Extruder",
+      "/images/machines/Other Product/2.webp",
+      "The Soya Badi Extruder is designed for producing textured soya-based food products through an extrusion process. The machine processes a prepared raw material mixture and forms it into the required shape and texture for soya badi production. It is suitable for food processors and snack manufacturers who need an efficient extrusion solution for producing consistent soya-based products. The Soya Badi Extruder can support organized production with controlled processing and repeatable product formation.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Soya Badi Extruder" },
+        { label: "Application", value: "Soya Badi Production" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Extrusion-based processing", "Designed for soya badi", "Consistent product formation", "Suitable for food processing"],
+      ["Soya Badi", "Soya Nuggets", "Textured Soya Products"],
+      [
+        { q: "What is the Soya Badi Extruder used for?", a: "It is used for producing textured soya-based products such as soya badi." },
+        { q: "What is the application?", a: "The main application is soya badi production through extrusion processing." },
+      ]
+    ),
+
+    p(
+      "Vertical Meal Mixer",
+      "/images/machines/Other Product/3.webp",
+      "The Vertical Meal Mixer is designed for uniform mixing of meal, flour, ingredients, and other food-processing materials. Its vertical mixing arrangement helps combine different ingredients into a consistent mixture before the next stage of production. The machine is suitable for food-processing applications where reliable blending and uniform ingredient distribution are important. It can be used as part of snack, flour, namkeen, and other food production processes.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Vertical Meal Mixer" },
+        { label: "Application", value: "Food Ingredient Mixing" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Vertical mixing system", "Uniform ingredient mixing", "Suitable for food processing", "Designed for industrial applications"],
+      ["Meal", "Flour", "Food Ingredients", "Namkeen Mixture"],
+      [
+        { q: "What is the Vertical Meal Mixer used for?", a: "It is used for mixing meal, flour and other food-processing ingredients uniformly." },
+        { q: "What type of mixer is it?", a: "It is a vertical-type meal mixer." },
+      ]
+    ),
+
+    p(
+      "Bucket Elevator",
+      "/images/machines/Other Product/4.webp",
+      "The Bucket Elevator is a material-handling machine designed to lift and transfer bulk food ingredients and products vertically between different stages of a processing line. It helps move materials efficiently while reducing manual handling and maintaining a continuous production flow. The system is suitable for food-processing and snack-production applications where ingredients or finished products need to be elevated from one level to another.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Bucket Elevator" },
+        { label: "Application", value: "Vertical Material Handling" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Vertical product lifting", "Continuous material transfer", "Reduced manual handling", "Suitable for food processing"],
+      ["Grains", "Snacks", "Namkeen", "Food Ingredients", "Bulk Products"],
+      [
+        { q: "What is a Bucket Elevator used for?", a: "It is used to vertically lift and transfer bulk materials between processing stages." },
+        { q: "Where can it be used?", a: "It can be used in food processing and snack production lines." },
+      ]
+    ),
+
+    p(
+      "Continuous Dryer",
+      "/images/machines/Other Product/5.webp",
+      "The Continuous Dryer is designed for continuous drying of food products and processed materials. It supports controlled moisture removal as products move through the drying system, helping prepare them for subsequent processing, seasoning, or packaging. The machine is suitable for food-processing operations that require steady production and consistent drying conditions. Its continuous working arrangement can help improve production flow and reduce the need for manual batch handling.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Continuous Dryer" },
+        { label: "Application", value: "Food Product Drying" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Continuous drying operation", "Controlled moisture removal", "Suitable for food products", "Designed for industrial processing"],
+      ["Food Products", "Snacks", "Processed Ingredients", "Dry Food Products"],
+      [
+        { q: "What is the Continuous Dryer used for?", a: "It is used for continuous drying and moisture reduction of food products and processed materials." },
+        { q: "Does it support continuous production?", a: "Yes, the machine is designed for continuous drying operation." },
+      ]
+    ),
+
+    p(
+      "Electric Batch Fryer",
+      "/images/machines/Other Product/6.webp",
+      "The Electric Batch Fryer is designed for frying food and snack products in controlled batches using an electric heating system. It provides a practical solution for achieving consistent frying conditions while allowing operators to process a defined quantity of product at a time. The fryer is suitable for namkeen, chips, fryums, and other fried snack applications. Its batch-based operation makes it useful for small, medium, and industrial food-processing requirements where controlled frying is important.",
+      "Not Specified", "Not Specified", "Electric",
+      [
+        { label: "Machine Type", value: "Batch Fryer" },
+        { label: "Heating Source", value: "Electric" },
+        { label: "Application", value: "Snack Frying" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Electric heating", "Batch frying operation", "Controlled frying process", "Suitable for snack products"],
+      ["Namkeen", "Chips", "Fryums", "Snack Products", "Fried Food Products"],
+      [
+        { q: "What is the Electric Batch Fryer used for?", a: "It is used for frying food and snack products in controlled batches." },
+        { q: "What is the heating source?", a: "The heating source is Electric." },
+      ]
+    ),
+
+    p(
+      "Industrial Batch Fryer",
+      "/images/machines/Other Product/7.webp",
+      "The Industrial Batch Fryer is designed for efficient batch frying of a wide range of food and snack products. It provides a dedicated frying vessel for processing defined quantities of product while maintaining controlled frying conditions. The machine is suitable for food-processing facilities and snack manufacturers producing chips, namkeen, fryums, and other fried products. Its industrial design supports organized production and repeatable frying operations.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Industrial Batch Fryer" },
+        { label: "Application", value: "Industrial Snack Frying" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Industrial batch frying", "Controlled frying process", "Suitable for snack production", "Designed for food processing"],
+      ["Chips", "Namkeen", "Fryums", "Snack Products", "Fried Food Products"],
+      [
+        { q: "What is the Industrial Batch Fryer used for?", a: "It is used for batch frying of food and snack products in industrial processing applications." },
+        { q: "What products can be fried?", a: "It can be used for Chips, Namkeen, Fryums and other fried snack products." },
+      ]
+    ),
+
+    p(
+      "Ring Puff Extruder Machine",
+      "/images/machines/Other Product/8.webp",
+      "The Ring Puff Extruder Machine is designed for producing expanded ring-shaped puff snacks through an extrusion process. It combines controlled material processing with shaping to form consistent puff products suitable for further drying, seasoning, and packaging. The machine is suitable for snack manufacturers looking to produce puffed extruded snacks in a repeatable production process. Its extrusion-based operation provides flexibility for snack production with different formulations and product requirements.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Ring Puff Extruder" },
+        { label: "Application", value: "Extruded Snack Production" },
+        { label: "Product Shape", value: "Ring Puff" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Extrusion processing", "Ring-shaped puff production", "Consistent snack forming", "Suitable for snack manufacturing"],
+      ["Ring Puffs", "Puff Snacks", "Extruded Snacks"],
+      [
+        { q: "What is the Ring Puff Extruder Machine used for?", a: "It is used for producing ring-shaped puff snacks through extrusion processing." },
+        { q: "What product shape does it produce?", a: "The machine is designed for ring-shaped puff products." },
+      ]
+    ),
+
+    p(
+      "Soya Nuggets Extruder Machine",
+      "/images/machines/Other Product/9.webp",
+      "The Soya Nuggets Extruder Machine is designed for producing textured soya nuggets through controlled extrusion processing. It forms the processed soya mixture into consistent shapes suitable for drying and further food preparation. The machine is suitable for manufacturers involved in soya-based food production and offers a practical extrusion solution for repeatable product formation. It can be integrated into a broader soya nugget processing line according to production requirements.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Soya Nuggets Extruder" },
+        { label: "Application", value: "Soya Nugget Production" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Extrusion processing", "Textured soya product formation", "Consistent nugget shaping", "Suitable for food processing"],
+      ["Soya Nuggets", "Soya Products", "Textured Vegetable Protein"],
+      [
+        { q: "What is the Soya Nuggets Extruder used for?", a: "It is used for producing textured soya nuggets through extrusion processing." },
+        { q: "What type of product does it make?", a: "It is designed for soya nugget and textured soya product production." },
+      ]
+    ),
+
+    p(
+      "Pasta Making Machine",
+      "/images/machines/Other Product/10.webp",
+      "The Pasta Making Machine is designed for efficient production and forming of pasta products from prepared dough or raw material mixtures. It helps shape the processed mixture into consistent pasta forms for subsequent drying, handling, and packaging. The machine is suitable for food manufacturers and pasta-processing businesses looking for a dedicated pasta production solution. It can support production of different pasta varieties depending on the selected forming arrangement and production requirements.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Pasta Making Machine" },
+        { label: "Application", value: "Pasta Production" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Pasta forming", "Consistent product shaping", "Suitable for food processing", "Designed for pasta production"],
+      ["Pasta", "Macaroni", "Penne", "Food Products"],
+      [
+        { q: "What is the Pasta Making Machine used for?", a: "It is used for producing and forming pasta products from prepared material." },
+        { q: "What products can it produce?", a: "It can be used for different pasta varieties depending on the forming setup." },
+      ]
+    ),
+
+    p(
+      "Rotary Roaster Machine",
+      "/images/machines/Other Product/11.webp",
+      "The Rotary Roaster Machine is designed for roasting food products using a rotating roasting chamber that helps expose the product evenly to the heating process. The rotary movement supports uniform roasting and consistent processing across the batch. It is suitable for roasting grains, nuts, chana, seeds, and other food products where controlled roasting is required. The machine can be used in snack and food-processing operations that require dependable roasting performance.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Rotary Roaster" },
+        { label: "Application", value: "Food Roasting" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Rotary roasting system", "Uniform roasting", "Suitable for grains and nuts", "Designed for food processing"],
+      ["Chana", "Nuts", "Grains", "Seeds", "Roasted Snacks"],
+      [
+        { q: "What is the Rotary Roaster Machine used for?", a: "It is used for roasting grains, nuts, chana, seeds and other food products." },
+        { q: "How does it support roasting?", a: "Its rotating chamber helps provide more uniform exposure during the roasting process." },
+      ]
+    ),
+
+    p(
+      "U Type K Mixer",
+      "/images/machines/Other Product/12.webp",
+      "The U Type K Mixer is designed for uniform mixing of food ingredients, powders, meal, and other bulk materials. Its U-shaped mixing chamber provides a practical arrangement for blending different ingredients before further processing. The machine is suitable for food-processing applications where consistent ingredient distribution is required. It can be used for preparing mixtures for snacks, namkeen, food products, and other industrial processing operations.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "U Type K Mixer" },
+        { label: "Application", value: "Ingredient Mixing" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["U-shaped mixing chamber", "Uniform ingredient mixing", "Suitable for food processing", "Designed for bulk mixing"],
+      ["Food Ingredients", "Meal", "Flour", "Namkeen Mixture", "Snack Products"],
+      [
+        { q: "What is the U Type K Mixer used for?", a: "It is used for uniform mixing of food ingredients, powders, meal and other bulk materials." },
+        { q: "What type of chamber does it use?", a: "It uses a U-shaped mixing chamber." },
+      ]
+    ),
+
+    p(
+      "Kurkure Extruder Machine",
+      "/images/machines/Other Product/13.webp",
+      "The Kurkure Extruder Machine is designed for producing extruded corn-based snacks with the characteristic shape and texture associated with Kurkure-style products. The extrusion process forms and expands the prepared mixture before the product moves to drying, seasoning, and packaging stages. It is suitable for snack manufacturers who require a dedicated extruder for continuous and consistent product formation. The machine can be incorporated into a complete extruded snack production line according to the required process.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Kurkure Extruder" },
+        { label: "Application", value: "Extruded Snack Production" },
+        { label: "Product", value: "Kurkure-style Snacks" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Extrusion processing", "Kurkure-style snack production", "Consistent product formation", "Suitable for snack manufacturing"],
+      ["Kurkure", "Extruded Snacks", "Corn Snacks", "Snack Products"],
+      [
+        { q: "What is the Kurkure Extruder Machine used for?", a: "It is used for producing Kurkure-style extruded corn-based snacks." },
+        { q: "What process does it use?", a: "The machine uses an extrusion process to form the snack product." },
+      ]
+    ),
+
+    p(
+      "Slurry Mixing Machine",
+      "/images/machines/Other Product/14.webp",
+      "The Slurry Mixing Machine is designed for preparing a smooth and uniform slurry by thoroughly mixing liquid and solid ingredients. It helps maintain consistent ingredient distribution and supports reliable preparation before the next stage of food processing. The machine is suitable for snack, food, and industrial processing applications where slurry preparation is required. With controlled mixing, it can help improve the consistency of the prepared slurry and support a more organized production process.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Slurry Mixing Machine" },
+        { label: "Application", value: "Slurry Preparation" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Uniform slurry mixing", "Consistent ingredient distribution", "Suitable for food processing", "Designed for slurry preparation"],
+      ["Slurry", "Food Ingredients", "Snack Processing", "Food Processing"],
+      [
+        { q: "What is the Slurry Mixing Machine used for?", a: "It is used for preparing a smooth and uniform slurry by mixing liquid and solid ingredients." },
+        { q: "What is the main application?", a: "The main application is slurry preparation for food and processing operations." },
+      ]
+    ),
+  ],
+},
+
+]
 
 
 
