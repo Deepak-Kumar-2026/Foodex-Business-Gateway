@@ -49,15 +49,15 @@ export type Product = {
 export const hotProducts: Product[] = [
   {
     slug: "potato-banana-chips-batch-fryer",
-    title: "Corn Puffs Snack Line",
+    title: "Potato & Banana Chips Batch Fryer",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/1.webp",
+    image: chipsFryer,
     capacity: "150 kg/hr",
     material: "SS 304",
     power: "3 HP",
     automation: "Semi Automatic",
     summary:
-      "Grace presents an exquisite range of Corn Puffs Snack Machines, designed for efficient and reliable production of popular and delectable corn-based snacks loved by all ages. Our Corn Puffs Snack Machine offers a complete solution for producing crispy, airy, and flavorful corn puffs with consistent quality and excellent texture. Using advanced technology and high-quality materials, our machine is engineered to deliver smooth and efficient corn puff production.\\n\\nIt is suitable for manufacturing a wide variety of corn-based snacks with different shapes, sizes, flavors, and seasonings. The machine ensures uniform processing, excellent expansion, and consistent product quality in every batch. Whether you are producing classic buttery corn puffs or spicy and flavored varieties, Grace's Corn Puffs Snack Machine provides the flexibility and performance required for modern snack production.\\n\\nIt is ideal for snack manufacturers looking for reliable operation, high productivity, easy handling, and consistent results. Perfectly suited for small, medium, and large-scale snack production, our Corn Puffs Snack Machine combines efficiency, durability, and advanced technology to help businesses produce high-quality corn puffs with ease. Experience reliable performance and efficient snack production with Grace's Corn Puffs Snack Machine.",
+      "The Potato & Banana Chips Batch Fryer is designed for efficient and consistent frying of potato and banana chips. It provides controlled frying conditions for uniform color, crispiness, texture, and quality in every batch. The machine is suitable for snack manufacturers who need reliable batch frying performance for commercial production.",
     keywords: [
       "potato banana chips batch fryer",
       "potato chips fryer",
@@ -181,15 +181,15 @@ export const hotProducts: Product[] = [
 
   {
     slug: "electric-batch-fryer",
-    title: "Kurkure Snack Line",
+    title: "Electric Batch Fryer",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/2.webp",
+    image: electricFryer,
     capacity: "100 kg/hr",
     material: "SS 304",
     power: "18 kW",
     automation: "Semi Automatic, Manual, Automatic",
     summary:
-      "Take your snack production to new heights with our state-of-the-art Extruded Corn Stick Line. Designed for the manufacturing of irresistible corn sticks, this advanced production line combines precision engineering with innovative technology to deliver exceptional quality and flavor. Our Extruded Corn Stick Line is equipped with a high-performance extruder that transforms corn-based dough into perfectly shaped and textured sticks. With customizable settings and precise control over temperature and pressure, you can achieve consistent and uniform corn sticks with optimal crunch and taste.\\n\\nFrom classic flavors to unique seasonings, our Extruded Corn Stick Line accommodates a wide range of recipe variations, allowing you to create an extensive portfolio of delicious snacks. Whether you prefer cheesy, spicy, or savory corn sticks, this production line ensures that each batch meets the highest standards of taste and quality. Not only does our Extruded Corn Stick Line offer outstanding snack production capabilities, but it also emphasizes efficiency and safety.\\n\\nWith user-friendly controls, automated processes, and robust safety features, you can streamline your production while maintaining strict quality control measures. Join the snack revolution with Foodax's Extruded Corn Stick Line and captivate snack enthusiasts with your delectable corn stick creations. Enhance your brand reputation and expand your market reach by offering a snack that combines irresistible taste with superior texture. Experience the power of Foodax's Extruded Corn Stick Line and elevate your snack manufacturing to new levels of excellence. Trust in our expertise and cutting-edge technology to deliver unmatched results that will delight consumers and set your brand apart in the competitive snack industry.",
+      "The Electric Batch Fryer is designed for controlled and efficient frying of snacks using an electric heating system. It provides consistent temperature control and uniform frying, making it suitable for potato chips, banana chips, Kurkure, Fryums, and other snack products. Its practical operation supports reliable production for small and medium-scale snack manufacturers.",
     keywords: [
       "electric batch fryer",
       "electric fryer machine",
@@ -269,15 +269,15 @@ export const hotProducts: Product[] = [
 
   {
     slug: "circular-batch-fryer-with-inbuilt-heat-exchanger",
-    title: "Pellets Chips Snack Frying Line",
+    title: "Snack Food Fryer Plant",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/3.webp",
+    image: snackPlant,
     capacity: "Not Specified",
     material: "Mild Steel",
     power: "3 HP",
     automation: "Automatic",
     summary:
-      "Experience the perfect balance of quality, efficiency, and flavor with our Pallets Chips Snack Frying Line. Designed for the production of crispy and flavorful pallets chips snacks, this advanced frying line is the ultimate solution for snack manufacturers. Our Pallets Chips Snack Frying Line combines precision engineering with state-of-the-art technology to deliver consistent and superior frying results.\\n\\nWith adjustable temperature controls, precise oil circulation, and efficient heat transfer, you can achieve the perfect texture and taste for your pallets chips snacks every time. From classic salted to bold and spicy flavors, our Pallets Chips Snack Frying Line accommodates a wide range of recipes and seasonings, allowing you to cater to diverse consumer preferences. Whether you're frying potato-based or grain-based pallets chips, our frying line ensures optimal frying conditions and uniformity throughout the batch.\\n\\nNot only does our Pallets Chips Snack Frying Line deliver exceptional frying performance, but it also prioritizes safety and efficiency. With advanced safety features, easy-to-use controls, and a streamlined production process, you can maximize productivity while maintaining strict quality standards. Upgrade your snack production with Foodax's Pallets Chips Snack Frying Line and unlock a world of possibilities in the pallets chips snack market. Craft high-quality, crispy, and delicious snacks that will captivate consumers and elevate your brand to new heights. Discover the unmatched frying capabilities of Foodax's Pallets Chips Snack Frying Line and revolutionize your snack manufacturing process. Trust in our expertise and cutting-edge technology to achieve unparalleled results and satisfy the cravings of snack lovers everywhere.",
+      "The Snack Food Fryer Plant is designed for efficient frying of a wide range of snack products. It combines controlled heating and frying processes to help maintain consistent product quality, texture, and color. The plant is suitable for commercial snack production and can be used for products such as chips, Fryums, Kurkure, Namkeen, and other fried snacks.",
     keywords: [
       "circular batch fryer",
       "batch fryer heat exchanger",
@@ -361,15 +361,15 @@ export const hotProducts: Product[] = [
 
   {
     slug: "snack-food-fryer-plant",
-    title: "Potato Chips Line",
+    title: "Kurkure Batch Fryer",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/4.webp",
+    image: kurkureFryer,
     capacity: "Potato chips 50–60 kg/hr",
     material: "SS 304",
     power: "3 kW",
     automation: "Semi Automatic",
     summary:
-      "Unlock the potential of your snack production with our cutting-edge Potato Chips Line. Designed to meet the demands of the ever-growing potato chips market, this advanced production line offers unmatched efficiency, versatility, and quality. Our Potato Chips Line features state-of-the-art equipment and technology that ensures the production of crispy, golden potato chips with consistent texture and flavor.\\n\\nFrom slicing and frying to seasoning and packaging, every step of the process is meticulously controlled to deliver superior quality chips that meet the highest standards of taste and crunch. With customizable settings and precise control over temperature, frying time, and seasoning application, our Potato Chips Line allows you to create a wide variety of flavors and styles. From classic salted chips to unique and innovative blends, you can cater to diverse consumer preferences and stay ahead of the competition.\\n\\nNot only does our Potato Chips Line prioritize taste and quality, but it also emphasizes efficiency and productivity. With automated processes, optimized frying systems, and intelligent packaging solutions, you can maximize throughput, minimize waste, and streamline your production operations. Experience the power of Foodax's Potato Chips Line and elevate your snack brand to new heights. Whether you're a small-scale producer or a large-scale manufacturer, our innovative technology and expertise will empower you to meet the demands of the market and exceed consumer expectations. Join the ranks of successful snack brands and offer irresistible potato chips that leave a lasting impression. Trust in Foodax's Potato Chips Line to deliver exceptional results, enhance your brand reputation, and propel your business forward in the dynamic world of snack manufacturing.",
+      "The Kurkure Batch Fryer is designed for reliable and uniform frying of Kurkure and other extruded snack products. It provides controlled frying conditions for consistent crispiness, texture, and color while supporting efficient batch production. The machine is suitable for snack manufacturers looking for dependable frying performance.",
     keywords: [
       "snack food fryer plant",
       "snack fryer plant",
@@ -474,15 +474,15 @@ export const hotProducts: Product[] = [
 
   {
     slug: "direct-wooden-firing-batch-fryer",
-    title: "Banana Chips Line",
+    title: "Industrial Gas Batch Fryer",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/5.webp",
+    image: gasFryer,
     capacity: "75–90 kg/hr",
     material: "Not Specified",
     power: "1 HP",
     automation: "Automatic",
     summary:
-      "Discover the perfect solution for producing delicious and crispy banana chips with our advanced Banana Chips Line. This state-of-the-art production line is designed to deliver exceptional quality, efficiency, and versatility, helping you meet the growing demand for tasty and healthy banana chips. Our Banana Chips Line combines cutting-edge technology with precision engineering to ensure consistent results every time.\\n\\nFrom the slicing and frying process to seasoning and packaging, each step is carefully optimized to achieve the perfect balance of flavor, texture, and crunch. With our Banana Chips Line, you have the flexibility to create a wide range of banana chip varieties to cater to diverse consumer preferences. Whether it's classic salted chips, sweet and tangy flavors, or unique blends, you can easily customize the seasoning and achieve the desired taste profiles.\\n\\nIn addition to its exceptional product quality, the Banana Chips Line is designed for efficiency and productivity. Automated processes, advanced frying systems, and intelligent packaging solutions ensure maximum throughput, reduced waste, and streamlined operations, allowing you to meet the demands of the market with ease. Embrace the opportunity to expand your snack business with our Banana Chips Line. Whether you're a small-scale producer or a large-scale manufacturer, Foodax's expertise and cutting-edge technology will empower you to create high-quality banana chips that leave a lasting impression on consumers. Choose Foodax's Banana Chips Line and embark on a journey of flavor, innovation, and success. Elevate your snack brand with irresistible banana chips that captivate taste buds and stand out in the market. Trust in our expertise and let us be your partner in achieving excellence in the world of banana chip manufacturing.",
+      "The Industrial Gas Batch Fryer is designed for efficient batch frying with gas heating. It provides controlled heat and uniform frying for consistent snack quality and is suitable for industrial production of chips, Namkeen, Fryums, Kurkure, and other fried food products.",
     keywords: [
       "wooden firing batch fryer",
       "wood fired fryer",
@@ -580,15 +580,15 @@ export const hotProducts: Product[] = [
 
   {
     slug: "kurkure-batch-fryer",
-    title: "Namkeen Frying Line",
+    title: "Namkeen Batch Fryer",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/6.webp",
+    image: namkeenFryer,
     capacity: "100 kg/hr",
     material: "Stainless Steel",
     power: "Not Specified",
     automation: "Semi-Automatic",
     summary:
-      "The Namkeen Frying Machine is a state-of-the-art equipment designed to meet the needs of snack food manufacturers in the production of crispy and delicious namkeen snacks. This advanced frying machine is specifically engineered to provide efficient and consistent frying results, ensuring high-quality output every time. With its robust construction and innovative features, the Namkeen Frying Machine offers precise temperature control, allowing for optimal frying conditions to achieve the perfect texture and taste of namkeen snacks.\\n\\nThe machine is equipped with advanced heating elements and a well-designed frying chamber to ensure uniform heat distribution, minimizing product variations and ensuring even frying. The Namkeen Frying Machine also incorporates user-friendly controls and safety features to enhance productivity and operator convenience. It provides adjustable frying time and temperature settings, allowing operators to customize the frying process according to the specific requirements of different namkeen snack varieties.\\n\\nAdditionally, safety mechanisms such as temperature sensors and automatic shut-off systems are implemented to prevent overheating and ensure safe operation. With its high capacity and efficient frying capabilities, the Namkeen Frying Machine is ideal for large-scale namkeen production. It enables snack food manufacturers to meet the growing demand for crispy and flavorful namkeen snacks while maintaining consistent quality and reducing production time. Investing in a Namkeen Frying Machine empowers snack food manufacturers to enhance their production efficiency, achieve consistent product quality, and cater to the increasing market demand for delicious namkeen snacks.",
+      "The Namkeen Batch Fryer is designed for consistent and efficient frying of Namkeen products such as Gathiya, Bhujia, Papdi, Fryums, and other snacks. Its controlled frying process helps achieve uniform texture, color, and crispiness while supporting dependable commercial production.",
     keywords: [
       "kurkure batch fryer",
       "kurkure frying machine",
@@ -701,15 +701,15 @@ export const hotProducts: Product[] = [
 
   {
     slug: "direct-biomass-pallet-burner-batch-fryer",
-    title: "Matar Frying Line",
+    title: "Food Extruder Machines",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/7.webp",
+    image: extruder,
     capacity: "100 kg/hr",
     material: "Not Specified",
     power: "1 HP",
     automation: "Automatic",
     summary:
-      "The Matar Frying Line is a specialized processing line designed for the efficient and uniform frying of green peas, also known as matar. It is a comprehensive solution that incorporates various equipment and processes to ensure the production of crispy and flavorful fried matar. The processing line starts with a washing and sorting system, where fresh green peas are thoroughly cleaned and sorted to remove any impurities or damaged peas. The peas are then blanched to maintain their vibrant color and preserve their natural texture.\\n\\nNext, the blanched peas are carefully dried to remove excess moisture, ensuring optimal frying conditions. The dried peas are then transferred to a continuous frying system, which consists of a specially designed fryer with precise temperature control and efficient oil circulation. This ensures that the peas are evenly fried to a crispy and golden-brown texture while maintaining their natural flavor. During the frying process, the peas are continuously agitated and gently mixed to ensure uniform frying and to prevent them from sticking together. The frying parameters, such as temperature and frying time, are carefully controlled to achieve the desired texture and color while minimizing oil absorption.\\n\\nAfter frying, the fried matar are conveyed to a seasoning system, where they can be coated with a variety of seasonings and flavors to enhance their taste. This system allows for precise control of the seasoning application, ensuring that the fried matar are evenly coated and flavorful. Finally, the fried and seasoned matar are conveyed to a packaging system, where they are efficiently packed into bags or containers, ready for distribution and consumption. The packaging system can be customized to meet specific requirements, such as portioning, sealing, and labeling.",
+      "Food Extruder Machines are designed for efficient and consistent production of a wide range of extruded food products. The machine processes raw materials through controlled extrusion to create uniform shapes, sizes, and textures. It is suitable for manufacturing snacks and other food products with reliable production performance, easy operation, and consistent product quality.",
     keywords: [
       "biomass pallet burner fryer",
       "namkeen batch fryer",
@@ -768,15 +768,15 @@ export const hotProducts: Product[] = [
 
   {
     slug: "namkeen-batch-fryer",
-    title: "Popcorn Processing Line",
+    title: "Soya Nugget Plant & Extruder",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/8.webp",
+    image: soyaPlant,
     capacity: "150 kg/hr",
     material: "SS 304",
     power: "3 HP",
     automation: "Semi Automatic",
     summary:
-      "The Popcorn Processing Line is a comprehensive solution designed for the efficient production of delicious and high-quality popcorn. It combines various equipment and processes to transform raw popcorn kernels into fluffy and crunchy popcorn snacks. The processing line begins with a cleaning and sorting system, where the raw popcorn kernels are thoroughly cleaned to remove any impurities or foreign particles. This ensures the quality and purity of the popcorn.\\n\\nOnce cleaned, the kernels are transferred to a specially designed popping machine. This machine utilizes hot air or oil to heat the kernels, causing them to burst and transform into popcorn. The popping machine ensures precise temperature control and efficient popping, resulting in evenly popped kernels with minimal waste. After popping, the popcorn is conveyed to a cooling and sifting system. This system allows the popcorn to cool down and removes any remaining unpopped kernels or small debris. The cooling process helps to maintain the optimal texture and crispiness of the popcorn.\\n\\nNext, the popcorn is transferred to a seasoning and flavoring system. This system allows for the precise application of a variety of seasonings, such as butter, salt, cheese, caramel, or other custom flavors. The seasoning can be applied in a uniform and controlled manner to ensure that each popcorn kernel is coated with the desired flavor. Finally, the seasoned popcorn is conveyed to a packaging system, where it is efficiently packed into bags or containers. The packaging system can be customized to meet specific requirements, such as portioning, sealing, and labeling. It ensures that the popcorn remains fresh and protected until it reaches the consumers.",
+      "The Soya Nugget Plant & Extruder is designed for efficient production of high-quality soya nuggets and textured soya products. The plant provides controlled processing and extrusion to achieve consistent shape, texture, and product quality. It is suitable for commercial soya nugget production and helps manufacturers maintain efficient and reliable production.",
     keywords: [
       "namkeen batch fryer",
       "namkeen frying machine",
@@ -886,15 +886,15 @@ export const hotProducts: Product[] = [
 
   {
     slug: "circular-batch-fryer",
-    title: "Tortilla Chips Processing Line",
+    title: "Food Processing Machines",
     category: "Batch Fryer",
-    image: "/images/machines/Processing Machine/9.webp",
+    image: foodProcessing,
     capacity: "Not Specified",
     material: "Not Specified",
     power: "Not Specified",
     automation: "Automatic",
     summary:
-      "The Tortilla Chips Processing Line is a comprehensive solution designed for efficient and high-quality production of crispy and flavorful tortilla chips. This advanced processing line combines various equipment and processes to transform raw ingredients into delicious finished tortilla chips. The processing line begins with a dough mixing system, where a precisely controlled blend of corn flour, water, and other ingredients is mixed to create a consistent and smooth dough. The dough is then fed into a tortilla dough sheeter, which rolls it into thin and uniform sheets.\\n\\nThese sheets are then cut into desired shapes and sizes using a tortilla chip cutter, ensuring consistent and perfectly shaped chips. Once the chips are cut, they are transferred to a continuous frying system. This system features a specially designed fryer with precise temperature control and efficient oil circulation, ensuring that the chips are evenly cooked to a crispy texture. The frying process is carefully monitored to maintain consistent frying conditions and to achieve the desired golden color and taste.\\n\\nAfter frying, the tortilla chips are conveyed to a seasoning and flavoring system, where they are coated with a variety of delicious seasonings and spices. This system allows for precise control of the seasoning application, ensuring that each chip is perfectly flavored. Finally, the tortilla chips are conveyed to a packaging system, where they are efficiently and hygienically packed into bags or containers. The packaging system can be customized to meet specific requirements, such as portioning, sealing, and labeling. The Tortilla Chips Processing Line is designed to streamline the production process, improve productivity, and ensure consistent quality of tortilla chips. It offers flexibility in terms of chip size, shape, and flavor options, allowing manufacturers to cater to diverse consumer preferences and market demands.",
+      "Food Processing Machines are designed to support efficient and reliable processing of different food products. These machines help streamline production operations while maintaining consistent processing, quality, and hygiene. They are suitable for food manufacturers looking for dependable equipment for small, medium, and large-scale production.",
     keywords: [
       "circular batch fryer",
       "automatic batch fryer",
@@ -959,6 +959,9 @@ export const hotProducts: Product[] = [
 
 
 
+
+
+
 export type CatalogProduct = {
   name: string;
   image: string;
@@ -1001,7 +1004,604 @@ const p = (
 });
 
 
+
+
 export const catalog: CatalogCategory[] = [
+
+{
+  slug: "New Products",
+  name: "New Products",
+  products: [
+    p(
+      "Masala Coating Pan",
+      "/images/machines/Other Product/1.webp",
+      "The Masala Coating Pan is designed for evenly coating snacks and food products with masala, spices, and seasoning. Its rotating pan helps distribute the seasoning uniformly over the product while supporting efficient and consistent processing. The machine is suitable for snack manufacturers looking for a practical solution for seasoning namkeen, chips, fryums, and other snack products. With a simple operating concept and sturdy construction, the Masala Coating Pan can help improve seasoning consistency and reduce manual coating effort in food processing operations.",
+      "Not Specified",
+      "Not Specified",
+      "Not Specified",
+      [
+        { label: "Machine Type", value: "Masala Coating Pan" },
+        { label: "Application", value: "Snack Seasoning" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      [
+        "Uniform masala coating",
+        "Suitable for snack products",
+        "Designed for seasoning applications",
+        "Efficient mixing and coating",
+        "Suitable for food processing",
+      ],
+      ["Namkeen", "Chips", "Fryums", "Seasoned Snacks", "Food Products"],
+      [
+        { q: "What is the Masala Coating Pan used for?", a: "It is used for coating snacks and food products with masala and seasonings." },
+        { q: "What products can be coated?", a: "It can be used for Namkeen, Chips, Fryums and other seasoned snack products." },
+        { q: "Is the capacity specified?", a: "The capacity is not specified in the provided product information." },
+      ]
+    ),
+
+    p(
+      "Soya Badi Extruder",
+      "/images/machines/Other Product/2.webp",
+      "The Soya Badi Extruder is designed for producing textured soya-based food products through an extrusion process. The machine processes a prepared raw material mixture and forms it into the required shape and texture for soya badi production. It is suitable for food processors and snack manufacturers who need an efficient extrusion solution for producing consistent soya-based products. The Soya Badi Extruder can support organized production with controlled processing and repeatable product formation.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Soya Badi Extruder" },
+        { label: "Application", value: "Soya Badi Production" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Extrusion-based processing", "Designed for soya badi", "Consistent product formation", "Suitable for food processing"],
+      ["Soya Badi", "Soya Nuggets", "Textured Soya Products"],
+      [
+        { q: "What is the Soya Badi Extruder used for?", a: "It is used for producing textured soya-based products such as soya badi." },
+        { q: "What is the application?", a: "The main application is soya badi production through extrusion processing." },
+      ]
+    ),
+
+    p(
+      "Vertical Meal Mixer",
+      "/images/machines/Other Product/3.webp",
+      "The Vertical Meal Mixer is designed for uniform mixing of meal, flour, ingredients, and other food-processing materials. Its vertical mixing arrangement helps combine different ingredients into a consistent mixture before the next stage of production. The machine is suitable for food-processing applications where reliable blending and uniform ingredient distribution are important. It can be used as part of snack, flour, namkeen, and other food production processes.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Vertical Meal Mixer" },
+        { label: "Application", value: "Food Ingredient Mixing" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Vertical mixing system", "Uniform ingredient mixing", "Suitable for food processing", "Designed for industrial applications"],
+      ["Meal", "Flour", "Food Ingredients", "Namkeen Mixture"],
+      [
+        { q: "What is the Vertical Meal Mixer used for?", a: "It is used for mixing meal, flour and other food-processing ingredients uniformly." },
+        { q: "What type of mixer is it?", a: "It is a vertical-type meal mixer." },
+      ]
+    ),
+
+    p(
+      "Bucket Elevator",
+      "/images/machines/Other Product/4.webp",
+      "The Bucket Elevator is a material-handling machine designed to lift and transfer bulk food ingredients and products vertically between different stages of a processing line. It helps move materials efficiently while reducing manual handling and maintaining a continuous production flow. The system is suitable for food-processing and snack-production applications where ingredients or finished products need to be elevated from one level to another.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Bucket Elevator" },
+        { label: "Application", value: "Vertical Material Handling" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Vertical product lifting", "Continuous material transfer", "Reduced manual handling", "Suitable for food processing"],
+      ["Grains", "Snacks", "Namkeen", "Food Ingredients", "Bulk Products"],
+      [
+        { q: "What is a Bucket Elevator used for?", a: "It is used to vertically lift and transfer bulk materials between processing stages." },
+        { q: "Where can it be used?", a: "It can be used in food processing and snack production lines." },
+      ]
+    ),
+
+    p(
+      "Continuous Dryer",
+      "/images/machines/Other Product/5.webp",
+      "The Continuous Dryer is designed for continuous drying of food products and processed materials. It supports controlled moisture removal as products move through the drying system, helping prepare them for subsequent processing, seasoning, or packaging. The machine is suitable for food-processing operations that require steady production and consistent drying conditions. Its continuous working arrangement can help improve production flow and reduce the need for manual batch handling.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Continuous Dryer" },
+        { label: "Application", value: "Food Product Drying" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Continuous drying operation", "Controlled moisture removal", "Suitable for food products", "Designed for industrial processing"],
+      ["Food Products", "Snacks", "Processed Ingredients", "Dry Food Products"],
+      [
+        { q: "What is the Continuous Dryer used for?", a: "It is used for continuous drying and moisture reduction of food products and processed materials." },
+        { q: "Does it support continuous production?", a: "Yes, the machine is designed for continuous drying operation." },
+      ]
+    ),
+
+    p(
+      "Electric Batch Fryer",
+      "/images/machines/Other Product/6.webp",
+      "The Electric Batch Fryer is designed for frying food and snack products in controlled batches using an electric heating system. It provides a practical solution for achieving consistent frying conditions while allowing operators to process a defined quantity of product at a time. The fryer is suitable for namkeen, chips, fryums, and other fried snack applications. Its batch-based operation makes it useful for small, medium, and industrial food-processing requirements where controlled frying is important.",
+      "Not Specified", "Not Specified", "Electric",
+      [
+        { label: "Machine Type", value: "Batch Fryer" },
+        { label: "Heating Source", value: "Electric" },
+        { label: "Application", value: "Snack Frying" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Electric heating", "Batch frying operation", "Controlled frying process", "Suitable for snack products"],
+      ["Namkeen", "Chips", "Fryums", "Snack Products", "Fried Food Products"],
+      [
+        { q: "What is the Electric Batch Fryer used for?", a: "It is used for frying food and snack products in controlled batches." },
+        { q: "What is the heating source?", a: "The heating source is Electric." },
+      ]
+    ),
+
+    p(
+  "Potato & Banana Chips Batch Fryer",
+  "/images/machines/Other Product/7.webp",
+  "The Potato & Banana Chips Batch Fryer is designed for efficient batch frying of potato and banana chips in food-processing and snack manufacturing applications. It provides controlled frying conditions to achieve consistent frying results across defined batches. The machine is suitable for manufacturers producing potato chips, banana chips, and other similar fried snack products. Its industrial construction supports organized production, easy operation, and repeatable batch frying performance.",
+  "Not Specified", "Not Specified", "Not Specified",
+
+  [
+    { label: "Machine Type", value: "Potato & Banana Chips Batch Fryer" },
+    { label: "Application", value: "Potato & Banana Chips Frying" },
+    { label: "Capacity", value: "Not Specified" },
+    { label: "Automation Grade", value: "Not Specified" },
+    { label: "Material", value: "Not Specified" },
+    { label: "Minimum Order Quantity", value: "1 Piece" },
+  ],
+
+  [
+    "Batch frying of potato chips",
+    "Batch frying of banana chips",
+    "Controlled frying process",
+    "Suitable for snack production"
+  ],
+
+  [
+    "Potato Chips",
+    "Banana Chips",
+    "Snack Chips",
+    "Fried Snack Products"
+  ],
+
+  [
+    {
+      q: "What is the Potato & Banana Chips Batch Fryer used for?",
+      a: "It is used for batch frying potato and banana chips in food-processing and snack manufacturing applications."
+    },
+    {
+      q: "What products can be fried in this machine?",
+      a: "The machine is suitable for frying potato chips, banana chips, and other similar fried snack products."
+    },
+  ]
+),
+
+    p(
+      "Ring Puff Extruder Machine",
+      "/images/machines/Other Product/8.webp",
+      "The Ring Puff Extruder Machine is designed for producing expanded ring-shaped puff snacks through an extrusion process. It combines controlled material processing with shaping to form consistent puff products suitable for further drying, seasoning, and packaging. The machine is suitable for snack manufacturers looking to produce puffed extruded snacks in a repeatable production process. Its extrusion-based operation provides flexibility for snack production with different formulations and product requirements.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Ring Puff Extruder" },
+        { label: "Application", value: "Extruded Snack Production" },
+        { label: "Product Shape", value: "Ring Puff" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Extrusion processing", "Ring-shaped puff production", "Consistent snack forming", "Suitable for snack manufacturing"],
+      ["Ring Puffs", "Puff Snacks", "Extruded Snacks"],
+      [
+        { q: "What is the Ring Puff Extruder Machine used for?", a: "It is used for producing ring-shaped puff snacks through extrusion processing." },
+        { q: "What product shape does it produce?", a: "The machine is designed for ring-shaped puff products." },
+      ]
+    ),
+
+    p(
+      "Soya Nuggets Extruder Machine",
+      "/images/machines/Other Product/9.webp",
+      "The Soya Nuggets Extruder Machine is designed for producing textured soya nuggets through controlled extrusion processing. It forms the processed soya mixture into consistent shapes suitable for drying and further food preparation. The machine is suitable for manufacturers involved in soya-based food production and offers a practical extrusion solution for repeatable product formation. It can be integrated into a broader soya nugget processing line according to production requirements.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Soya Nuggets Extruder" },
+        { label: "Application", value: "Soya Nugget Production" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Extrusion processing", "Textured soya product formation", "Consistent nugget shaping", "Suitable for food processing"],
+      ["Soya Nuggets", "Soya Products", "Textured Vegetable Protein"],
+      [
+        { q: "What is the Soya Nuggets Extruder used for?", a: "It is used for producing textured soya nuggets through extrusion processing." },
+        { q: "What type of product does it make?", a: "It is designed for soya nugget and textured soya product production." },
+      ]
+    ),
+
+    p(
+      "Pasta Making Machine",
+      "/images/machines/Other Product/10.webp",
+      "The Pasta Making Machine is designed for efficient production and forming of pasta products from prepared dough or raw material mixtures. It helps shape the processed mixture into consistent pasta forms for subsequent drying, handling, and packaging. The machine is suitable for food manufacturers and pasta-processing businesses looking for a dedicated pasta production solution. It can support production of different pasta varieties depending on the selected forming arrangement and production requirements.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Pasta Making Machine" },
+        { label: "Application", value: "Pasta Production" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Pasta forming", "Consistent product shaping", "Suitable for food processing", "Designed for pasta production"],
+      ["Pasta", "Macaroni", "Penne", "Food Products"],
+      [
+        { q: "What is the Pasta Making Machine used for?", a: "It is used for producing and forming pasta products from prepared material." },
+        { q: "What products can it produce?", a: "It can be used for different pasta varieties depending on the forming setup." },
+      ]
+    ),
+
+    p(
+      "Rotary Roaster Machine",
+      "/images/machines/Other Product/11.webp",
+      "The Rotary Roaster Machine is designed for roasting food products using a rotating roasting chamber that helps expose the product evenly to the heating process. The rotary movement supports uniform roasting and consistent processing across the batch. It is suitable for roasting grains, nuts, chana, seeds, and other food products where controlled roasting is required. The machine can be used in snack and food-processing operations that require dependable roasting performance.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Rotary Roaster" },
+        { label: "Application", value: "Food Roasting" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Rotary roasting system", "Uniform roasting", "Suitable for grains and nuts", "Designed for food processing"],
+      ["Chana", "Nuts", "Grains", "Seeds", "Roasted Snacks"],
+      [
+        { q: "What is the Rotary Roaster Machine used for?", a: "It is used for roasting grains, nuts, chana, seeds and other food products." },
+        { q: "How does it support roasting?", a: "Its rotating chamber helps provide more uniform exposure during the roasting process." },
+      ]
+    ),
+
+    p(
+      "U Type K Mixer",
+      "/images/machines/Other Product/12.webp",
+      "The U Type K Mixer is designed for uniform mixing of food ingredients, powders, meal, and other bulk materials. Its U-shaped mixing chamber provides a practical arrangement for blending different ingredients before further processing. The machine is suitable for food-processing applications where consistent ingredient distribution is required. It can be used for preparing mixtures for snacks, namkeen, food products, and other industrial processing operations.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "U Type K Mixer" },
+        { label: "Application", value: "Ingredient Mixing" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["U-shaped mixing chamber", "Uniform ingredient mixing", "Suitable for food processing", "Designed for bulk mixing"],
+      ["Food Ingredients", "Meal", "Flour", "Namkeen Mixture", "Snack Products"],
+      [
+        { q: "What is the U Type K Mixer used for?", a: "It is used for uniform mixing of food ingredients, powders, meal and other bulk materials." },
+        { q: "What type of chamber does it use?", a: "It uses a U-shaped mixing chamber." },
+      ]
+    ),
+
+    p(
+      "Kurkure Extruder Machine",
+      "/images/machines/Other Product/13.webp",
+      "The Kurkure Extruder Machine is designed for producing extruded corn-based snacks with the characteristic shape and texture associated with Kurkure-style products. The extrusion process forms and expands the prepared mixture before the product moves to drying, seasoning, and packaging stages. It is suitable for snack manufacturers who require a dedicated extruder for continuous and consistent product formation. The machine can be incorporated into a complete extruded snack production line according to the required process.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Kurkure Extruder" },
+        { label: "Application", value: "Extruded Snack Production" },
+        { label: "Product", value: "Kurkure-style Snacks" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Extrusion processing", "Kurkure-style snack production", "Consistent product formation", "Suitable for snack manufacturing"],
+      ["Kurkure", "Extruded Snacks", "Corn Snacks", "Snack Products"],
+      [
+        { q: "What is the Kurkure Extruder Machine used for?", a: "It is used for producing Kurkure-style extruded corn-based snacks." },
+        { q: "What process does it use?", a: "The machine uses an extrusion process to form the snack product." },
+      ]
+    ),
+
+    p(
+      "Slurry Mixing Machine",
+      "/images/machines/Other Product/14.webp",
+      "The Slurry Mixing Machine is designed for preparing a smooth and uniform slurry by thoroughly mixing liquid and solid ingredients. It helps maintain consistent ingredient distribution and supports reliable preparation before the next stage of food processing. The machine is suitable for snack, food, and industrial processing applications where slurry preparation is required. With controlled mixing, it can help improve the consistency of the prepared slurry and support a more organized production process.",
+      "Not Specified", "Not Specified", "Not Specified",
+      [
+        { label: "Machine Type", value: "Slurry Mixing Machine" },
+        { label: "Application", value: "Slurry Preparation" },
+        { label: "Capacity", value: "Not Specified" },
+        { label: "Automation Grade", value: "Not Specified" },
+        { label: "Material", value: "Not Specified" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+      ["Uniform slurry mixing", "Consistent ingredient distribution", "Suitable for food processing", "Designed for slurry preparation"],
+      ["Slurry", "Food Ingredients", "Snack Processing", "Food Processing"],
+      [
+        { q: "What is the Slurry Mixing Machine used for?", a: "It is used for preparing a smooth and uniform slurry by mixing liquid and solid ingredients." },
+        { q: "What is the main application?", a: "The main application is slurry preparation for food and processing operations." },
+      ]
+    ),
+  ],
+},
+
+{
+  slug: "Seasoning Systems",
+  name: "Seasoning Systems",
+  products: [
+    p(
+      "Seasoning System",
+      "/images/machines/Seasoning Systems/1.webp",
+      "A seasoning system is a crucial component in the food processing industry, specifically designed to apply flavorings, spices, and seasonings to food products. It is an automated system that ensures consistent and precise seasoning application, enhancing the taste, aroma, and overall quality of the final product. The seasoning system typically consists of various components, including a hopper or storage container for holding the seasonings, a conveyor or distribution system for moving the food product, and a mechanism for evenly dispersing the seasonings onto the product. The seasoning process begins by loading the desired seasonings into the hopper or storage container. The system then transports the food product, such as chips, snacks, or other food items, through a conveyor belt or similar mechanism. As the product moves along the conveyor, the seasonings are uniformly sprayed, sprinkled, or applied onto the surface of the product. Seasoning systems can be customized to meet specific requirements, allowing operators to adjust the amount and distribution of seasonings based on desired flavor profiles. They may incorporate features like adjustable seasoning intensity, speed control, and even flavor blending capabilities. The benefits of using a seasoning system are manifold. It ensures consistent flavor distribution, eliminates human error in seasoning application, improves production efficiency, and enhances the overall product quality and consumer satisfaction. It also allows for flexibility in experimenting with different flavor combinations and meeting customer preferences. Seasoning systems are commonly used in snack food manufacturing, including potato chips, tortilla chips, popcorn, extruded snacks, and other savory snacks. They are also employed in other food processing applications where controlled and precise seasoning application is required.",
+      "300 kg/hr",
+      "2 HP",
+      "Automatic",
+
+      [
+        { label: "Automation Grade", value: "Automatic" },
+        { label: "Machine Type", value: "Automatic" },
+        { label: "Machine Function", value: "Flavouring" },
+        { label: "Process Type", value: "Flavouring" },
+        { label: "Brand", value: "FOODAX" },
+        { label: "Operation Mode", value: "Automatic" },
+        { label: "Electricity Connection", value: "Three Phase" },
+        { label: "Batch Capacity", value: "30 kg" },
+        { label: "Capacity", value: "300 kg/hr" },
+        { label: "Motor Power", value: "2 HP" },
+        { label: "Material of Construction (Contact)", value: "SS 304" },
+        { label: "Power Consumption", value: "1500 W" },
+        { label: "Voltage", value: "415 V" },
+        { label: "Material of Construction", value: "SS 304" },
+        { label: "Speed", value: "20 rpm" },
+        { label: "Surface Finish", value: "Industrial Finish" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+
+      [
+        "Automatic operation",
+        "Flavouring and seasoning process",
+        "Three phase electrical connection",
+        "SS 304 contact parts",
+        "2 HP motor",
+        "20 rpm operating speed",
+        "1500 W power consumption",
+        "30 kg batch capacity",
+        "300 kg/hr capacity",
+        "Industrial finish",
+      ],
+
+      [
+        "Masala Mixing",
+        "Snack Flavouring",
+        "Namkeen",
+        "Kurkure",
+        "Seasoned Snacks",
+        "Food Processing",
+      ],
+
+      [
+        {
+          q: "What is the capacity of the Seasoning System?",
+          a: "The listed capacity is 300 kg/hr with a batch capacity of 30 kg.",
+        },
+        {
+          q: "What is the machine function?",
+          a: "The machine function is Flavouring.",
+        },
+        {
+          q: "What is the motor power?",
+          a: "The listed motor power is 2 HP.",
+        },
+        {
+          q: "What material is used for the contact parts?",
+          a: "The contact parts are made from SS 304.",
+        },
+        {
+          q: "What is the operating speed?",
+          a: "The listed operating speed is 20 rpm.",
+        },
+        {
+          q: "What is the power consumption?",
+          a: "The listed power consumption is 1500 W.",
+        },
+        {
+          q: "What is the voltage?",
+          a: "The listed voltage is 415 V.",
+        },
+        {
+          q: "What products can be seasoned?",
+          a: "The system can be used for Namkeen, Kurkure and other seasoned snack products.",
+        },
+        {
+          q: "What is the minimum order quantity?",
+          a: "The minimum order quantity is 1 Piece.",
+        },
+      ]
+    ),
+  ],
+},
+
+{
+  slug: "Handling Systems",
+  name: "Handling Systems",
+  products: [
+    p(
+      "Handling System",
+      "/images/machines/Handling Systems/1.webp",
+      "Product handling systems are integral components of industrial operations that involve the movement, transportation, and manipulation of various products or materials within a production facility or supply chain. These systems are designed to optimize efficiency, streamline processes, and ensure the safe and reliable handling of goods. Product handling systems encompass a wide range of equipment and technologies, including conveyor systems, automated guided vehicles (AGVs), robotic arms, sorting systems, palletizers, and more. These systems can be customized to meet the specific needs of different industries and applications. The primary purpose of product handling systems is to facilitate the seamless flow of goods throughout the production or distribution process. They enable the smooth transfer of products from one stage to another, minimizing manual labor and reducing the risk of errors or damage. Product handling systems offer numerous benefits to businesses. They enhance productivity by automating repetitive tasks, increasing throughput, and reducing handling time. They also improve safety by minimizing the risk of injuries associated with manual material handling. Efficient product handling systems contribute to better inventory management and order fulfillment processes. They enable faster and more accurate picking, sorting, and packaging of products, resulting in improved customer satisfaction and reduced order processing times. Moreover, these systems can be integrated with other technologies, such as barcode scanners, sensors, and software solutions, to enhance control, visibility, and data tracking throughout the handling process. This allows businesses to monitor and optimize their operations, identify bottlenecks, and make informed decisions for process improvement.",
+      "Not Specified",
+      "Not Specified",
+      "Automatic",
+
+      [
+        { label: "Machine Type", value: "Handling System" },
+        { label: "Application", value: "Food Processing" },
+        { label: "Automation Grade", value: "Automatic" },
+        { label: "Material", value: "Stainless Steel" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+
+      [
+        "Efficient product handling",
+        "Automatic operation",
+        "Suitable for food processing",
+        "Stainless Steel construction",
+        "Designed for industrial applications",
+      ],
+
+      [
+        "Snack Products",
+        "Food Processing",
+        "Potato Chips",
+        "Namkeen",
+        "Fryums",
+      ],
+
+      [
+        {
+          q: "What is the Handling System used for?",
+          a: "The Handling System is designed for efficient movement, transfer and handling of food processing and snack products.",
+        },
+        {
+          q: "Is the Handling System automatic?",
+          a: "The system is specified as Automatic.",
+        },
+        {
+          q: "What material is used?",
+          a: "The system is specified with Stainless Steel construction.",
+        },
+        {
+          q: "What products can be handled?",
+          a: "The system can be used for snack products and other food processing applications.",
+        },
+        {
+          q: "What is the minimum order quantity?",
+          a: "The minimum order quantity is 1 Piece.",
+        },
+      ]
+    ),
+  ],
+},
+
+{
+  slug: "Packaging System",
+  name: "Packaging System",
+  products: [
+    p(
+      "Pillow Packaging Machine",
+      "/images/machines/Packaging System/1.webp",
+      "Our Pilow Packaging Machine is a cutting-edge solution that simplifies the packaging process and ensures the preservation of product freshness. This versatile machine is designed to create Pilow-shaped packs, which are a popular choice for packaging various items, including snacks, confectionery, pharmaceuticals, and more. With precision engineering and user-friendly controls, our Pilow Packaging Machine delivers efficient and consistent packaging results. The automated operation streamlines the process, reducing labor requirements and increasing productivity. From sealing to cutting, each step is meticulously executed, ensuring airtight and secure packaging that keeps products fresh for extended periods. Versatility is a key feature of our Pilow Packaging Machine, as it can handle different packaging materials and sizes. Whether you need to package single items or multiple units, this machine adapts to your specific requirements, delivering uniform and appealing Pilow packs every time. In addition to efficiency and versatility, our Pilow Packaging Machine prioritizes product integrity. The sealing process ensures that products remain protected from external elements, such as moisture and contaminants, maintaining their quality and flavor. Whether you are a small business or a large-scale manufacturer, our Pilow Packaging Machine is designed to enhance your packaging efficiency and elevate the presentation of your products. Experience the convenience and reliability of our Pilow Packaging Machine, and let it seal the goodness of your offerings while preserving their freshness for an exceptional customer experience.",
+      "Not Specified",
+      "Not Specified",
+      "Automatic",
+
+      [
+        { label: "Machine Type", value: "Pillow Packaging Machine" },
+        { label: "Application", value: "Food Packaging" },
+        { label: "Automation Grade", value: "Automatic" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+
+      [
+        "Automatic packaging operation",
+        "Pillow-type packaging",
+        "Suitable for food products",
+        "Industrial packaging application",
+        "Efficient and reliable packaging",
+      ],
+
+      [
+        "Namkeen",
+        "Chips",
+        "Fryums",
+        "Snack Products",
+        "Food Products",
+      ],
+
+      [
+        {
+          q: "What is the Pillow Packaging Machine used for?",
+          a: "It is used for efficient packaging of food and snack products.",
+        },
+        {
+          q: "Is the machine automatic?",
+          a: "The machine is specified as Automatic.",
+        },
+        {
+          q: "What type of packaging does it provide?",
+          a: "It is designed for pillow-type packaging.",
+        },
+        {
+          q: "What products can be packed?",
+          a: "It can be used for Namkeen, Chips, Fryums and other snack products.",
+        },
+      ]
+    ),
+
+    p(
+      "V F F S Servo Bagger",
+      "/images/machines/Packaging System/2.webp",
+      "The VFFS Machine with Servo Bagger is a state-of-the-art packaging system that combines the benefits of vertical form-fill-seal technology with advanced servo-driven automation. This machine is specifically designed to provide efficient and precise bagging solutions for a wide range of products, including snacks, powders, grains, liquids, and more. One of the key features of the VFFS Machine with Servo Bagger is its servo-driven operation. Servo motors offer precise control and positioning, ensuring accurate bag forming, filling, and sealing. This results in consistent and high-quality packaging, minimizing product waste and maximizing efficiency. The machine's versatility is another advantage. It can handle various bag types and sizes, including pillow bags, gusseted bags, and quad seal bags. This allows for flexibility in packaging different products and meeting diverse customer requirements. The machine's adjustable bagging parameters make it easy to accommodate different product weights and fill volumes. The VFFS Machine with Servo Bagger also offers user-friendly features for ease of operation. Its intuitive touchscreen interface allows operators to easily set bagging parameters, monitor the production process, and make adjustments as needed. The machine's PLC-based control system ensures reliable performance and enables seamless integration with other equipment in the production line. In addition, the machine is designed for high-speed operation, optimizing productivity and throughput. It can efficiently handle large volumes of products, making it ideal for demanding production environments. The machine's robust construction and reliable components contribute to its durability and long-term performance. Maintenance and cleaning are simplified with the VFFS Machine with Servo Bagger. It is designed for easy access to critical components, reducing downtime for maintenance tasks. The machine's hygienic design and washdown capabilities ensure proper sanitation and compliance with food safety standards.",
+      "Not Specified",
+      "Not Specified",
+      "Automatic",
+
+      [
+        { label: "Machine Type", value: "VFFS Servo Bagger" },
+        { label: "Application", value: "Food Packaging" },
+        { label: "Automation Grade", value: "Automatic" },
+        { label: "Minimum Order Quantity", value: "1 Piece" },
+      ],
+
+      [
+        "VFFS packaging system",
+        "Servo-controlled operation",
+        "Automatic packaging",
+        "Accurate product filling",
+        "Suitable for food and snack products",
+      ],
+
+      [
+        "Namkeen",
+        "Chips",
+        "Fryums",
+        "Snack Products",
+        "Food Products",
+      ],
+
+      [
+        {
+          q: "What is the VFFS Servo Bagger used for?",
+          a: "It is used for automatic packaging of food and snack products.",
+        },
+        {
+          q: "Is the VFFS Servo Bagger automatic?",
+          a: "Yes, the machine is specified as Automatic.",
+        },
+        {
+          q: "What type of machine is it?",
+          a: "It is a VFFS Servo Bagger packaging machine.",
+        },
+        {
+          q: "What products can be packed?",
+          a: "It can be used for Namkeen, Chips, Fryums and other snack products.",
+        },
+      ]
+    ),
+  ],
+},
 
 {
   slug: "Processing Machine",
@@ -1772,588 +2372,7 @@ p(
   ],
 },
 
-
-{
-  slug: "Seasoning Systems",
-  name: "Seasoning Systems",
-  products: [
-    p(
-      "Seasoning System",
-      "/images/machines/Seasoning Systems/1.webp",
-      "A seasoning system is a crucial component in the food processing industry, specifically designed to apply flavorings, spices, and seasonings to food products. It is an automated system that ensures consistent and precise seasoning application, enhancing the taste, aroma, and overall quality of the final product. The seasoning system typically consists of various components, including a hopper or storage container for holding the seasonings, a conveyor or distribution system for moving the food product, and a mechanism for evenly dispersing the seasonings onto the product. The seasoning process begins by loading the desired seasonings into the hopper or storage container. The system then transports the food product, such as chips, snacks, or other food items, through a conveyor belt or similar mechanism. As the product moves along the conveyor, the seasonings are uniformly sprayed, sprinkled, or applied onto the surface of the product. Seasoning systems can be customized to meet specific requirements, allowing operators to adjust the amount and distribution of seasonings based on desired flavor profiles. They may incorporate features like adjustable seasoning intensity, speed control, and even flavor blending capabilities. The benefits of using a seasoning system are manifold. It ensures consistent flavor distribution, eliminates human error in seasoning application, improves production efficiency, and enhances the overall product quality and consumer satisfaction. It also allows for flexibility in experimenting with different flavor combinations and meeting customer preferences. Seasoning systems are commonly used in snack food manufacturing, including potato chips, tortilla chips, popcorn, extruded snacks, and other savory snacks. They are also employed in other food processing applications where controlled and precise seasoning application is required.",
-      "300 kg/hr",
-      "2 HP",
-      "Automatic",
-
-      [
-        { label: "Automation Grade", value: "Automatic" },
-        { label: "Machine Type", value: "Automatic" },
-        { label: "Machine Function", value: "Flavouring" },
-        { label: "Process Type", value: "Flavouring" },
-        { label: "Brand", value: "FOODAX" },
-        { label: "Operation Mode", value: "Automatic" },
-        { label: "Electricity Connection", value: "Three Phase" },
-        { label: "Batch Capacity", value: "30 kg" },
-        { label: "Capacity", value: "300 kg/hr" },
-        { label: "Motor Power", value: "2 HP" },
-        { label: "Material of Construction (Contact)", value: "SS 304" },
-        { label: "Power Consumption", value: "1500 W" },
-        { label: "Voltage", value: "415 V" },
-        { label: "Material of Construction", value: "SS 304" },
-        { label: "Speed", value: "20 rpm" },
-        { label: "Surface Finish", value: "Industrial Finish" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-
-      [
-        "Automatic operation",
-        "Flavouring and seasoning process",
-        "Three phase electrical connection",
-        "SS 304 contact parts",
-        "2 HP motor",
-        "20 rpm operating speed",
-        "1500 W power consumption",
-        "30 kg batch capacity",
-        "300 kg/hr capacity",
-        "Industrial finish",
-      ],
-
-      [
-        "Masala Mixing",
-        "Snack Flavouring",
-        "Namkeen",
-        "Kurkure",
-        "Seasoned Snacks",
-        "Food Processing",
-      ],
-
-      [
-        {
-          q: "What is the capacity of the Seasoning System?",
-          a: "The listed capacity is 300 kg/hr with a batch capacity of 30 kg.",
-        },
-        {
-          q: "What is the machine function?",
-          a: "The machine function is Flavouring.",
-        },
-        {
-          q: "What is the motor power?",
-          a: "The listed motor power is 2 HP.",
-        },
-        {
-          q: "What material is used for the contact parts?",
-          a: "The contact parts are made from SS 304.",
-        },
-        {
-          q: "What is the operating speed?",
-          a: "The listed operating speed is 20 rpm.",
-        },
-        {
-          q: "What is the power consumption?",
-          a: "The listed power consumption is 1500 W.",
-        },
-        {
-          q: "What is the voltage?",
-          a: "The listed voltage is 415 V.",
-        },
-        {
-          q: "What products can be seasoned?",
-          a: "The system can be used for Namkeen, Kurkure and other seasoned snack products.",
-        },
-        {
-          q: "What is the minimum order quantity?",
-          a: "The minimum order quantity is 1 Piece.",
-        },
-      ]
-    ),
-  ],
-},
-
-
-{
-  slug: "Handling Systems",
-  name: "Handling Systems",
-  products: [
-    p(
-      "Handling System",
-      "/images/machines/Handling Systems/1.webp",
-      "Product handling systems are integral components of industrial operations that involve the movement, transportation, and manipulation of various products or materials within a production facility or supply chain. These systems are designed to optimize efficiency, streamline processes, and ensure the safe and reliable handling of goods. Product handling systems encompass a wide range of equipment and technologies, including conveyor systems, automated guided vehicles (AGVs), robotic arms, sorting systems, palletizers, and more. These systems can be customized to meet the specific needs of different industries and applications. The primary purpose of product handling systems is to facilitate the seamless flow of goods throughout the production or distribution process. They enable the smooth transfer of products from one stage to another, minimizing manual labor and reducing the risk of errors or damage. Product handling systems offer numerous benefits to businesses. They enhance productivity by automating repetitive tasks, increasing throughput, and reducing handling time. They also improve safety by minimizing the risk of injuries associated with manual material handling. Efficient product handling systems contribute to better inventory management and order fulfillment processes. They enable faster and more accurate picking, sorting, and packaging of products, resulting in improved customer satisfaction and reduced order processing times. Moreover, these systems can be integrated with other technologies, such as barcode scanners, sensors, and software solutions, to enhance control, visibility, and data tracking throughout the handling process. This allows businesses to monitor and optimize their operations, identify bottlenecks, and make informed decisions for process improvement.",
-      "Not Specified",
-      "Not Specified",
-      "Automatic",
-
-      [
-        { label: "Machine Type", value: "Handling System" },
-        { label: "Application", value: "Food Processing" },
-        { label: "Automation Grade", value: "Automatic" },
-        { label: "Material", value: "Stainless Steel" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-
-      [
-        "Efficient product handling",
-        "Automatic operation",
-        "Suitable for food processing",
-        "Stainless Steel construction",
-        "Designed for industrial applications",
-      ],
-
-      [
-        "Snack Products",
-        "Food Processing",
-        "Potato Chips",
-        "Namkeen",
-        "Fryums",
-      ],
-
-      [
-        {
-          q: "What is the Handling System used for?",
-          a: "The Handling System is designed for efficient movement, transfer and handling of food processing and snack products.",
-        },
-        {
-          q: "Is the Handling System automatic?",
-          a: "The system is specified as Automatic.",
-        },
-        {
-          q: "What material is used?",
-          a: "The system is specified with Stainless Steel construction.",
-        },
-        {
-          q: "What products can be handled?",
-          a: "The system can be used for snack products and other food processing applications.",
-        },
-        {
-          q: "What is the minimum order quantity?",
-          a: "The minimum order quantity is 1 Piece.",
-        },
-      ]
-    ),
-  ],
-},
-
-{
-  slug: "Packaging System",
-  name: "Packaging System",
-  products: [
-    p(
-      "Pillow Packaging Machine",
-      "/images/machines/Packaging System/1.webp",
-      "Our Pilow Packaging Machine is a cutting-edge solution that simplifies the packaging process and ensures the preservation of product freshness. This versatile machine is designed to create Pilow-shaped packs, which are a popular choice for packaging various items, including snacks, confectionery, pharmaceuticals, and more. With precision engineering and user-friendly controls, our Pilow Packaging Machine delivers efficient and consistent packaging results. The automated operation streamlines the process, reducing labor requirements and increasing productivity. From sealing to cutting, each step is meticulously executed, ensuring airtight and secure packaging that keeps products fresh for extended periods. Versatility is a key feature of our Pilow Packaging Machine, as it can handle different packaging materials and sizes. Whether you need to package single items or multiple units, this machine adapts to your specific requirements, delivering uniform and appealing Pilow packs every time. In addition to efficiency and versatility, our Pilow Packaging Machine prioritizes product integrity. The sealing process ensures that products remain protected from external elements, such as moisture and contaminants, maintaining their quality and flavor. Whether you are a small business or a large-scale manufacturer, our Pilow Packaging Machine is designed to enhance your packaging efficiency and elevate the presentation of your products. Experience the convenience and reliability of our Pilow Packaging Machine, and let it seal the goodness of your offerings while preserving their freshness for an exceptional customer experience.",
-      "Not Specified",
-      "Not Specified",
-      "Automatic",
-
-      [
-        { label: "Machine Type", value: "Pillow Packaging Machine" },
-        { label: "Application", value: "Food Packaging" },
-        { label: "Automation Grade", value: "Automatic" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-
-      [
-        "Automatic packaging operation",
-        "Pillow-type packaging",
-        "Suitable for food products",
-        "Industrial packaging application",
-        "Efficient and reliable packaging",
-      ],
-
-      [
-        "Namkeen",
-        "Chips",
-        "Fryums",
-        "Snack Products",
-        "Food Products",
-      ],
-
-      [
-        {
-          q: "What is the Pillow Packaging Machine used for?",
-          a: "It is used for efficient packaging of food and snack products.",
-        },
-        {
-          q: "Is the machine automatic?",
-          a: "The machine is specified as Automatic.",
-        },
-        {
-          q: "What type of packaging does it provide?",
-          a: "It is designed for pillow-type packaging.",
-        },
-        {
-          q: "What products can be packed?",
-          a: "It can be used for Namkeen, Chips, Fryums and other snack products.",
-        },
-      ]
-    ),
-
-    p(
-      "V F F S Servo Bagger",
-      "/images/machines/Packaging System/2.webp",
-      "The VFFS Machine with Servo Bagger is a state-of-the-art packaging system that combines the benefits of vertical form-fill-seal technology with advanced servo-driven automation. This machine is specifically designed to provide efficient and precise bagging solutions for a wide range of products, including snacks, powders, grains, liquids, and more. One of the key features of the VFFS Machine with Servo Bagger is its servo-driven operation. Servo motors offer precise control and positioning, ensuring accurate bag forming, filling, and sealing. This results in consistent and high-quality packaging, minimizing product waste and maximizing efficiency. The machine's versatility is another advantage. It can handle various bag types and sizes, including pillow bags, gusseted bags, and quad seal bags. This allows for flexibility in packaging different products and meeting diverse customer requirements. The machine's adjustable bagging parameters make it easy to accommodate different product weights and fill volumes. The VFFS Machine with Servo Bagger also offers user-friendly features for ease of operation. Its intuitive touchscreen interface allows operators to easily set bagging parameters, monitor the production process, and make adjustments as needed. The machine's PLC-based control system ensures reliable performance and enables seamless integration with other equipment in the production line. In addition, the machine is designed for high-speed operation, optimizing productivity and throughput. It can efficiently handle large volumes of products, making it ideal for demanding production environments. The machine's robust construction and reliable components contribute to its durability and long-term performance. Maintenance and cleaning are simplified with the VFFS Machine with Servo Bagger. It is designed for easy access to critical components, reducing downtime for maintenance tasks. The machine's hygienic design and washdown capabilities ensure proper sanitation and compliance with food safety standards.",
-      "Not Specified",
-      "Not Specified",
-      "Automatic",
-
-      [
-        { label: "Machine Type", value: "VFFS Servo Bagger" },
-        { label: "Application", value: "Food Packaging" },
-        { label: "Automation Grade", value: "Automatic" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-
-      [
-        "VFFS packaging system",
-        "Servo-controlled operation",
-        "Automatic packaging",
-        "Accurate product filling",
-        "Suitable for food and snack products",
-      ],
-
-      [
-        "Namkeen",
-        "Chips",
-        "Fryums",
-        "Snack Products",
-        "Food Products",
-      ],
-
-      [
-        {
-          q: "What is the VFFS Servo Bagger used for?",
-          a: "It is used for automatic packaging of food and snack products.",
-        },
-        {
-          q: "Is the VFFS Servo Bagger automatic?",
-          a: "Yes, the machine is specified as Automatic.",
-        },
-        {
-          q: "What type of machine is it?",
-          a: "It is a VFFS Servo Bagger packaging machine.",
-        },
-        {
-          q: "What products can be packed?",
-          a: "It can be used for Namkeen, Chips, Fryums and other snack products.",
-        },
-      ]
-    ),
-  ],
-},
-
-
-
-{
-  slug: "Other Product",
-  name: "Other Product",
-  products: [
-    p(
-      "Masala Coating Pan",
-      "/images/machines/Other Product/1.webp",
-      "The Masala Coating Pan is designed for evenly coating snacks and food products with masala, spices, and seasoning. Its rotating pan helps distribute the seasoning uniformly over the product while supporting efficient and consistent processing. The machine is suitable for snack manufacturers looking for a practical solution for seasoning namkeen, chips, fryums, and other snack products. With a simple operating concept and sturdy construction, the Masala Coating Pan can help improve seasoning consistency and reduce manual coating effort in food processing operations.",
-      "Not Specified",
-      "Not Specified",
-      "Not Specified",
-      [
-        { label: "Machine Type", value: "Masala Coating Pan" },
-        { label: "Application", value: "Snack Seasoning" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      [
-        "Uniform masala coating",
-        "Suitable for snack products",
-        "Designed for seasoning applications",
-        "Efficient mixing and coating",
-        "Suitable for food processing",
-      ],
-      ["Namkeen", "Chips", "Fryums", "Seasoned Snacks", "Food Products"],
-      [
-        { q: "What is the Masala Coating Pan used for?", a: "It is used for coating snacks and food products with masala and seasonings." },
-        { q: "What products can be coated?", a: "It can be used for Namkeen, Chips, Fryums and other seasoned snack products." },
-        { q: "Is the capacity specified?", a: "The capacity is not specified in the provided product information." },
-      ]
-    ),
-
-    p(
-      "Soya Badi Extruder",
-      "/images/machines/Other Product/2.webp",
-      "The Soya Badi Extruder is designed for producing textured soya-based food products through an extrusion process. The machine processes a prepared raw material mixture and forms it into the required shape and texture for soya badi production. It is suitable for food processors and snack manufacturers who need an efficient extrusion solution for producing consistent soya-based products. The Soya Badi Extruder can support organized production with controlled processing and repeatable product formation.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Soya Badi Extruder" },
-        { label: "Application", value: "Soya Badi Production" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Extrusion-based processing", "Designed for soya badi", "Consistent product formation", "Suitable for food processing"],
-      ["Soya Badi", "Soya Nuggets", "Textured Soya Products"],
-      [
-        { q: "What is the Soya Badi Extruder used for?", a: "It is used for producing textured soya-based products such as soya badi." },
-        { q: "What is the application?", a: "The main application is soya badi production through extrusion processing." },
-      ]
-    ),
-
-    p(
-      "Vertical Meal Mixer",
-      "/images/machines/Other Product/3.webp",
-      "The Vertical Meal Mixer is designed for uniform mixing of meal, flour, ingredients, and other food-processing materials. Its vertical mixing arrangement helps combine different ingredients into a consistent mixture before the next stage of production. The machine is suitable for food-processing applications where reliable blending and uniform ingredient distribution are important. It can be used as part of snack, flour, namkeen, and other food production processes.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Vertical Meal Mixer" },
-        { label: "Application", value: "Food Ingredient Mixing" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Vertical mixing system", "Uniform ingredient mixing", "Suitable for food processing", "Designed for industrial applications"],
-      ["Meal", "Flour", "Food Ingredients", "Namkeen Mixture"],
-      [
-        { q: "What is the Vertical Meal Mixer used for?", a: "It is used for mixing meal, flour and other food-processing ingredients uniformly." },
-        { q: "What type of mixer is it?", a: "It is a vertical-type meal mixer." },
-      ]
-    ),
-
-    p(
-      "Bucket Elevator",
-      "/images/machines/Other Product/4.webp",
-      "The Bucket Elevator is a material-handling machine designed to lift and transfer bulk food ingredients and products vertically between different stages of a processing line. It helps move materials efficiently while reducing manual handling and maintaining a continuous production flow. The system is suitable for food-processing and snack-production applications where ingredients or finished products need to be elevated from one level to another.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Bucket Elevator" },
-        { label: "Application", value: "Vertical Material Handling" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Vertical product lifting", "Continuous material transfer", "Reduced manual handling", "Suitable for food processing"],
-      ["Grains", "Snacks", "Namkeen", "Food Ingredients", "Bulk Products"],
-      [
-        { q: "What is a Bucket Elevator used for?", a: "It is used to vertically lift and transfer bulk materials between processing stages." },
-        { q: "Where can it be used?", a: "It can be used in food processing and snack production lines." },
-      ]
-    ),
-
-    p(
-      "Continuous Dryer",
-      "/images/machines/Other Product/5.webp",
-      "The Continuous Dryer is designed for continuous drying of food products and processed materials. It supports controlled moisture removal as products move through the drying system, helping prepare them for subsequent processing, seasoning, or packaging. The machine is suitable for food-processing operations that require steady production and consistent drying conditions. Its continuous working arrangement can help improve production flow and reduce the need for manual batch handling.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Continuous Dryer" },
-        { label: "Application", value: "Food Product Drying" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Continuous drying operation", "Controlled moisture removal", "Suitable for food products", "Designed for industrial processing"],
-      ["Food Products", "Snacks", "Processed Ingredients", "Dry Food Products"],
-      [
-        { q: "What is the Continuous Dryer used for?", a: "It is used for continuous drying and moisture reduction of food products and processed materials." },
-        { q: "Does it support continuous production?", a: "Yes, the machine is designed for continuous drying operation." },
-      ]
-    ),
-
-    p(
-      "Electric Batch Fryer",
-      "/images/machines/Other Product/6.webp",
-      "The Electric Batch Fryer is designed for frying food and snack products in controlled batches using an electric heating system. It provides a practical solution for achieving consistent frying conditions while allowing operators to process a defined quantity of product at a time. The fryer is suitable for namkeen, chips, fryums, and other fried snack applications. Its batch-based operation makes it useful for small, medium, and industrial food-processing requirements where controlled frying is important.",
-      "Not Specified", "Not Specified", "Electric",
-      [
-        { label: "Machine Type", value: "Batch Fryer" },
-        { label: "Heating Source", value: "Electric" },
-        { label: "Application", value: "Snack Frying" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Electric heating", "Batch frying operation", "Controlled frying process", "Suitable for snack products"],
-      ["Namkeen", "Chips", "Fryums", "Snack Products", "Fried Food Products"],
-      [
-        { q: "What is the Electric Batch Fryer used for?", a: "It is used for frying food and snack products in controlled batches." },
-        { q: "What is the heating source?", a: "The heating source is Electric." },
-      ]
-    ),
-
-    p(
-      "Industrial Batch Fryer",
-      "/images/machines/Other Product/7.webp",
-      "The Industrial Batch Fryer is designed for efficient batch frying of a wide range of food and snack products. It provides a dedicated frying vessel for processing defined quantities of product while maintaining controlled frying conditions. The machine is suitable for food-processing facilities and snack manufacturers producing chips, namkeen, fryums, and other fried products. Its industrial design supports organized production and repeatable frying operations.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Industrial Batch Fryer" },
-        { label: "Application", value: "Industrial Snack Frying" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Industrial batch frying", "Controlled frying process", "Suitable for snack production", "Designed for food processing"],
-      ["Chips", "Namkeen", "Fryums", "Snack Products", "Fried Food Products"],
-      [
-        { q: "What is the Industrial Batch Fryer used for?", a: "It is used for batch frying of food and snack products in industrial processing applications." },
-        { q: "What products can be fried?", a: "It can be used for Chips, Namkeen, Fryums and other fried snack products." },
-      ]
-    ),
-
-    p(
-      "Ring Puff Extruder Machine",
-      "/images/machines/Other Product/8.webp",
-      "The Ring Puff Extruder Machine is designed for producing expanded ring-shaped puff snacks through an extrusion process. It combines controlled material processing with shaping to form consistent puff products suitable for further drying, seasoning, and packaging. The machine is suitable for snack manufacturers looking to produce puffed extruded snacks in a repeatable production process. Its extrusion-based operation provides flexibility for snack production with different formulations and product requirements.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Ring Puff Extruder" },
-        { label: "Application", value: "Extruded Snack Production" },
-        { label: "Product Shape", value: "Ring Puff" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Extrusion processing", "Ring-shaped puff production", "Consistent snack forming", "Suitable for snack manufacturing"],
-      ["Ring Puffs", "Puff Snacks", "Extruded Snacks"],
-      [
-        { q: "What is the Ring Puff Extruder Machine used for?", a: "It is used for producing ring-shaped puff snacks through extrusion processing." },
-        { q: "What product shape does it produce?", a: "The machine is designed for ring-shaped puff products." },
-      ]
-    ),
-
-    p(
-      "Soya Nuggets Extruder Machine",
-      "/images/machines/Other Product/9.webp",
-      "The Soya Nuggets Extruder Machine is designed for producing textured soya nuggets through controlled extrusion processing. It forms the processed soya mixture into consistent shapes suitable for drying and further food preparation. The machine is suitable for manufacturers involved in soya-based food production and offers a practical extrusion solution for repeatable product formation. It can be integrated into a broader soya nugget processing line according to production requirements.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Soya Nuggets Extruder" },
-        { label: "Application", value: "Soya Nugget Production" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Extrusion processing", "Textured soya product formation", "Consistent nugget shaping", "Suitable for food processing"],
-      ["Soya Nuggets", "Soya Products", "Textured Vegetable Protein"],
-      [
-        { q: "What is the Soya Nuggets Extruder used for?", a: "It is used for producing textured soya nuggets through extrusion processing." },
-        { q: "What type of product does it make?", a: "It is designed for soya nugget and textured soya product production." },
-      ]
-    ),
-
-    p(
-      "Pasta Making Machine",
-      "/images/machines/Other Product/10.webp",
-      "The Pasta Making Machine is designed for efficient production and forming of pasta products from prepared dough or raw material mixtures. It helps shape the processed mixture into consistent pasta forms for subsequent drying, handling, and packaging. The machine is suitable for food manufacturers and pasta-processing businesses looking for a dedicated pasta production solution. It can support production of different pasta varieties depending on the selected forming arrangement and production requirements.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Pasta Making Machine" },
-        { label: "Application", value: "Pasta Production" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Pasta forming", "Consistent product shaping", "Suitable for food processing", "Designed for pasta production"],
-      ["Pasta", "Macaroni", "Penne", "Food Products"],
-      [
-        { q: "What is the Pasta Making Machine used for?", a: "It is used for producing and forming pasta products from prepared material." },
-        { q: "What products can it produce?", a: "It can be used for different pasta varieties depending on the forming setup." },
-      ]
-    ),
-
-    p(
-      "Rotary Roaster Machine",
-      "/images/machines/Other Product/11.webp",
-      "The Rotary Roaster Machine is designed for roasting food products using a rotating roasting chamber that helps expose the product evenly to the heating process. The rotary movement supports uniform roasting and consistent processing across the batch. It is suitable for roasting grains, nuts, chana, seeds, and other food products where controlled roasting is required. The machine can be used in snack and food-processing operations that require dependable roasting performance.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Rotary Roaster" },
-        { label: "Application", value: "Food Roasting" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Rotary roasting system", "Uniform roasting", "Suitable for grains and nuts", "Designed for food processing"],
-      ["Chana", "Nuts", "Grains", "Seeds", "Roasted Snacks"],
-      [
-        { q: "What is the Rotary Roaster Machine used for?", a: "It is used for roasting grains, nuts, chana, seeds and other food products." },
-        { q: "How does it support roasting?", a: "Its rotating chamber helps provide more uniform exposure during the roasting process." },
-      ]
-    ),
-
-    p(
-      "U Type K Mixer",
-      "/images/machines/Other Product/12.webp",
-      "The U Type K Mixer is designed for uniform mixing of food ingredients, powders, meal, and other bulk materials. Its U-shaped mixing chamber provides a practical arrangement for blending different ingredients before further processing. The machine is suitable for food-processing applications where consistent ingredient distribution is required. It can be used for preparing mixtures for snacks, namkeen, food products, and other industrial processing operations.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "U Type K Mixer" },
-        { label: "Application", value: "Ingredient Mixing" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["U-shaped mixing chamber", "Uniform ingredient mixing", "Suitable for food processing", "Designed for bulk mixing"],
-      ["Food Ingredients", "Meal", "Flour", "Namkeen Mixture", "Snack Products"],
-      [
-        { q: "What is the U Type K Mixer used for?", a: "It is used for uniform mixing of food ingredients, powders, meal and other bulk materials." },
-        { q: "What type of chamber does it use?", a: "It uses a U-shaped mixing chamber." },
-      ]
-    ),
-
-    p(
-      "Kurkure Extruder Machine",
-      "/images/machines/Other Product/13.webp",
-      "The Kurkure Extruder Machine is designed for producing extruded corn-based snacks with the characteristic shape and texture associated with Kurkure-style products. The extrusion process forms and expands the prepared mixture before the product moves to drying, seasoning, and packaging stages. It is suitable for snack manufacturers who require a dedicated extruder for continuous and consistent product formation. The machine can be incorporated into a complete extruded snack production line according to the required process.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Kurkure Extruder" },
-        { label: "Application", value: "Extruded Snack Production" },
-        { label: "Product", value: "Kurkure-style Snacks" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Extrusion processing", "Kurkure-style snack production", "Consistent product formation", "Suitable for snack manufacturing"],
-      ["Kurkure", "Extruded Snacks", "Corn Snacks", "Snack Products"],
-      [
-        { q: "What is the Kurkure Extruder Machine used for?", a: "It is used for producing Kurkure-style extruded corn-based snacks." },
-        { q: "What process does it use?", a: "The machine uses an extrusion process to form the snack product." },
-      ]
-    ),
-
-    p(
-      "Slurry Mixing Machine",
-      "/images/machines/Other Product/14.webp",
-      "The Slurry Mixing Machine is designed for preparing a smooth and uniform slurry by thoroughly mixing liquid and solid ingredients. It helps maintain consistent ingredient distribution and supports reliable preparation before the next stage of food processing. The machine is suitable for snack, food, and industrial processing applications where slurry preparation is required. With controlled mixing, it can help improve the consistency of the prepared slurry and support a more organized production process.",
-      "Not Specified", "Not Specified", "Not Specified",
-      [
-        { label: "Machine Type", value: "Slurry Mixing Machine" },
-        { label: "Application", value: "Slurry Preparation" },
-        { label: "Capacity", value: "Not Specified" },
-        { label: "Automation Grade", value: "Not Specified" },
-        { label: "Material", value: "Not Specified" },
-        { label: "Minimum Order Quantity", value: "1 Piece" },
-      ],
-      ["Uniform slurry mixing", "Consistent ingredient distribution", "Suitable for food processing", "Designed for slurry preparation"],
-      ["Slurry", "Food Ingredients", "Snack Processing", "Food Processing"],
-      [
-        { q: "What is the Slurry Mixing Machine used for?", a: "It is used for preparing a smooth and uniform slurry by mixing liquid and solid ingredients." },
-        { q: "What is the main application?", a: "The main application is slurry preparation for food and processing operations." },
-      ]
-    ),
-  ],
-},
-
 ]
-
-
 
 
 

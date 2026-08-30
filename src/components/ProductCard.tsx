@@ -1,5 +1,10 @@
 import { Link } from "@tanstack/react-router";
-import { MessageCircle, FileText, Flame, ArrowRight } from "lucide-react";
+import {
+  MessageCircle,
+  FileText,
+  Flame,
+  ArrowRight,
+} from "lucide-react";
 import { company, waLink } from "@/data/company";
 import { useLang } from "@/lib/i18n";
 import { useQuote } from "./QuoteProvider";
@@ -10,7 +15,10 @@ export function SpecTable({ specs }: { specs: Spec[] }) {
     <table className="w-full text-left text-xs">
       <tbody>
         {specs.map((s) => (
-          <tr key={s.label} className="border-b border-border last:border-0">
+          <tr
+            key={s.label}
+            className="border-b border-border last:border-0"
+          >
             <th
               scope="row"
               className="w-2/5 py-1.5 pr-2 font-semibold text-muted-foreground"
@@ -70,22 +78,20 @@ export function HotProductCard({ product }: { product: Product }) {
     <article className="card-surface flex h-full flex-col overflow-hidden transition hover:shadow-lift">
       {/* PRODUCT IMAGE */}
       <div className="relative">
-        <img
-          src={product.image}
-          alt={`${product.title} manufactured by ${company.name}, Ghaziabad`}
-          loading="lazy"
-          width={500}
-          height={500}
-          className="h-56 w-full object-contain"
-        />
+        <div className="flex h-56 w-full items-center justify-center overflow-hidden bg-white">
+          <img
+            src={product.image}
+            alt={`${product.title} manufactured by ${company.name}, Ghaziabad`}
+            loading="lazy"
+            width={500}
+            height={500}
+            className="block h-full w-full object-fill"
+          />
+        </div>
 
         <span className="absolute left-3 top-3 inline-flex items-center gap-1 rounded-full accent-gradient px-2.5 py-1 text-[10px] font-bold uppercase text-accent-foreground">
           <Flame className="h-3 w-3" />
           {t("label.hotProduct")}
-        </span>
-
-        <span className="absolute bottom-3 right-3 rounded bg-primary px-2 py-1 text-[10px] font-bold text-primary-foreground">
-          {product.capacity}
         </span>
       </div>
 
@@ -145,7 +151,7 @@ export function CatalogCard({
           loading="lazy"
           width={1024}
           height={768}
-          className="block h-full w-full object-contain transition-transform duration-300 hover:scale-[1.02]"
+          className="block h-full w-full object-fill transition-transform duration-300 hover:scale-[1.01]"
         />
       </button>
 
