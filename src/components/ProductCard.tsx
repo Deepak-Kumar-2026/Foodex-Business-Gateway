@@ -78,14 +78,14 @@ export function HotProductCard({ product }: { product: Product }) {
     <article className="card-surface flex h-full flex-col overflow-hidden transition hover:shadow-lift">
       {/* PRODUCT IMAGE */}
       <div className="relative">
-        <div className="flex h-56 w-full items-center justify-center overflow-hidden bg-white">
+        <div className="group flex h-56 w-full cursor-pointer items-center justify-center overflow-hidden bg-white">
           <img
             src={product.image}
             alt={`${product.title} manufactured by ${company.name}, Ghaziabad`}
             loading="lazy"
             width={500}
             height={500}
-            className="block h-full w-full object-fill"
+            className="block h-full w-full object-fill transition-transform duration-200 group-hover:scale-105"
           />
         </div>
 
