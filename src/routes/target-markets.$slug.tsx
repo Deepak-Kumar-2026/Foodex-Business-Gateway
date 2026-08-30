@@ -1,5 +1,3 @@
-
-
 import { abs } from "@/data/site";
 import { useState } from "react";
 import {
@@ -393,10 +391,6 @@ function MarketPage() {
                   <span className="min-w-0">
                     <span className="block truncate text-sm font-bold">
                       {product.title}
-                    </span>
-
-                    <span className="text-[11px] text-muted-foreground">
-                      {product.capacity}
                     </span>
                   </span>
                 </button>
