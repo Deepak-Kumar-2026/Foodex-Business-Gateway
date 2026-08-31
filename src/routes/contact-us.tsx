@@ -17,9 +17,9 @@ import {
 import { company, waLink } from "@/data/company";
 import { useLang } from "@/lib/i18n";
 
-const title = "Contact Us | Foodex Engineering Works Ghaziabad";
+const title = "Contact Us | Foodax Engineering Works Ghaziabad";
 const description =
-  "Contact Foodex Engineering Works, Ghaziabad for batch fryers, extruders and food processing machines. Call +91-95997 63232 or WhatsApp Director Bharat Bhusan Sharma.";
+  "Contact Foodax Engineering Works, Ghaziabad for batch fryers, extruders and food processing machines. Call +91-95997 63232 or WhatsApp Director Bharat Bhusan Sharma.";
 
 export const Route = createFileRoute("/contact-us")({
   head: () => ({

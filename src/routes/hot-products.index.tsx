@@ -15,7 +15,7 @@ const title =
   "Hot Products | Batch Fryers, Extruders & Soya Nugget Plant";
 
 const description =
-  "Hot selling Foodex machines: industrial batch fryers, kurkure & namkeen fryers, food extruders and soya nugget plants with full specifications.";
+  "Hot selling Foodax machines: industrial batch fryers, kurkure & namkeen fryers, food extruders and soya nugget plants with full specifications.";
 
 export const Route = createFileRoute("/hot-products/")({
   head: () => ({

@@ -49,10 +49,10 @@ const en: Dict = {
   "home.eyebrow": "Snack & Food Processing Machinery",
   "home.title": "Industrial Batch Fryers, Food Extruders & Turnkey Snack Plants",
   "home.sub":
-    "Foodex Engineering Works manufactures heavy-duty food processing machinery in Ghaziabad, supplying across India and exporting to South Africa, UAE, Nepal and the UK.",
+    "Foodax Engineering Works manufactures heavy-duty food processing machinery in Ghaziabad, supplying across India and exporting to South Africa, UAE, Nepal and the UK.",
   "home.hotHeading": "Hot Products",
   "home.hotSub": "Our nine most demanded machines with full technical specifications.",
-  "home.whyHeading": "Why Choose Foodex Engineering Works",
+  "home.whyHeading": "Why Choose Foodax Engineering Works",
   "home.marketsHeading": "Target Markets We Serve",
   "chat.title": "AI WhatsApp Support",
   "chat.placeholder": "Ask about machines, price, capacity...",

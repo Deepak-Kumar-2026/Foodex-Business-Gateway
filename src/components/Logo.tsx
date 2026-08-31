@@ -12,7 +12,7 @@ export function Logo({ variant = "light" }: { variant?: "light" | "dark" }) {
             variant === "dark" ? "text-footer-foreground" : "text-primary"
           }`}
         >
-          Foodex <span className="text-accent">Engineering</span> Works
+          Foodax <span className="text-accent">Engineering</span> Works
         </span>
         <span
           className={`block whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.14em] ${

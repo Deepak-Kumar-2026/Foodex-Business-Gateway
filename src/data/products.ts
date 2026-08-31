@@ -49,7 +49,7 @@ export type Product = {
 export const hotProducts: Product[] = [
   {
     slug: "potato-banana-chips-batch-fryer",
-    title: "Potato & Banana Chips Batch Fryer",
+    title: "Namkeen Batch Fryer",
     category: "Batch Fryer",
     image: chipsFryer,
     capacity: "150 kg/hr",
@@ -57,7 +57,7 @@ export const hotProducts: Product[] = [
     power: "3 HP",
     automation: "Semi Automatic",
     summary:
-      "The Potato & Banana Chips Batch Fryer is designed for efficient and consistent frying of potato and banana chips. It provides controlled frying conditions for uniform color, crispiness, texture, and quality in every batch. The machine is suitable for snack manufacturers who need reliable batch frying performance for commercial production.",
+    "The Namkeen Batch Fryer is designed for efficient and consistent frying of a wide range of Namkeen products. It provides controlled frying conditions for uniform color, crispiness, texture, and quality in every batch. The machine is suitable for snack manufacturers who need reliable batch frying performance for commercial production.",
     keywords: [
       "potato banana chips batch fryer",
       "potato chips fryer",
@@ -359,122 +359,122 @@ export const hotProducts: Product[] = [
     ],
   },
 
-  {
-    slug: "snack-food-fryer-plant",
-    title: "Kurkure Batch Fryer",
-    category: "Batch Fryer",
-    image: kurkureFryer,
-    capacity: "Potato chips 50–60 kg/hr",
-    material: "SS 304",
-    power: "3 kW",
-    automation: "Semi Automatic",
-    summary:
-      "The Kurkure Batch Fryer is designed for reliable and uniform frying of Kurkure and other extruded snack products. It provides controlled frying conditions for consistent crispiness, texture, and color while supporting efficient batch production. The machine is suitable for snack manufacturers looking for dependable frying performance.",
-    keywords: [
-      "snack food fryer plant",
-      "snack fryer plant",
-      "potato chips fryer plant",
-      "banana chips fryer plant",
-    ],
-    specs: [
-      { label: "Machine Type", value: "Semi-Automatic" },
-      {
-        label: "Capacity",
-        value:
-          "Potato chips 65 kg/hrs, Pulses 110 kg/hrs, Besan product 150 to 180 kg/hrs",
-      },
-      { label: "Heating Type", value: "Diesel" },
-      { label: "Automation Grade", value: "Semi Automatic" },
-      { label: "Material", value: "SS 304" },
-      { label: "Application", value: "Namkeen" },
-      { label: "Voltage", value: "220, 440" },
-      { label: "Power Consumption", value: "3 kW" },
-      { label: "Brand", value: "Foodax Engineering Works" },
-      { label: "Power Source", value: "Electric" },
-      { label: "Oil Capacity", value: "300 L" },
-      { label: "Frying Temperature", value: "190°C" },
-      { label: "Weight", value: "1000 kg approx" },
-      { label: "Power Load", value: "5 kW" },
-      { label: "Phase", value: "3 PHASE" },
-      { label: "Surface Finishing", value: "Smooth" },
-      { label: "Model Number", value: "FERB 150" },
-      { label: "Warranty", value: "1 year" },
-      { label: "Floor Space", value: "1200 × 1000 mm" },
-      { label: "Frequency", value: "50 Hz" },
-      { label: "Heating Way", value: "Diesel, Gas, Wooden" },
-      { label: "Fuel Type", value: "Diesel, Gas" },
-      { label: "Condition", value: "New" },
-      { label: "Production Capacity - Kurkure", value: "200 kg/hrs" },
-      { label: "Production Capacity - Fryums", value: "200 kg/hrs" },
-      {
-        label: "Production Capacity - Potato Chips",
-        value: "50 to 60 kg/hrs",
-      },
-      {
-        label: "Production Capacity - Banana Chips",
-        value: "60 to 70 kg/hrs",
-      },
-      { label: "Minimum Order Quantity", value: "1 Piece" },
-    ],
-    features: [
-      "Semi-automatic operation",
-      "SS 304 construction",
-      "300 litre oil capacity",
-      "190°C frying temperature",
-      "Smooth surface finishing",
-      "Multiple heating options",
-      "Low fuel consumption",
-      "Low edible oil consumption",
-      "Suitable for continuous production",
-    ],
-    applications: [
-      "Kurkure",
-      "Fryums",
-      "Potato Chips",
-      "Banana Chips",
-      "Namkeen",
-      "Pulses",
-      "Besan Products",
-    ],
-    faqs: [
-      {
-        q: "What is the machine type?",
-        a: "The machine type is Semi-Automatic.",
-      },
-      {
-        q: "What is the heating type?",
-        a: "The listed heating type is Diesel, with Diesel, Gas and Wooden heating options mentioned.",
-      },
-      {
-        q: "What material is used?",
-        a: "The machine is constructed using SS 304 material.",
-      },
-      {
-        q: "What is the oil capacity?",
-        a: "The listed oil capacity is 300 L.",
-      },
-      {
-        q: "What is the frying temperature?",
-        a: "The listed frying temperature is 190°C.",
-      },
-      {
-        q: "What products can be fried?",
-        a: "The machine is suitable for Kurkure, Fryums, Potato Chips, Banana Chips, Namkeen, Pulses and Besan products.",
-      },
-      {
-        q: "What is the production capacity for potato chips?",
-        a: "The listed potato chips production capacity is 50 to 60 kg/hr.",
-      },
-      {
-        q: "What is the minimum order quantity?",
-        a: "The minimum order quantity is 1 Piece.",
-      },
-    ],
-  },
+  // {
+  //   slug: "snack-food-fryer-plant",
+  //   title: "Kurkure Batch Fryer",
+  //   category: "Batch Fryer",
+  //   image: kurkureFryer,
+  //   capacity: "Potato chips 50–60 kg/hr",
+  //   material: "SS 304",
+  //   power: "3 kW",
+  //   automation: "Semi Automatic",
+  //   summary:
+  //     "The Kurkure Batch Fryer is designed for reliable and uniform frying of Kurkure and other extruded snack products. It provides controlled frying conditions for consistent crispiness, texture, and color while supporting efficient batch production. The machine is suitable for snack manufacturers looking for dependable frying performance.",
+  //   keywords: [
+  //     "snack food fryer plant",
+  //     "snack fryer plant",
+  //     "potato chips fryer plant",
+  //     "banana chips fryer plant",
+  //   ],
+  //   specs: [
+  //     { label: "Machine Type", value: "Semi-Automatic" },
+  //     {
+  //       label: "Capacity",
+  //       value:
+  //         "Potato chips 65 kg/hrs, Pulses 110 kg/hrs, Besan product 150 to 180 kg/hrs",
+  //     },
+  //     { label: "Heating Type", value: "Diesel" },
+  //     { label: "Automation Grade", value: "Semi Automatic" },
+  //     { label: "Material", value: "SS 304" },
+  //     { label: "Application", value: "Namkeen" },
+  //     { label: "Voltage", value: "220, 440" },
+  //     { label: "Power Consumption", value: "3 kW" },
+  //     { label: "Brand", value: "Foodax Engineering Works" },
+  //     { label: "Power Source", value: "Electric" },
+  //     { label: "Oil Capacity", value: "300 L" },
+  //     { label: "Frying Temperature", value: "190°C" },
+  //     { label: "Weight", value: "1000 kg approx" },
+  //     { label: "Power Load", value: "5 kW" },
+  //     { label: "Phase", value: "3 PHASE" },
+  //     { label: "Surface Finishing", value: "Smooth" },
+  //     { label: "Model Number", value: "FERB 150" },
+  //     { label: "Warranty", value: "1 year" },
+  //     { label: "Floor Space", value: "1200 × 1000 mm" },
+  //     { label: "Frequency", value: "50 Hz" },
+  //     { label: "Heating Way", value: "Diesel, Gas, Wooden" },
+  //     { label: "Fuel Type", value: "Diesel, Gas" },
+  //     { label: "Condition", value: "New" },
+  //     { label: "Production Capacity - Kurkure", value: "200 kg/hrs" },
+  //     { label: "Production Capacity - Fryums", value: "200 kg/hrs" },
+  //     {
+  //       label: "Production Capacity - Potato Chips",
+  //       value: "50 to 60 kg/hrs",
+  //     },
+  //     {
+  //       label: "Production Capacity - Banana Chips",
+  //       value: "60 to 70 kg/hrs",
+  //     },
+  //     { label: "Minimum Order Quantity", value: "1 Piece" },
+  //   ],
+  //   features: [
+  //     "Semi-automatic operation",
+  //     "SS 304 construction",
+  //     "300 litre oil capacity",
+  //     "190°C frying temperature",
+  //     "Smooth surface finishing",
+  //     "Multiple heating options",
+  //     "Low fuel consumption",
+  //     "Low edible oil consumption",
+  //     "Suitable for continuous production",
+  //   ],
+  //   applications: [
+  //     "Kurkure",
+  //     "Fryums",
+  //     "Potato Chips",
+  //     "Banana Chips",
+  //     "Namkeen",
+  //     "Pulses",
+  //     "Besan Products",
+  //   ],
+  //   faqs: [
+  //     {
+  //       q: "What is the machine type?",
+  //       a: "The machine type is Semi-Automatic.",
+  //     },
+  //     {
+  //       q: "What is the heating type?",
+  //       a: "The listed heating type is Diesel, with Diesel, Gas and Wooden heating options mentioned.",
+  //     },
+  //     {
+  //       q: "What material is used?",
+  //       a: "The machine is constructed using SS 304 material.",
+  //     },
+  //     {
+  //       q: "What is the oil capacity?",
+  //       a: "The listed oil capacity is 300 L.",
+  //     },
+  //     {
+  //       q: "What is the frying temperature?",
+  //       a: "The listed frying temperature is 190°C.",
+  //     },
+  //     {
+  //       q: "What products can be fried?",
+  //       a: "The machine is suitable for Kurkure, Fryums, Potato Chips, Banana Chips, Namkeen, Pulses and Besan products.",
+  //     },
+  //     {
+  //       q: "What is the production capacity for potato chips?",
+  //       a: "The listed potato chips production capacity is 50 to 60 kg/hr.",
+  //     },
+  //     {
+  //       q: "What is the minimum order quantity?",
+  //       a: "The minimum order quantity is 1 Piece.",
+  //     },
+  //   ],
+  // },
 
   {
     slug: "direct-wooden-firing-batch-fryer",
-    title: "Industrial Gas Batch Fryer",
+    title: "circular batch fryerr",
     category: "Batch Fryer",
     image: gasFryer,
     capacity: "75–90 kg/hr",
@@ -482,7 +482,7 @@ export const hotProducts: Product[] = [
     power: "1 HP",
     automation: "Automatic",
     summary:
-      "The Industrial Gas Batch Fryer is designed for efficient batch frying with gas heating. It provides controlled heat and uniform frying for consistent snack quality and is suitable for industrial production of chips, Namkeen, Fryums, Kurkure, and other fried food products.",
+    "The Circular Batch Fryer is designed for efficient and consistent frying of a wide range of snack and food products. It provides controlled frying conditions for uniform color, crispiness, texture, and quality in every batch. The machine is suitable for snack manufacturers who need reliable batch frying performance and efficient commercial production.",
     keywords: [
       "wooden firing batch fryer",
       "wood fired fryer",
@@ -579,129 +579,145 @@ export const hotProducts: Product[] = [
   },
 
   {
-    slug: "kurkure-batch-fryer",
-    title: "Namkeen Batch Fryer",
-    category: "Batch Fryer",
-    image: namkeenFryer,
-    capacity: "100 kg/hr",
-    material: "Stainless Steel",
-    power: "Not Specified",
-    automation: "Semi-Automatic",
-    summary:
-      "The Namkeen Batch Fryer is designed for consistent and efficient frying of Namkeen products such as Gathiya, Bhujia, Papdi, Fryums, and other snacks. Its controlled frying process helps achieve uniform texture, color, and crispiness while supporting dependable commercial production.",
-    keywords: [
-      "kurkure batch fryer",
-      "kurkure frying machine",
-      "kurkure fryer",
-      "namkeen batch fryer",
-    ],
-    specs: [
-      { label: "Capacity (kg/hr)", value: "100" },
-      {
-        label: "Equipment Type",
-        value: "Batch Fryer with inbuilt heat exchanger",
-      },
-      { label: "Machine Type", value: "Semi-Automatic" },
-      { label: "Material", value: "Stainless Steel" },
-      { label: "Automation Grade", value: "Semi-Automatic" },
-      { label: "Voltage", value: "440" },
-      { label: "Phase", value: "Three" },
-      { label: "Country of Origin", value: "Made in India" },
-      { label: "Minimum Order Quantity", value: "1 Piece" },
-      { label: "Contact Parts", value: "Stainless Steel" },
-      { label: "Size - Length", value: "1300 mm" },
-      { label: "Size - Width", value: "1000 mm" },
-      { label: "Size - Depth", value: "400 mm" },
-      { label: "Total Height of Batch Fryer", value: "1000 mm" },
-      { label: "Diesel Burner Capacity", value: "1.5 Lakh kcal" },
-      { label: "Heating Chamber", value: "M.S." },
-      { label: "Pump", value: "3 H.P. to oil circulation" },
-      { label: "Oil Coil", value: "M.S. seamless pipe" },
-      { label: "Pipe Type", value: "Seamless Pipe N.B. Type" },
-      { label: "Storage Tank", value: "300 Ltr capacity" },
-      {
-        label: "Filter",
-        value: "To separate small particles, Basket type",
-      },
-      {
-        label: "Production Capacity - Potato Chips",
-        value: "50–60 kg/hr",
-      },
-      {
-        label: "Production Capacity - Namkeen",
-        value: "150–180 kg/hr",
-      },
-      {
-        label: "Production Capacity - Kurkure",
-        value: "150–200 kg",
-      },
-      {
-        label: "Production Capacity - Fryums",
-        value: "150–200 kg",
-      },
-      {
-        label: "Production Capacity - Dal",
-        value: "90–100 kg/hr",
-      },
-      { label: "Control", value: "Complete electrical panel" },
-    ],
-    features: [
-      "Inbuilt heat exchanger",
-      "Stainless Steel contact parts",
-      "Semi-automatic operation",
-      "Diesel burner",
-      "Oil circulation pump",
-      "300 litre oil storage tank",
-      "Particle separation filter",
-      "Complete electrical panel",
-      "Seamless pipe system",
-    ],
-    applications: [
-      "Kurkure",
-      "Namkeen",
-      "Fryums",
-      "Potato Chips",
-      "Dal",
-    ],
-    faqs: [
-      {
-        q: "What is the capacity of the Kurkure Batch Fryer?",
-        a: "The listed capacity is 100 kg/hr.",
-      },
-      {
-        q: "What type of fryer is this?",
-        a: "It is a Batch Fryer with an inbuilt heat exchanger.",
-      },
-      {
-        q: "What is the automation grade?",
-        a: "The automation grade is Semi-Automatic.",
-      },
-      {
-        q: "What is the material?",
-        a: "The listed material is Stainless Steel.",
-      },
-      {
-        q: "What is the diesel burner capacity?",
-        a: "The diesel burner capacity is 1.5 Lakh kcal.",
-      },
-      {
-        q: "What is the oil storage tank capacity?",
-        a: "The oil storage tank has a capacity of 300 litres.",
-      },
-      {
-        q: "What products can be fried?",
-        a: "The listed products include Kurkure, Namkeen, Fryums, Potato Chips and Dal.",
-      },
-      {
-        q: "What is the minimum order quantity?",
-        a: "The minimum order quantity is 1 Piece.",
-      },
-    ],
-  },
+  slug: "namkeen-continuous-fryer",
+
+  title: "Namkeen Continuous Fryer",
+
+  category: "Continuous Fryer",
+
+  image: namkeenFryer,
+
+  capacity: "100 kg/hr",
+
+  material: "Stainless Steel",
+
+  power: "Not Specified",
+
+  automation: "Semi-Automatic",
+
+  summary:
+    "The Namkeen Continuous Fryer is designed for continuous and efficient frying of Namkeen products such as Gathiya, Bhujia, Papdi, Fryums, and other snacks. Its continuous frying process helps maintain uniform texture, color, and crispiness while supporting consistent commercial production.",
+
+  keywords: [
+    "namkeen continuous fryer",
+    "namkeen frying machine",
+    "continuous namkeen fryer",
+    "namkeen fryer machine",
+  ],
+
+  specs: [
+    { label: "Capacity (kg/hr)", value: "100" },
+    {
+      label: "Equipment Type",
+      value: "Continuous Fryer with inbuilt heat exchanger",
+    },
+    { label: "Machine Type", value: "Semi-Automatic" },
+    { label: "Material", value: "Stainless Steel" },
+    { label: "Automation Grade", value: "Semi-Automatic" },
+    { label: "Voltage", value: "440" },
+    { label: "Phase", value: "Three" },
+    { label: "Country of Origin", value: "Made in India" },
+    { label: "Minimum Order Quantity", value: "1 Piece" },
+    { label: "Contact Parts", value: "Stainless Steel" },
+    { label: "Size - Length", value: "1300 mm" },
+    { label: "Size - Width", value: "1000 mm" },
+    { label: "Size - Depth", value: "400 mm" },
+    { label: "Total Height of Continuous Fryer", value: "1000 mm" },
+    { label: "Diesel Burner Capacity", value: "1.5 Lakh kcal" },
+    { label: "Heating Chamber", value: "M.S." },
+    { label: "Pump", value: "3 H.P. for oil circulation" },
+    { label: "Oil Coil", value: "M.S. seamless pipe" },
+    { label: "Pipe Type", value: "Seamless Pipe N.B. Type" },
+    { label: "Storage Tank", value: "300 Ltr capacity" },
+    {
+      label: "Filter",
+      value: "To separate small particles, Basket type",
+    },
+    {
+      label: "Production Capacity - Potato Chips",
+      value: "50–60 kg/hr",
+    },
+    {
+      label: "Production Capacity - Namkeen",
+      value: "150–180 kg/hr",
+    },
+    {
+      label: "Production Capacity - Kurkure",
+      value: "150–200 kg",
+    },
+    {
+      label: "Production Capacity - Fryums",
+      value: "150–200 kg",
+    },
+    {
+      label: "Production Capacity - Dal",
+      value: "90–100 kg/hr",
+    },
+    { label: "Control", value: "Complete electrical panel" },
+  ],
+
+  features: [
+    "Inbuilt heat exchanger",
+    "Stainless Steel contact parts",
+    "Semi-automatic operation",
+    "Continuous frying system",
+    "Diesel burner",
+    "Oil circulation pump",
+    "300 litre oil storage tank",
+    "Particle separation filter",
+    "Complete electrical panel",
+    "Seamless pipe system",
+  ],
+
+  applications: [
+    "Namkeen",
+    "Gathiya",
+    "Bhujia",
+    "Papdi",
+    "Fryums",
+    "Potato Chips",
+    "Dal",
+  ],
+
+  faqs: [
+    {
+      q: "What is the capacity of the Namkeen Continuous Fryer?",
+      a: "The listed capacity is 100 kg/hr.",
+    },
+    {
+      q: "What type of fryer is this?",
+      a: "It is a Continuous Fryer with an inbuilt heat exchanger.",
+    },
+    {
+      q: "What is the automation grade?",
+      a: "The automation grade is Semi-Automatic.",
+    },
+    {
+      q: "What is the material?",
+      a: "The listed material is Stainless Steel.",
+    },
+    {
+      q: "What is the diesel burner capacity?",
+      a: "The diesel burner capacity is 1.5 Lakh kcal.",
+    },
+    {
+      q: "What is the oil storage tank capacity?",
+      a: "The oil storage tank has a capacity of 300 litres.",
+    },
+    {
+      q: "What products can be fried?",
+      a: "The listed products include Namkeen, Gathiya, Bhujia, Papdi, Fryums, Potato Chips and Dal.",
+    },
+    {
+      q: "What is the minimum order quantity?",
+      a: "The minimum order quantity is 1 Piece.",
+    },
+  ],
+},
 
   {
     slug: "direct-biomass-pallet-burner-batch-fryer",
-    title: "Food Extruder Machines",
+    title: "Screw extruder for food  Machines",
     category: "Batch Fryer",
     image: extruder,
     capacity: "100 kg/hr",
@@ -709,7 +725,7 @@ export const hotProducts: Product[] = [
     power: "1 HP",
     automation: "Automatic",
     summary:
-      "Food Extruder Machines are designed for efficient and consistent production of a wide range of extruded food products. The machine processes raw materials through controlled extrusion to create uniform shapes, sizes, and textures. It is suitable for manufacturing snacks and other food products with reliable production performance, easy operation, and consistent product quality.",
+    "Screw Extruder for Food Machines are designed for efficient and consistent production of a wide range of extruded food products. The machine processes raw materials through a controlled screw extrusion process to create uniform shapes, sizes, and textures. It is suitable for manufacturing snacks, Kurkure, pasta, pellets, cereal-based products, and other extruded food items with reliable production performance, easy operation, and consistent product quality.",
     keywords: [
       "biomass pallet burner fryer",
       "namkeen batch fryer",

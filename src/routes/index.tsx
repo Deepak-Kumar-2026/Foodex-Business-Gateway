@@ -252,7 +252,7 @@ import { HotProductCard } from "@/components/ProductCard";
 import { useLang } from "@/lib/i18n";
 import { useQuote } from "@/components/QuoteProvider";
 
-const title = "Foodex Engineering Works | Batch Fryer & Food Extruder Manufacturer India";
+const title = "Foodax Engineering Works | Batch Fryer & Food Extruder Manufacturer India";
 
 const description =
   "Ghaziabad manufacturer & exporter of industrial batch fryers, food extruder machines and soya nugget plants. Pan-India supply and export worldwide.";
@@ -442,7 +442,7 @@ function Home() {
               </p>
 
               <h2 className="mt-3 font-display text-2xl font-extrabold text-primary sm:text-3xl">
-                CONNECT WITH FOODEX ENGINEERING WORKS
+                CONNECT WITH FOODAX ENGINEERING WORKS
               </h2>
 
               <p className="mt-2 max-w-3xl text-sm text-muted-foreground">

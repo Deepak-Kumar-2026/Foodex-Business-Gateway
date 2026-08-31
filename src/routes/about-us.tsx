@@ -7,7 +7,7 @@ import { hotProducts } from "@/data/products";
 import { useLang } from "@/lib/i18n";
 import { useQuote } from "@/components/QuoteProvider";
 
-const title = "About Us | Foodex Engineering Works, Ghaziabad";
+const title = "About Us | Foodax Engineering Works, Ghaziabad";
 const description =
   "Foodex Engineering Works is a Ghaziabad based manufacturer of snack food processing machinery led by Director Mr. Bharat Bhushan. GSTIN 09BASPS3724A2ZI.";
 
