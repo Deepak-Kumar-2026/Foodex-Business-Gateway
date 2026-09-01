@@ -474,7 +474,7 @@ export const hotProducts: Product[] = [
 
   {
     slug: "direct-wooden-firing-batch-fryer",
-    title: "circular batch fryerr",
+    title: "circular batch fryer",
     category: "Batch Fryer",
     image: gasFryer,
     capacity: "75–90 kg/hr",
@@ -716,72 +716,78 @@ export const hotProducts: Product[] = [
 },
 
   {
-    slug: "direct-biomass-pallet-burner-batch-fryer",
-    title: "Screw extruder for food  Machines",
-    category: "Batch Fryer",
-    image: extruder,
-    capacity: "100 kg/hr",
-    material: "Not Specified",
-    power: "1 HP",
-    automation: "Automatic",
-    summary:
-    "Screw Extruder for Food Machines are designed for efficient and consistent production of a wide range of extruded food products. The machine processes raw materials through a controlled screw extrusion process to create uniform shapes, sizes, and textures. It is suitable for manufacturing snacks, Kurkure, pasta, pellets, cereal-based products, and other extruded food items with reliable production performance, easy operation, and consistent product quality.",
-    keywords: [
-      "biomass pallet burner fryer",
-      "namkeen batch fryer",
-      "biomass fryer machine",
-      "pallet burner fryer",
-    ],
-    specs: [
-      { label: "Capacity (kg/hr)", value: "100" },
-      { label: "Equipment Type", value: "Namkeen" },
-      { label: "Power Consumption", value: "1 HP" },
-      { label: "Fuel", value: "BIOMASS PALLET BURNER" },
-      { label: "Country of Origin", value: "Made in India" },
-      { label: "Minimum Order Quantity", value: "1 Set" },
-    ],
-    features: [
-      "Direct biomass pallet burner system",
-      "Suitable for Namkeen processing",
-      "100 kg/hr capacity",
-      "Efficient biomass heating",
-      "Industrial food processing application",
-      "Made in India",
-    ],
-    applications: [
-      "Namkeen",
-      "Fryums",
-      "Gathiya",
-      "Bhujia",
-    ],
-    faqs: [
-      {
-        q: "What is the capacity of the batch fryer?",
-        a: "The listed capacity is 100 kg/hr.",
-      },
-      {
-        q: "What type of fuel is used?",
-        a: "The machine uses a BIOMASS PALLET BURNER.",
-      },
-      {
-        q: "What is the equipment type?",
-        a: "The equipment type is specified as Namkeen.",
-      },
-      {
-        q: "What is the power consumption?",
-        a: "The listed power consumption is 1 HP.",
-      },
-      {
-        q: "What is the country of origin?",
-        a: "The machine is Made in India.",
-      },
-      {
-        q: "What is the minimum order quantity?",
-        a: "The minimum order quantity is 1 Set.",
-      },
-    ],
-  },
-
+  slug: "kurkure-extruder-machine",
+  title: "Kurkure Extruder Machine",
+  category: "Food Extruder",
+  image: extruder,
+  capacity: "100 kg/hr",
+  material: "Not Specified",
+  power: "1 HP",
+  automation: "Automatic",
+  summary:
+    "The Kurkure Extruder Machine is designed for producing extruded corn-based snacks with the characteristic shape and texture associated with Kurkure-style products. The extrusion process forms and expands the prepared mixture before the product moves to drying, seasoning, and packaging stages. It is suitable for snack manufacturers who require a dedicated extruder for continuous and consistent product formation. The machine can be incorporated into a complete extruded snack production line according to the required process.",
+  keywords: [
+    "kurkure extruder machine",
+    "kurkure making machine",
+    "kurkure extrusion machine",
+    "corn extruder machine",
+  ],
+  specs: [
+    { label: "Capacity (kg/hr)", value: "100" },
+    { label: "Equipment Type", value: "Kurkure Extruder" },
+    { label: "Power Consumption", value: "1 HP" },
+    { label: "Operation", value: "Automatic" },
+    { label: "Product Type", value: "Kurkure / Extruded Snacks" },
+    { label: "Country of Origin", value: "Made in India" },
+    { label: "Minimum Order Quantity", value: "1 Set" },
+  ],
+  features: [
+    "Designed for Kurkure-style extruded snacks",
+    "Suitable for corn-based snack production",
+    "100 kg/hr production capacity",
+    "Consistent product shape and texture",
+    "Automatic operation",
+    "Suitable for continuous snack production",
+    "Can be integrated with a complete snack production line",
+    "Made in India",
+  ],
+  applications: [
+    "Kurkure",
+    "Corn Snacks",
+    "Extruded Snacks",
+    "Snack Pellets",
+  ],
+  faqs: [
+    {
+      q: "What is the capacity of the Kurkure Extruder Machine?",
+      a: "The listed capacity of the machine is 100 kg/hr.",
+    },
+    {
+      q: "What products can be produced using this machine?",
+      a: "The machine is designed for producing Kurkure-style corn-based and other extruded snack products.",
+    },
+    {
+      q: "What type of operation does the machine have?",
+      a: "The machine is designed for automatic operation.",
+    },
+    {
+      q: "What is the power consumption of the machine?",
+      a: "The listed power consumption is 1 HP.",
+    },
+    {
+      q: "Can the machine be used as part of a complete production line?",
+      a: "Yes, the Kurkure Extruder Machine can be incorporated into a complete extruded snack production line with drying, seasoning, and packaging equipment.",
+    },
+    {
+      q: "What is the country of origin?",
+      a: "The machine is Made in India.",
+    },
+    {
+      q: "What is the minimum order quantity?",
+      a: "The minimum order quantity is 1 Set.",
+    },
+  ],
+},
   {
     slug: "namkeen-batch-fryer",
     title: "Soya Nugget Plant & Extruder",
@@ -1350,6 +1356,78 @@ export const catalog: CatalogCategory[] = [
         { q: "What is the main application?", a: "The main application is slurry preparation for food and processing operations." },
       ]
     ),
+
+
+    p(
+  "Namkeen Continuous Fryer",
+  "/images/machines/Other Product/15.webp",
+  "The Namkeen Continuous Fryer is designed for efficient and consistent frying of a wide range of namkeen and Indian snack products. It provides controlled frying conditions to achieve uniform color, crispiness, texture, and product quality throughout continuous production. The machine is suitable for commercial snack manufacturers who require reliable and high-capacity frying performance with continuous operation and easy process control. It can be used for products such as sev, bhujia, gathiya, fryums, and other fried snacks.",
+  "100 kg/hr",
+  "Not Specified",
+  "Automatic",
+  [
+    { label: "Machine Type", value: "Namkeen Continuous Fryer" },
+    { label: "Application", value: "Namkeen Frying" },
+    { label: "Capacity", value: "100 kg/hr" },
+    { label: "Automation Grade", value: "Automatic" },
+    { label: "Frying Type", value: "Continuous" },
+    { label: "Material", value: "Stainless Steel (SS)" },
+    { label: "Country of Origin", value: "Made in India" },
+    { label: "Minimum Order Quantity", value: "1 Piece" },
+  ],
+  [
+    "Automatic continuous operation",
+    "Stainless Steel construction",
+    "Consistent frying temperature",
+    "100 kg/hr production capacity",
+    "Uniform color, crispiness, and texture",
+    "Suitable for commercial namkeen production",
+    "Suitable for continuous snack processing",
+    "Made in India",
+  ],
+  [
+    "Namkeen",
+    "Sev",
+    "Bhujia",
+    "Gathiya",
+    "Fryums",
+    "Other Fried Snacks",
+  ],
+  [
+    {
+      q: "What is the capacity of the Namkeen Continuous Fryer?",
+      a: "The listed capacity is 100 kg/hr.",
+    },
+    {
+      q: "What type of machine is this?",
+      a: "It is a Namkeen Continuous Fryer designed for continuous frying of various snack products.",
+    },
+    {
+      q: "Is the machine automatic?",
+      a: "Yes, the automation grade is Automatic.",
+    },
+    {
+      q: "What material is used?",
+      a: "The machine is made from Stainless Steel (SS).",
+    },
+    {
+      q: "What type of frying system does it use?",
+      a: "The machine uses a continuous frying system for consistent and efficient snack production.",
+    },
+    {
+      q: "What products can be fried?",
+      a: "It is suitable for namkeen, sev, bhujia, gathiya, fryums, and other fried snack products.",
+    },
+    {
+      q: "What is the country of origin?",
+      a: "The machine is Made in India.",
+    },
+    {
+      q: "What is the minimum order quantity?",
+      a: "The minimum order quantity is 1 Piece.",
+    },
+  ]
+),
   ],
 },
 
