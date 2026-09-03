@@ -1,3 +1,260 @@
+// import { Link } from "@tanstack/react-router";
+// import {
+//   Phone,
+//   Mail,
+//   MapPin,
+//   Youtube,
+//   Instagram,
+//   Facebook,
+//   MessageCircle,
+//   BadgeCheck,
+// } from "lucide-react";
+// import { Logo } from "./Logo";
+// import { company, waLink } from "@/data/company";
+// import { hotProducts } from "@/data/products";
+// import { countries } from "@/data/locations";
+// import { useLang } from "@/lib/i18n";
+// import footerLogo from "../assets/footerlogo.png";
+
+// export function Footer() {
+//   const { t } = useLang();
+
+//   return (
+//     <footer className="bg-footer text-footer-foreground">
+//       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:grid-cols-2 lg:grid-cols-4">
+//         <div>
+//           <Logo variant="dark" />
+//           <p className="mt-4 text-sm text-footer-foreground/70">
+//             Manufacturer and exporter of industrial batch fryers, food extruder machines, soya
+//             nugget plants and complete turnkey snack food processing lines.
+//           </p>
+//           <p className="mt-4 inline-flex items-center gap-2 rounded-md border border-footer-foreground/20 px-3 py-1.5 text-xs font-semibold">
+//             <BadgeCheck className="h-4 w-4 text-accent" /> GSTIN: {company.gstin}
+//           </p>
+//           {/* <div className="mt-4 flex items-center gap-3">
+//             <a
+//               href={company.social.youtube}
+//               target="_blank"
+//               rel="noreferrer"
+//               aria-label="YouTube"
+//               className="rounded-md bg-footer-foreground/10 p-2 hover:bg-accent hover:text-accent-foreground"
+//             >
+//               <Youtube className="h-4 w-4" />
+//             </a>
+//             <a
+//               href={company.social.instagram}
+//               target="_blank"
+//               rel="noreferrer"
+//               aria-label="Instagram"
+//               className="rounded-md bg-footer-foreground/10 p-2 hover:bg-accent hover:text-accent-foreground"
+//             >
+//               <Instagram className="h-4 w-4" />
+//             </a>
+//             <a
+//               href={company.social.facebook}
+//               target="_blank"
+//               rel="noreferrer"
+//               aria-label="Facebook"
+//               className="rounded-md bg-footer-foreground/10 p-2 hover:bg-accent hover:text-accent-foreground"
+//             >
+//               <Facebook className="h-4 w-4" />
+//             </a>
+//           </div> */}
+
+//           <div className="mt-4 flex items-center gap-3">
+//             {/* YouTube */}
+//             <a
+//               href={company.social.youtube}
+//               target="_blank"
+//               rel="noreferrer"
+//               aria-label="YouTube"
+//               className="rounded-md bg-footer-foreground/10 p-2 text-[#FF0000]"
+//             >
+//               <svg
+//                 className="h-4 w-4"
+//                 viewBox="0 0 24 24"
+//                 fill="none"
+//                 xmlns="http://www.w3.org/2000/svg"
+//               >
+//                 <rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor" />
+//                 <path d="M10 9L16 12L10 15V9Z" fill="white" />
+//               </svg>
+//             </a>
+
+//             {/* Instagram */}
+//             <a
+//               href={company.social.instagram}
+//               target="_blank"
+//               rel="noreferrer"
+//               aria-label="Instagram"
+//               className="rounded-md bg-footer-foreground/10 p-2 text-[#E4405F]"
+//             >
+//               <svg
+//                 className="h-4 w-4"
+//                 viewBox="0 0 24 24"
+//                 fill="none"
+//                 xmlns="http://www.w3.org/2000/svg"
+//               >
+//                 <rect
+//                   x="3"
+//                   y="3"
+//                   width="18"
+//                   height="18"
+//                   rx="5"
+//                   stroke="currentColor"
+//                   strokeWidth="2"
+//                 />
+//                 <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
+//                 <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+//               </svg>
+//             </a>
+
+//             {/* Facebook */}
+//             <a
+//               href={company.social.facebook}
+//               target="_blank"
+//               rel="noreferrer"
+//               aria-label="Facebook"
+//               className="rounded-md bg-footer-foreground/10 p-2 text-[#1877F2]"
+//             >
+//               <svg
+//                 className="h-4 w-4"
+//                 viewBox="0 0 24 24"
+//                 fill="currentColor"
+//                 xmlns="http://www.w3.org/2000/svg"
+//               >
+//                 <path d="M13.5 21V13.2H16l.4-3h-2.9V8.3c0-.9.3-1.6 1.7-1.6h1.5V4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4.1v2.2H8v3h2.5V21h3Z" />
+//               </svg>
+//             </a>
+//           </div>
+//         </div>
+
+//         <div>
+//           <h3 className="font-display text-sm font-bold uppercase tracking-wider text-accent">
+//             {t("footer.quickLinks")}
+//           </h3>
+//           <ul className="mt-4 space-y-2 text-sm">
+//             {[
+//               ["/", t("nav.home")],
+//               ["/about-us", t("nav.about")],
+//               ["/hot-products", t("nav.hot")],
+//               ["/products", t("nav.products")],
+//               ["/target-markets", t("nav.markets")],
+//               ["/contact-us", t("nav.contact")],
+//             ].map(([to, label]) => (
+//               <li key={to}>
+//                 <Link to={to as string} className="text-footer-foreground/75 hover:text-accent">
+//                   {label}
+//                 </Link>
+//               </li>
+//             ))}
+//           </ul>
+//         </div>
+
+//         <div>
+//           <h3 className="font-display text-sm font-bold uppercase tracking-wider text-accent">
+//             {t("footer.hotLinks")}
+//           </h3>
+//           <ul className="mt-4 space-y-2 text-sm">
+//             {hotProducts.map((p) => (
+//               <li key={p.slug}>
+//                 <Link
+//                   to="/hot-products/$slug"
+//                   params={{ slug: p.slug }}
+//                   className="text-footer-foreground/75 hover:text-accent"
+//                 >
+//                   {p.title}
+//                 </Link>
+//               </li>
+//             ))}
+//           </ul>
+//         </div>
+
+//         <div>
+//           <h3 className="font-display text-sm font-bold uppercase tracking-wider text-accent">
+//             {t("footer.contact")}
+//           </h3>
+//           <ul className="mt-4 space-y-3 text-sm text-footer-foreground/75">
+//             <li className="flex gap-2">
+//               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+//               <span>{company.address}</span>
+//             </li>
+//             <li className="flex gap-2">
+//               <Phone className="h-4 w-4 shrink-0 text-accent" />
+//               <a href={`tel:${company.phoneRaw}`} className="hover:text-accent">
+//                 {company.phone}
+//               </a>
+//             </li>
+//             <li className="flex gap-2">
+//               <Mail className="h-4 w-4 shrink-0 text-accent" />
+//               <a href={`mailto:${company.email}`} className="hover:text-accent">
+//                 {company.email}
+//               </a>
+//             </li>
+//             <li className="flex gap-2">
+//               <MessageCircle className="h-4 w-4 shrink-0 text-accent" />
+//               <a
+//                 href={waLink("Hi, I need machine details.")}
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="hover:text-accent"
+//               >
+//                 WhatsApp: {company.phone}
+//               </a>
+//             </li>
+//           </ul>
+//           <h3 className="mt-6 font-display text-sm font-bold uppercase tracking-wider text-accent">
+//             {t("footer.markets")}
+//           </h3>
+//           <ul className="mt-3 flex flex-wrap gap-2 text-xs">
+//             {countries.map((c) => (
+//               <li key={c.slug}>
+//                 <Link
+//                   to="/target-markets/$slug"
+//                   params={{ slug: c.slug }}
+//                   className="rounded border border-footer-foreground/20 px-2 py-1 text-footer-foreground/75 hover:border-accent hover:text-accent"
+//                 >
+//                   {c.name}
+//                 </Link>
+//               </li>
+//             ))}
+//           </ul>
+//         </div>
+//       </div>
+
+//       <div className="border-t border-footer-foreground/15">
+//         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-xs text-footer-foreground/60 sm:flex-row sm:items-center sm:justify-start">
+//           <p>
+//             © {new Date().getFullYear()} {company.name}. {t("footer.rights")}
+//           </p>
+
+//           <div className="flex items-center gap-3 sm:ml-8">
+//             <span className="whitespace-nowrap">
+//               <span className="text-orange-500">Design</span>{" "}
+//               <span className="text-white">and</span>{" "}
+//               <span className="text-blue-400">Developed by :</span>
+//             </span>
+
+//             <span className="h-6 w-px bg-footer-foreground/30" />
+
+//             <img src={footerLogo} alt="Zolexo Mart" className="h-8 w-auto object-contain" />
+
+//             {/* <span className="whitespace-nowrap text-white sm:ml-4">
+//               Director – <span className="text-orange-500">{company.director}</span>
+//             </span> */}
+
+//             <span className="whitespace-nowrap text-white sm:ml-80">
+//               Director – <span className="text-orange-500">{company.director}</span>
+//             </span>
+//           </div>
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// }
+
+
+
 import { Link } from "@tanstack/react-router";
 import {
   Phone,
@@ -15,6 +272,7 @@ import { hotProducts } from "@/data/products";
 import { countries } from "@/data/locations";
 import { useLang } from "@/lib/i18n";
 import footerLogo from "../assets/footerlogo.png";
+import whatsappQr from "../assets/qr.png";
 
 export function Footer() {
   const { t } = useLang();
@@ -22,45 +280,22 @@ export function Footer() {
   return (
     <footer className="bg-footer text-footer-foreground">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:grid-cols-2 lg:grid-cols-4">
+        {/* Company */}
         <div>
           <Logo variant="dark" />
-          <p className="mt-4 text-sm text-footer-foreground/70">
-            Manufacturer and exporter of industrial batch fryers, food extruder machines, soya
-            nugget plants and complete turnkey snack food processing lines.
-          </p>
-          <p className="mt-4 inline-flex items-center gap-2 rounded-md border border-footer-foreground/20 px-3 py-1.5 text-xs font-semibold">
-            <BadgeCheck className="h-4 w-4 text-accent" /> GSTIN: {company.gstin}
-          </p>
-          {/* <div className="mt-4 flex items-center gap-3">
-            <a
-              href={company.social.youtube}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="YouTube"
-              className="rounded-md bg-footer-foreground/10 p-2 hover:bg-accent hover:text-accent-foreground"
-            >
-              <Youtube className="h-4 w-4" />
-            </a>
-            <a
-              href={company.social.instagram}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram"
-              className="rounded-md bg-footer-foreground/10 p-2 hover:bg-accent hover:text-accent-foreground"
-            >
-              <Instagram className="h-4 w-4" />
-            </a>
-            <a
-              href={company.social.facebook}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Facebook"
-              className="rounded-md bg-footer-foreground/10 p-2 hover:bg-accent hover:text-accent-foreground"
-            >
-              <Facebook className="h-4 w-4" />
-            </a>
-          </div> */}
 
+          <p className="mt-4 text-sm text-footer-foreground/70">
+            Manufacturer and exporter of industrial batch fryers, food extruder
+            machines, soya nugget plants and complete turnkey snack food
+            processing lines.
+          </p>
+
+          <p className="mt-4 inline-flex items-center gap-2 rounded-md border border-footer-foreground/20 px-3 py-1.5 text-xs font-semibold">
+            <BadgeCheck className="h-4 w-4 text-accent" />
+            GSTIN: {company.gstin}
+          </p>
+
+          {/* Social Media */}
           <div className="mt-4 flex items-center gap-3">
             {/* YouTube */}
             <a
@@ -76,7 +311,14 @@ export function Footer() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor" />
+                <rect
+                  x="2"
+                  y="5"
+                  width="20"
+                  height="14"
+                  rx="4"
+                  fill="currentColor"
+                />
                 <path d="M10 9L16 12L10 15V9Z" fill="white" />
               </svg>
             </a>
@@ -104,8 +346,19 @@ export function Footer() {
                   stroke="currentColor"
                   strokeWidth="2"
                 />
-                <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
-                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
+                <circle
+                  cx="17.5"
+                  cy="6.5"
+                  r="1"
+                  fill="currentColor"
+                />
               </svg>
             </a>
 
@@ -129,10 +382,12 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Quick Links */}
         <div>
           <h3 className="font-display text-sm font-bold uppercase tracking-wider text-accent">
             {t("footer.quickLinks")}
           </h3>
+
           <ul className="mt-4 space-y-2 text-sm">
             {[
               ["/", t("nav.home")],
@@ -143,7 +398,10 @@ export function Footer() {
               ["/contact-us", t("nav.contact")],
             ].map(([to, label]) => (
               <li key={to}>
-                <Link to={to as string} className="text-footer-foreground/75 hover:text-accent">
+                <Link
+                  to={to as string}
+                  className="text-footer-foreground/75 hover:text-accent"
+                >
                   {label}
                 </Link>
               </li>
@@ -151,10 +409,12 @@ export function Footer() {
           </ul>
         </div>
 
+        {/* Hot Products */}
         <div>
           <h3 className="font-display text-sm font-bold uppercase tracking-wider text-accent">
             {t("footer.hotLinks")}
           </h3>
+
           <ul className="mt-4 space-y-2 text-sm">
             {hotProducts.map((p) => (
               <li key={p.slug}>
@@ -170,29 +430,45 @@ export function Footer() {
           </ul>
         </div>
 
+        {/* Contact */}
         <div>
           <h3 className="font-display text-sm font-bold uppercase tracking-wider text-accent">
             {t("footer.contact")}
           </h3>
+
           <ul className="mt-4 space-y-3 text-sm text-footer-foreground/75">
+            {/* Address */}
             <li className="flex gap-2">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
               <span>{company.address}</span>
             </li>
+
+            {/* Phone */}
             <li className="flex gap-2">
               <Phone className="h-4 w-4 shrink-0 text-accent" />
-              <a href={`tel:${company.phoneRaw}`} className="hover:text-accent">
+              <a
+                href={`tel:${company.phoneRaw}`}
+                className="hover:text-accent"
+              >
                 {company.phone}
               </a>
             </li>
+
+            {/* Email */}
             <li className="flex gap-2">
               <Mail className="h-4 w-4 shrink-0 text-accent" />
-              <a href={`mailto:${company.email}`} className="hover:text-accent">
+              <a
+                href={`mailto:${company.email}`}
+                className="hover:text-accent"
+              >
                 {company.email}
               </a>
             </li>
+
+            {/* WhatsApp */}
             <li className="flex gap-2">
               <MessageCircle className="h-4 w-4 shrink-0 text-accent" />
+
               <a
                 href={waLink("Hi, I need machine details.")}
                 target="_blank"
@@ -203,9 +479,12 @@ export function Footer() {
               </a>
             </li>
           </ul>
+
+          {/* Markets */}
           <h3 className="mt-6 font-display text-sm font-bold uppercase tracking-wider text-accent">
             {t("footer.markets")}
           </h3>
+
           <ul className="mt-3 flex flex-wrap gap-2 text-xs">
             {countries.map((c) => (
               <li key={c.slug}>
@@ -222,13 +501,16 @@ export function Footer() {
         </div>
       </div>
 
+      {/* Bottom Footer */}
       <div className="border-t border-footer-foreground/15">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-xs text-footer-foreground/60 sm:flex-row sm:items-center sm:justify-start">
           <p>
-            © {new Date().getFullYear()} {company.name}. {t("footer.rights")}
+            © {new Date().getFullYear()} {company.name}.{" "}
+            {t("footer.rights")}
           </p>
 
-          <div className="flex items-center gap-3 sm:ml-8">
+          <div className="flex items-center gap-4 sm:ml-8">
+            {/* Design & Developed By */}
             <span className="whitespace-nowrap">
               <span className="text-orange-500">Design</span>{" "}
               <span className="text-white">and</span>{" "}
@@ -237,14 +519,34 @@ export function Footer() {
 
             <span className="h-6 w-px bg-footer-foreground/30" />
 
-            <img src={footerLogo} alt="Zolexo Mart" className="h-8 w-auto object-contain" />
+            {/* Zolexo Logo */}
+            <img
+              src={footerLogo}
+              alt="Zolexo Mart"
+              className="h-8 w-auto object-contain"
+            />
 
-            {/* <span className="whitespace-nowrap text-white sm:ml-4">
-              Director – <span className="text-orange-500">{company.director}</span>
-            </span> */}
+            {/* QR Code */}
+            <a
+              href={waLink("Hi, I need machine details.")}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Chat with us on WhatsApp"
+              className="ml-2 flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-white p-1 transition-transform hover:scale-110"
+            >
+              <img
+                src={whatsappQr}
+                alt="WhatsApp QR Code"
+                className="h-full w-full object-contain"
+              />
+            </a>
 
-            <span className="whitespace-nowrap text-white sm:ml-80">
-              Director – <span className="text-orange-500">{company.director}</span>
+            {/* Director */}
+            <span className="whitespace-nowrap text-white sm:ml-4">
+              Director –{" "}
+              <span className="text-orange-500">
+                {company.director}
+              </span>
             </span>
           </div>
         </div>
